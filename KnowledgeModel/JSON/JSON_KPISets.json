@@ -1,0 +1,54 @@
+[
+    {
+        "Class": "tpBL",
+        "UID": "buildingX1",
+        "rl_Relationships": {
+            "HasLocation_tpST": [
+                "siteX"
+            ]
+        }
+    },
+    {
+        "UID": "Consumption_Energy_Year",
+        "Class": "ksKS",
+        "rl_Relationships": {
+            "IsKPISetOf_tpBL": [
+                "buildingX1"
+            ]
+        },
+        "ks_HasKPIs": {
+            "k_HeatingEnergyDemand": {
+                "value": 18.85,
+                "quantity": "Energy_kWh"
+            },
+            "k_CoolingEnergyDemand": {
+                "value": 5.44,
+                "quantity": "Energy_kWh"
+            },
+            "k_LightingEnergyDemand": {
+                "value": 10.69,
+                "quantity": "Energy_kWh"
+            },
+            "k_EquipmentEnergyDemand": {
+                "value": 2.81,
+                "quantity": "Energy_kWh"
+            },
+            "k_TotalElectricityConsumption": {
+                "value": 27.25,
+                "quantity": "Energy_kWh"
+            },
+            "k_TotalNaturalGasConsumption": {
+                "value": 10.22,
+                "quantity": "NaturalGasConsumption_smc"
+            },
+            "k_TotalDistrictHeatingEnergyConsumption": {
+                "value": 6.85,
+                "quantity": "Energy_kWh"
+            }
+        },
+        "ts_Timestamp": {
+            "from": 202201,
+            "to": 202212
+        }
+    }
+]
