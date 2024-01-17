@@ -1,0 +1,344 @@
+[
+    {
+        "Class": "tpBL",
+        "UID": "buildingX1",
+        "rl_Relationships": {
+            "HasLocation_tpST": [
+                "siteX"
+            ]
+        }
+    },
+    {
+        "Class": "tpBS",
+        "UID": "storeyX1A",
+        "rl_Relationships": {
+            "HasLocation_tpBL": [
+                "buildingX1"
+            ]
+        }
+    },
+    {
+        "Class": "tpBS",
+        "UID": "storeyX1B",
+        "rl_Relationships": {
+            "HasLocation_tpBL": [
+                "buildingX1"
+            ]
+        }
+    },
+    {
+        "Class": "tpSP",
+        "UID": "space1",
+        "rl_Relationships": {
+            "HasLocation_tpBS": [
+                "storeyX1A"
+            ],
+            "HasLocation_tpZN": [
+                "energyzoneA",
+                "firezoneA"
+            ],
+            "IsAdjacentTo_tpSP": [
+                "space3"
+            ],
+            "HasPassageTo_tpSP": [
+                "space2"
+            ]
+        }
+    },
+    {
+        "Class": "tpSP",
+        "UID": "space2",
+        "rl_Relationships": {
+            "HasLocation_tpBS": [
+                "storeyX1A"
+            ],
+            "HasLocation_tpZN": [
+                "energyzoneB",
+                "firezoneA"
+            ],
+            "HasPassageTo_tpSP": [
+                "space1"
+            ]
+        }
+    },
+    {
+        "Class": "tpSP",
+        "UID": "space3",
+        "rl_Relationships": {
+            "HasLocation_tpBS": [
+                "storeyX1A"
+            ],
+            "HasLocation_tpZN": [
+                "energyzoneA",
+                "firezoneB"
+            ],
+            "IsAdjacentTo_tpSP": [
+                "space1"
+            ]
+        }
+    },
+    {
+        "Class": "eqSY",
+        "UID": "sensingSystem",
+        "rl_Relationships": {
+            "Feeds_tpBL": [
+                "buildingX1"
+            ]
+        }
+    },
+    {
+        "Class": "eqSS",
+        "UID": "sensorNetworkA",
+        "rl_Relationships": {
+            "IsPartOf_eqSY": [
+                "sensingSystem"
+            ]
+        }
+    },
+    {
+        "Class": "eqDV",
+        "UID": "temperatureSensor1",
+        "rl_Relationships": {
+            "HasLocation_tpSP": [
+                "space1"
+            ],
+            "IsPartOf_eqSS": [
+                "sensorNetworkA"
+            ]
+        }
+    },
+    {
+        "Class": "eqDV",
+        "UID": "temperatureSensor2",
+        "rl_Relationships": {
+            "HasLocation_tpSP": [
+                "space2"
+            ],
+            "IsPartOf_eqSS": [
+                "sensorNetworkA"
+            ]
+        }
+    },
+    {
+        "Class": "eqDV",
+        "UID": "temperatureSensor3",
+        "rl_Relationships": {
+            "HasLocation_tpSP": [
+                "space3"
+            ],
+            "IsPartOf_eqSS": [
+                "sensorNetworkA"
+            ]
+        }
+    },
+    {
+        "Class": "ptSN",
+        "UID": "point110",
+        "ts_Timestamp": "202211151000",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "temperatureSensor1"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "Temperature_C",
+            "value": 22.79
+        }
+    },
+    {
+        "Class": "ptSN",
+        "UID": "point111",
+        "ts_Timestamp": "202211151100",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "temperatureSensor1"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "Temperature_C",
+            "value": 22.13
+        }
+    },
+    {
+        "Class": "ptSN",
+        "UID": "point112",
+        "ts_Timestamp": "202211151200",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "temperatureSensor1"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "Temperature_C",
+            "value": 22.43
+        }
+    },
+    {
+        "Class": "ptSN",
+        "UID": "point113",
+        "ts_Timestamp": "202211151300",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "temperatureSensor1"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "Temperature_C",
+            "value": 21.55
+        }
+    },
+    {
+        "Class": "ptSN",
+        "UID": "point114",
+        "ts_Timestamp": "202211151400",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "temperatureSensor1"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "Temperature_C",
+            "value": 21.66
+        }
+    },
+    {
+        "Class": "ptSN",
+        "UID": "point210",
+        "ts_Timestamp": "202211151000",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "temperatureSensor2"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "Temperature_C",
+            "value": 23.45
+        }
+    },
+    {
+        "Class": "ptSN",
+        "UID": "point211",
+        "ts_Timestamp": "202211151100",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "temperatureSensor2"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "Temperature_C",
+            "value": 23.11
+        }
+    },
+    {
+        "Class": "ptSN",
+        "UID": "point212",
+        "ts_Timestamp": "202211151200",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "temperatureSensor2"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "Temperature_C",
+            "value": 22.89
+        }
+    },
+    {
+        "Class": "ptSN",
+        "UID": "point213",
+        "ts_Timestamp": "202211151300",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "temperatureSensor2"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "Temperature_C",
+            "value": 21.44
+        }
+    },
+    {
+        "Class": "ptSN",
+        "UID": "point214",
+        "ts_Timestamp": "202211151400",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "temperatureSensor2"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "Temperature_C",
+            "value": 21.09
+        }
+    },
+    {
+        "Class": "ptSN",
+        "UID": "point310",
+        "ts_Timestamp": "202211151000",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "temperatureSensor3"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "Temperature_C",
+            "value": 18.55
+        }
+    },
+    {
+        "Class": "ptSN",
+        "UID": "point311",
+        "ts_Timestamp": "202211151100",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "temperatureSensor3"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "Temperature_C",
+            "value": 18.11
+        }
+    },
+    {
+        "Class": "ptSN",
+        "UID": "point312",
+        "ts_Timestamp": "202211151200",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "temperatureSensor3"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "Temperature_C",
+            "value": 17.78
+        }
+    },
+    {
+        "Class": "ptSN",
+        "UID": "point313",
+        "ts_Timestamp": "202211151300",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "temperatureSensor3"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "Temperature_C",
+            "value": 17.34
+        }
+    },
+    {
+        "Class": "ptSN",
+        "UID": "point314",
+        "ts_Timestamp": "202211151400",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "temperatureSensor3"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "Temperature_C",
+            "value": 17.23
+        }
+    }
+]

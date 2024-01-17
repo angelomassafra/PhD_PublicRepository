@@ -1,0 +1,1586 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "label": "tpDS",
+            "UID": "districtA",
+            "id": 0
+        },
+        {
+            "label": "tpST",
+            "UID": "siteA",
+            "id": 1
+        },
+        {
+            "label": "tpBL",
+            "UID": "building1",
+            "id": 2
+        },
+        {
+            "label": "tpBS",
+            "UID": "buidingStorey0",
+            "id": 3
+        },
+        {
+            "label": "tpBS",
+            "UID": "buidingStorey1",
+            "id": 4
+        },
+        {
+            "label": "tpZN",
+            "UID": "energyzoneA",
+            "id": 5
+        },
+        {
+            "label": "tpZN",
+            "UID": "energyzoneB",
+            "id": 6
+        },
+        {
+            "label": "tpZN",
+            "UID": "firezoneA",
+            "id": 7
+        },
+        {
+            "label": "tpZN",
+            "UID": "firezoneB",
+            "id": 8
+        },
+        {
+            "label": "tpZN",
+            "UID": "heatingZoneA",
+            "id": 9
+        },
+        {
+            "label": "tpZN",
+            "UID": "coolingZoneA",
+            "id": 10
+        },
+        {
+            "label": "tpZN",
+            "UID": "coolingZoneB",
+            "id": 11
+        },
+        {
+            "label": "tpZN",
+            "UID": "unconditionedZoneA",
+            "id": 12
+        },
+        {
+            "label": "tpSP",
+            "UID": "space1",
+            "id": 13
+        },
+        {
+            "label": "tpSP",
+            "UID": "space2",
+            "id": 14
+        },
+        {
+            "label": "tpSP",
+            "UID": "space3",
+            "id": 15
+        },
+        {
+            "label": "inFC",
+            "UID": "groundSlab1",
+            "id": 16
+        },
+        {
+            "label": "inFC",
+            "UID": "extWall1",
+            "id": 17
+        },
+        {
+            "label": "inFC",
+            "UID": "intWall1",
+            "id": 18
+        },
+        {
+            "label": "inFC",
+            "UID": "extWall2",
+            "id": 19
+        },
+        {
+            "label": "inFC",
+            "UID": "extWall3",
+            "id": 20
+        },
+        {
+            "label": "inFC",
+            "UID": "roof1",
+            "id": 21
+        },
+        {
+            "label": "inFC",
+            "UID": "groundSlab2",
+            "id": 22
+        },
+        {
+            "label": "inFC",
+            "UID": "extWall4",
+            "id": 23
+        },
+        {
+            "label": "inFC",
+            "UID": "intWall2",
+            "id": 24
+        },
+        {
+            "label": "inFC",
+            "UID": "extWall5",
+            "id": 25
+        },
+        {
+            "label": "inFC",
+            "UID": "roof2",
+            "id": 26
+        },
+        {
+            "label": "inFC",
+            "UID": "groundSlab3",
+            "id": 27
+        },
+        {
+            "label": "inFC",
+            "UID": "extWall6",
+            "id": 28
+        },
+        {
+            "label": "inFC",
+            "UID": "extWall7",
+            "id": 29
+        },
+        {
+            "label": "inFC",
+            "UID": "extWall8",
+            "id": 30
+        },
+        {
+            "label": "inFC",
+            "UID": "roof3",
+            "id": 31
+        },
+        {
+            "label": "inAP",
+            "UID": "window1",
+            "id": 32
+        },
+        {
+            "label": "inAP",
+            "UID": "door1",
+            "id": 33
+        },
+        {
+            "label": "inAP",
+            "UID": "window2",
+            "id": 34
+        },
+        {
+            "label": "inAP",
+            "UID": "window3",
+            "id": 35
+        },
+        {
+            "label": "inAP",
+            "UID": "window4",
+            "id": 36
+        },
+        {
+            "label": "inAP",
+            "UID": "window5",
+            "id": 37
+        },
+        {
+            "label": "inAP",
+            "UID": "window6",
+            "id": 38
+        },
+        {
+            "label": "inAP",
+            "UID": "window7",
+            "id": 39
+        },
+        {
+            "label": "inAP",
+            "UID": "window8",
+            "id": 40
+        },
+        {
+            "label": "eqSY",
+            "UID": "sensingSystem",
+            "id": 41
+        },
+        {
+            "label": "eqSY",
+            "UID": "HVACsystem1",
+            "id": 73
+        },
+        {
+            "label": "eqSS",
+            "UID": "sensorNetworkA",
+            "id": 42
+        },
+        {
+            "label": "eqSS",
+            "UID": "heatingSubsystemA",
+            "id": 74
+        },
+        {
+            "label": "eqSS",
+            "UID": "coolingSubsystemA",
+            "id": 75
+        },
+        {
+            "label": "eqSS",
+            "UID": "coolingSubsystemB",
+            "id": 76
+        },
+        {
+            "label": "eqDV",
+            "UID": "temperatureSensor1",
+            "id": 43
+        },
+        {
+            "label": "eqDV",
+            "UID": "temperatureSensor2",
+            "id": 44
+        },
+        {
+            "label": "eqDV",
+            "UID": "temperatureSensor3",
+            "id": 45
+        },
+        {
+            "label": "eqDV",
+            "UID": "boilerA",
+            "id": 77
+        },
+        {
+            "label": "eqDV",
+            "UID": "radiator1",
+            "id": 78
+        },
+        {
+            "label": "eqDV",
+            "UID": "radiator2",
+            "id": 79
+        },
+        {
+            "label": "eqDV",
+            "UID": "gasMeterA",
+            "id": 80
+        },
+        {
+            "label": "eqDV",
+            "UID": "heatpumpA",
+            "id": 81
+        },
+        {
+            "label": "eqDV",
+            "UID": "heatpumpB",
+            "id": 82
+        },
+        {
+            "label": "eqDV",
+            "UID": "airHandlingUnit1",
+            "id": 83
+        },
+        {
+            "label": "eqDV",
+            "UID": "airHandlingUnit2",
+            "id": 84
+        },
+        {
+            "label": "ptSN",
+            "UID": "point110",
+            "ts_Timestamp": "202211151000",
+            "vl_Value": {
+                "quantity": "Temperature_C",
+                "value": 22.79
+            },
+            "id": 46
+        },
+        {
+            "label": "ptSN",
+            "UID": "point111",
+            "ts_Timestamp": "202211151100",
+            "vl_Value": {
+                "quantity": "Temperature_C",
+                "value": 22.13
+            },
+            "id": 47
+        },
+        {
+            "label": "ptSN",
+            "UID": "point112",
+            "ts_Timestamp": "202211151200",
+            "vl_Value": {
+                "quantity": "Temperature_C",
+                "value": 22.43
+            },
+            "id": 48
+        },
+        {
+            "label": "ptSN",
+            "UID": "point113",
+            "ts_Timestamp": "202211151300",
+            "vl_Value": {
+                "quantity": "Temperature_C",
+                "value": 21.55
+            },
+            "id": 49
+        },
+        {
+            "label": "ptSN",
+            "UID": "point114",
+            "ts_Timestamp": "202211151400",
+            "vl_Value": {
+                "quantity": "Temperature_C",
+                "value": 21.66
+            },
+            "id": 50
+        },
+        {
+            "label": "ptSN",
+            "UID": "point210",
+            "ts_Timestamp": "202211151000",
+            "vl_Value": {
+                "quantity": "Temperature_C",
+                "value": 23.45
+            },
+            "id": 51
+        },
+        {
+            "label": "ptSN",
+            "UID": "point211",
+            "ts_Timestamp": "202211151100",
+            "vl_Value": {
+                "quantity": "Temperature_C",
+                "value": 23.11
+            },
+            "id": 52
+        },
+        {
+            "label": "ptSN",
+            "UID": "point212",
+            "ts_Timestamp": "202211151200",
+            "vl_Value": {
+                "quantity": "Temperature_C",
+                "value": 22.89
+            },
+            "id": 53
+        },
+        {
+            "label": "ptSN",
+            "UID": "point213",
+            "ts_Timestamp": "202211151300",
+            "vl_Value": {
+                "quantity": "Temperature_C",
+                "value": 21.44
+            },
+            "id": 54
+        },
+        {
+            "label": "ptSN",
+            "UID": "point214",
+            "ts_Timestamp": "202211151400",
+            "vl_Value": {
+                "quantity": "Temperature_C",
+                "value": 21.09
+            },
+            "id": 55
+        },
+        {
+            "label": "ptSN",
+            "UID": "point310",
+            "ts_Timestamp": "202211151000",
+            "vl_Value": {
+                "quantity": "Temperature_C",
+                "value": 18.55
+            },
+            "id": 56
+        },
+        {
+            "label": "ptSN",
+            "UID": "point311",
+            "ts_Timestamp": "202211151100",
+            "vl_Value": {
+                "quantity": "Temperature_C",
+                "value": 18.11
+            },
+            "id": 57
+        },
+        {
+            "label": "ptSN",
+            "UID": "point312",
+            "ts_Timestamp": "202211151200",
+            "vl_Value": {
+                "quantity": "Temperature_C",
+                "value": 17.78
+            },
+            "id": 58
+        },
+        {
+            "label": "ptSN",
+            "UID": "point313",
+            "ts_Timestamp": "202211151300",
+            "vl_Value": {
+                "quantity": "Temperature_C",
+                "value": 17.34
+            },
+            "id": 59
+        },
+        {
+            "label": "ptSN",
+            "UID": "point314",
+            "ts_Timestamp": "202211151400",
+            "vl_Value": {
+                "quantity": "Temperature_C",
+                "value": 17.23
+            },
+            "id": 60
+        },
+        {
+            "label": "ptSM",
+            "UID": "simPointA01",
+            "ts_Timestamp": "20220801",
+            "vl_Value": {
+                "quantity": "CoolingEnergyDemand_kWh",
+                "value": 166.11
+            },
+            "id": 61
+        },
+        {
+            "label": "ptSM",
+            "UID": "simPointA02",
+            "ts_Timestamp": "20220802",
+            "vl_Value": {
+                "quantity": "CoolingEnergyDemand_kWh",
+                "value": 152.12
+            },
+            "id": 62
+        },
+        {
+            "label": "ptSM",
+            "UID": "simPointA03",
+            "ts_Timestamp": "20220803",
+            "vl_Value": {
+                "quantity": "CoolingEnergyDemand_kWh",
+                "value": 156.22
+            },
+            "id": 63
+        },
+        {
+            "label": "ptSM",
+            "UID": "simPointA04",
+            "ts_Timestamp": "20220804",
+            "vl_Value": {
+                "quantity": "CoolingEnergyDemand_kWh",
+                "value": 125.18
+            },
+            "id": 64
+        },
+        {
+            "label": "ptSM",
+            "UID": "simPointA05",
+            "ts_Timestamp": "20220805",
+            "vl_Value": {
+                "quantity": "CoolingEnergyDemand_kWh",
+                "value": 145.12
+            },
+            "id": 65
+        },
+        {
+            "label": "ptSM",
+            "UID": "simPointA06",
+            "ts_Timestamp": "20220806",
+            "vl_Value": {
+                "quantity": "CoolingEnergyDemand_kWh",
+                "value": 167.88
+            },
+            "id": 66
+        },
+        {
+            "label": "ptSM",
+            "UID": "simPointB01",
+            "ts_Timestamp": "20220801",
+            "vl_Value": {
+                "quantity": "CoolingEnergyDemand_kWh",
+                "value": 244.25
+            },
+            "id": 67
+        },
+        {
+            "label": "ptSM",
+            "UID": "simPointB02",
+            "ts_Timestamp": "20220802",
+            "vl_Value": {
+                "quantity": "CoolingEnergyDemand_kWh",
+                "value": 241.11
+            },
+            "id": 68
+        },
+        {
+            "label": "ptSM",
+            "UID": "simPointB03",
+            "ts_Timestamp": "20220803",
+            "vl_Value": {
+                "quantity": "CoolingEnergyDemand_kWh",
+                "value": 230.35
+            },
+            "id": 69
+        },
+        {
+            "label": "ptSM",
+            "UID": "simPointB04",
+            "ts_Timestamp": "20220804",
+            "vl_Value": {
+                "quantity": "CoolingEnergyDemand_kWh",
+                "value": 254.55
+            },
+            "id": 70
+        },
+        {
+            "label": "ptSM",
+            "UID": "simPointB05",
+            "ts_Timestamp": "20220805",
+            "vl_Value": {
+                "quantity": "CoolingEnergyDemand_kWh",
+                "value": 233.67
+            },
+            "id": 71
+        },
+        {
+            "label": "ptSM",
+            "UID": "simPointB06",
+            "ts_Timestamp": "20220806",
+            "vl_Value": {
+                "quantity": "CoolingEnergyDemand_kWh",
+                "value": 241.88
+            },
+            "id": 72
+        },
+        {
+            "label": "ptBI",
+            "UID": "billPoint01",
+            "ts_Timestamp": "202201",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 108.64
+            },
+            "id": 85
+        },
+        {
+            "label": "ptBI",
+            "UID": "billPoint02",
+            "ts_Timestamp": "202202",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 85.8
+            },
+            "id": 86
+        },
+        {
+            "label": "ptBI",
+            "UID": "billPoint03",
+            "ts_Timestamp": "202203",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 80.31
+            },
+            "id": 87
+        },
+        {
+            "label": "ptBI",
+            "UID": "billPoint04",
+            "ts_Timestamp": "202204",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 43.5
+            },
+            "id": 88
+        },
+        {
+            "label": "ptBI",
+            "UID": "billPoint05",
+            "ts_Timestamp": "202205",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 28.9
+            },
+            "id": 89
+        },
+        {
+            "label": "ptBI",
+            "UID": "billPoint06",
+            "ts_Timestamp": "202206",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 0
+            },
+            "id": 90
+        },
+        {
+            "label": "ptBI",
+            "UID": "billPoint07",
+            "ts_Timestamp": "202207",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 0
+            },
+            "id": 91
+        },
+        {
+            "label": "ptBI",
+            "UID": "billPoint08",
+            "ts_Timestamp": "202208",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 0
+            },
+            "id": 92
+        },
+        {
+            "label": "ptBI",
+            "UID": "billPoint09",
+            "ts_Timestamp": "202209",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 1.0
+            },
+            "id": 93
+        },
+        {
+            "label": "ptBI",
+            "UID": "billPoint10",
+            "ts_Timestamp": "202210",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 20.22
+            },
+            "id": 94
+        },
+        {
+            "label": "ptBI",
+            "UID": "billPoint11",
+            "ts_Timestamp": "202211",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 44.2
+            },
+            "id": 95
+        },
+        {
+            "label": "ptBI",
+            "UID": "billPoint12",
+            "ts_Timestamp": "202212",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 96.41
+            },
+            "id": 96
+        },
+        {
+            "label": "psPS",
+            "UID": "BuildingCommon",
+            "ps_HasProperties": {
+                "p_NumberOfStoreys": {
+                    "value": 2,
+                    "quantity": "Int"
+                },
+                "p_YearOfConstruction": {
+                    "value": "2008",
+                    "quantity": "Year_Int"
+                },
+                "p_YearOfLastRefurbishment": {
+                    "value": "2023",
+                    "quantity": "Year_Int"
+                },
+                "p_IsLandmarked": {
+                    "value": true,
+                    "quantity": "Bool"
+                }
+            },
+            "id": 97
+        },
+        {
+            "label": "pr",
+            "UID": "p_NumberOfStoreys",
+            "id": 1000000000
+        },
+        {
+            "label": "pr",
+            "UID": "p_YearOfConstruction",
+            "id": 1000000001
+        },
+        {
+            "label": "pr",
+            "UID": "p_YearOfLastRefurbishment",
+            "id": 1000000002
+        },
+        {
+            "label": "pr",
+            "UID": "p_IsLandmarked",
+            "id": 1000000003
+        },
+        {
+            "label": "psPS",
+            "UID": "Quantities",
+            "ps_HasProperties": {
+                "p_Height": {
+                    "value": 6.85,
+                    "quantity": "Lenght_m"
+                },
+                "p_EavesHeight": {
+                    "value": 6.51,
+                    "quantity": "Lenght_m"
+                },
+                "p_FootprintArea": {
+                    "value": 155.27,
+                    "quantity": "Area_m2"
+                },
+                "p_GrossFloorArea": {
+                    "value": 300.55,
+                    "quantity": "Area_m2"
+                },
+                "p_NetFloorArea": {
+                    "value": 265.85,
+                    "quantity": "Area_m2"
+                },
+                "p_GrossVolume": {
+                    "value": 2058.76,
+                    "quantity": "Volume_m3"
+                },
+                "p_NetVolume": {
+                    "value": 1595.11,
+                    "quantity": "Volume_m3"
+                }
+            },
+            "id": 98
+        },
+        {
+            "label": "pr",
+            "UID": "p_Height",
+            "id": 1000010000
+        },
+        {
+            "label": "pr",
+            "UID": "p_EavesHeight",
+            "id": 1000010001
+        },
+        {
+            "label": "pr",
+            "UID": "p_FootprintArea",
+            "id": 1000010002
+        },
+        {
+            "label": "pr",
+            "UID": "p_GrossFloorArea",
+            "id": 1000010003
+        },
+        {
+            "label": "pr",
+            "UID": "p_NetFloorArea",
+            "id": 1000010004
+        },
+        {
+            "label": "pr",
+            "UID": "p_GrossVolume",
+            "id": 1000010005
+        },
+        {
+            "label": "pr",
+            "UID": "p_NetVolume",
+            "id": 1000010006
+        },
+        {
+            "label": "ksKS",
+            "UID": "OperationalEnergy",
+            "ts_Timestamp": {
+                "from": 202201,
+                "to": 202212
+            },
+            "ks_HasKPIs": {
+                "k_HeatingEnergyDemand": {
+                    "value": 18.85,
+                    "quantity": "Energy_kWh"
+                },
+                "k_CoolingEnergyDemand": {
+                    "value": 5.44,
+                    "quantity": "Energy_kWh"
+                },
+                "k_LightingEnergyDemand": {
+                    "value": 10.69,
+                    "quantity": "Energy_kWh"
+                },
+                "k_EquipmentEnergyDemand": {
+                    "value": 2.81,
+                    "quantity": "Energy_kWh"
+                },
+                "k_TotalElectricityConsumption": {
+                    "value": 27.25,
+                    "quantity": "Energy_kWh"
+                },
+                "k_TotalNaturalGasConsumption": {
+                    "value": 10.22,
+                    "quantity": "NaturalGasConsumption_smc"
+                },
+                "k_TotalDistrictHeatingEnergyConsumption": {
+                    "value": 6.85,
+                    "quantity": "Energy_kWh"
+                }
+            },
+            "id": 99
+        },
+        {
+            "label": "kp",
+            "UID": "k_HeatingEnergyDemand",
+            "id": 2000000000
+        },
+        {
+            "label": "kp",
+            "UID": "k_CoolingEnergyDemand",
+            "id": 2000000001
+        },
+        {
+            "label": "kp",
+            "UID": "k_LightingEnergyDemand",
+            "id": 2000000002
+        },
+        {
+            "label": "kp",
+            "UID": "k_EquipmentEnergyDemand",
+            "id": 2000000003
+        },
+        {
+            "label": "kp",
+            "UID": "k_TotalElectricityConsumption",
+            "id": 2000000004
+        },
+        {
+            "label": "kp",
+            "UID": "k_TotalNaturalGasConsumption",
+            "id": 2000000005
+        },
+        {
+            "label": "kp",
+            "UID": "k_TotalDistrictHeatingEnergyConsumption",
+            "id": 2000000006
+        }
+    ],
+    "links": [
+        {
+            "label": "HasLocation",
+            "source": 0,
+            "target": 1
+        },
+        {
+            "label": "HasLocation",
+            "source": 1,
+            "target": 2
+        },
+        {
+            "label": "HasLocation",
+            "source": 2,
+            "target": 3
+        },
+        {
+            "label": "HasLocation",
+            "source": 2,
+            "target": 4
+        },
+        {
+            "label": "HasLocation",
+            "source": 2,
+            "target": 5
+        },
+        {
+            "label": "HasLocation",
+            "source": 2,
+            "target": 6
+        },
+        {
+            "label": "HasLocation",
+            "source": 2,
+            "target": 7
+        },
+        {
+            "label": "HasLocation",
+            "source": 2,
+            "target": 8
+        },
+        {
+            "label": "HasLocation",
+            "source": 2,
+            "target": 9
+        },
+        {
+            "label": "HasLocation",
+            "source": 2,
+            "target": 10
+        },
+        {
+            "label": "HasLocation",
+            "source": 2,
+            "target": 11
+        },
+        {
+            "label": "HasLocation",
+            "source": 2,
+            "target": 12
+        },
+        {
+            "label": "Feeds",
+            "source": 2,
+            "target": 41
+        },
+        {
+            "label": "Feeds",
+            "source": 2,
+            "target": 73
+        },
+        {
+            "label": "IsPropertySetOf",
+            "source": 2,
+            "target": 97
+        },
+        {
+            "label": "IsPropertySetOf",
+            "source": 2,
+            "target": 98
+        },
+        {
+            "label": "IsKPISetOf",
+            "source": 2,
+            "target": 99
+        },
+        {
+            "label": "HasLocation",
+            "source": 3,
+            "target": 13
+        },
+        {
+            "label": "HasLocation",
+            "source": 3,
+            "target": 14
+        },
+        {
+            "label": "HasLocation",
+            "source": 3,
+            "target": 15
+        },
+        {
+            "label": "IsAdjacentTo",
+            "source": 5,
+            "target": 6
+        },
+        {
+            "label": "HasPassageTo",
+            "source": 7,
+            "target": 8
+        },
+        {
+            "label": "Feeds",
+            "source": 9,
+            "target": 74
+        },
+        {
+            "label": "Feeds",
+            "source": 10,
+            "target": 75
+        },
+        {
+            "label": "IsPointOf",
+            "source": 10,
+            "target": 61
+        },
+        {
+            "label": "IsPointOf",
+            "source": 10,
+            "target": 62
+        },
+        {
+            "label": "IsPointOf",
+            "source": 10,
+            "target": 63
+        },
+        {
+            "label": "IsPointOf",
+            "source": 10,
+            "target": 64
+        },
+        {
+            "label": "IsPointOf",
+            "source": 10,
+            "target": 65
+        },
+        {
+            "label": "IsPointOf",
+            "source": 10,
+            "target": 66
+        },
+        {
+            "label": "Feeds",
+            "source": 11,
+            "target": 76
+        },
+        {
+            "label": "IsPointOf",
+            "source": 11,
+            "target": 67
+        },
+        {
+            "label": "IsPointOf",
+            "source": 11,
+            "target": 68
+        },
+        {
+            "label": "IsPointOf",
+            "source": 11,
+            "target": 69
+        },
+        {
+            "label": "IsPointOf",
+            "source": 11,
+            "target": 70
+        },
+        {
+            "label": "IsPointOf",
+            "source": 11,
+            "target": 71
+        },
+        {
+            "label": "IsPointOf",
+            "source": 11,
+            "target": 72
+        },
+        {
+            "label": "IsAdjacentTo",
+            "source": 13,
+            "target": 14
+        },
+        {
+            "label": "IsInterfaceOf",
+            "source": 13,
+            "target": 16
+        },
+        {
+            "label": "IsInterfaceOf",
+            "source": 13,
+            "target": 17
+        },
+        {
+            "label": "IsInterfaceOf",
+            "source": 13,
+            "target": 18
+        },
+        {
+            "label": "IsInterfaceOf",
+            "source": 13,
+            "target": 19
+        },
+        {
+            "label": "IsInterfaceOf",
+            "source": 13,
+            "target": 20
+        },
+        {
+            "label": "IsInterfaceOf",
+            "source": 13,
+            "target": 21
+        },
+        {
+            "label": "HasLocation",
+            "source": 13,
+            "target": 43
+        },
+        {
+            "label": "HasLocation",
+            "source": 13,
+            "target": 78
+        },
+        {
+            "label": "HasLocation",
+            "source": 13,
+            "target": 83
+        },
+        {
+            "label": "IsAdjacentTo",
+            "source": 14,
+            "target": 15
+        },
+        {
+            "label": "IsInterfaceOf",
+            "source": 14,
+            "target": 18
+        },
+        {
+            "label": "IsInterfaceOf",
+            "source": 14,
+            "target": 22
+        },
+        {
+            "label": "IsInterfaceOf",
+            "source": 14,
+            "target": 23
+        },
+        {
+            "label": "IsInterfaceOf",
+            "source": 14,
+            "target": 24
+        },
+        {
+            "label": "IsInterfaceOf",
+            "source": 14,
+            "target": 25
+        },
+        {
+            "label": "IsInterfaceOf",
+            "source": 14,
+            "target": 26
+        },
+        {
+            "label": "HasLocation",
+            "source": 14,
+            "target": 44
+        },
+        {
+            "label": "HasLocation",
+            "source": 14,
+            "target": 77
+        },
+        {
+            "label": "HasLocation",
+            "source": 14,
+            "target": 80
+        },
+        {
+            "label": "HasLocation",
+            "source": 14,
+            "target": 81
+        },
+        {
+            "label": "HasLocation",
+            "source": 14,
+            "target": 82
+        },
+        {
+            "label": "IsInterfaceOf",
+            "source": 15,
+            "target": 24
+        },
+        {
+            "label": "IsInterfaceOf",
+            "source": 15,
+            "target": 27
+        },
+        {
+            "label": "IsInterfaceOf",
+            "source": 15,
+            "target": 28
+        },
+        {
+            "label": "IsInterfaceOf",
+            "source": 15,
+            "target": 29
+        },
+        {
+            "label": "IsInterfaceOf",
+            "source": 15,
+            "target": 30
+        },
+        {
+            "label": "IsInterfaceOf",
+            "source": 15,
+            "target": 31
+        },
+        {
+            "label": "HasLocation",
+            "source": 15,
+            "target": 45
+        },
+        {
+            "label": "HasLocation",
+            "source": 15,
+            "target": 79
+        },
+        {
+            "label": "HasLocation",
+            "source": 15,
+            "target": 84
+        },
+        {
+            "label": "HasLocation",
+            "source": 17,
+            "target": 32
+        },
+        {
+            "label": "HasLocation",
+            "source": 18,
+            "target": 33
+        },
+        {
+            "label": "HasLocation",
+            "source": 19,
+            "target": 34
+        },
+        {
+            "label": "HasLocation",
+            "source": 20,
+            "target": 35
+        },
+        {
+            "label": "HasLocation",
+            "source": 23,
+            "target": 36
+        },
+        {
+            "label": "HasLocation",
+            "source": 25,
+            "target": 37
+        },
+        {
+            "label": "HasLocation",
+            "source": 28,
+            "target": 38
+        },
+        {
+            "label": "HasLocation",
+            "source": 29,
+            "target": 39
+        },
+        {
+            "label": "HasLocation",
+            "source": 30,
+            "target": 40
+        },
+        {
+            "label": "IsPartOf",
+            "source": 41,
+            "target": 42
+        },
+        {
+            "label": "IsPartOf",
+            "source": 73,
+            "target": 74
+        },
+        {
+            "label": "IsPartOf",
+            "source": 73,
+            "target": 75
+        },
+        {
+            "label": "IsPartOf",
+            "source": 73,
+            "target": 76
+        },
+        {
+            "label": "IsPartOf",
+            "source": 42,
+            "target": 43
+        },
+        {
+            "label": "IsPartOf",
+            "source": 42,
+            "target": 44
+        },
+        {
+            "label": "IsPartOf",
+            "source": 42,
+            "target": 45
+        },
+        {
+            "label": "IsPartOf",
+            "source": 74,
+            "target": 77
+        },
+        {
+            "label": "IsPartOf",
+            "source": 74,
+            "target": 78
+        },
+        {
+            "label": "IsPartOf",
+            "source": 74,
+            "target": 79
+        },
+        {
+            "label": "IsPartOf",
+            "source": 74,
+            "target": 80
+        },
+        {
+            "label": "IsPartOf",
+            "source": 75,
+            "target": 81
+        },
+        {
+            "label": "IsPartOf",
+            "source": 75,
+            "target": 83
+        },
+        {
+            "label": "IsPartOf",
+            "source": 76,
+            "target": 82
+        },
+        {
+            "label": "IsPartOf",
+            "source": 76,
+            "target": 84
+        },
+        {
+            "label": "IsPointOf",
+            "source": 43,
+            "target": 46
+        },
+        {
+            "label": "IsPointOf",
+            "source": 43,
+            "target": 47
+        },
+        {
+            "label": "IsPointOf",
+            "source": 43,
+            "target": 48
+        },
+        {
+            "label": "IsPointOf",
+            "source": 43,
+            "target": 49
+        },
+        {
+            "label": "IsPointOf",
+            "source": 43,
+            "target": 50
+        },
+        {
+            "label": "IsPointOf",
+            "source": 44,
+            "target": 51
+        },
+        {
+            "label": "IsPointOf",
+            "source": 44,
+            "target": 52
+        },
+        {
+            "label": "IsPointOf",
+            "source": 44,
+            "target": 53
+        },
+        {
+            "label": "IsPointOf",
+            "source": 44,
+            "target": 54
+        },
+        {
+            "label": "IsPointOf",
+            "source": 44,
+            "target": 55
+        },
+        {
+            "label": "IsPointOf",
+            "source": 45,
+            "target": 56
+        },
+        {
+            "label": "IsPointOf",
+            "source": 45,
+            "target": 57
+        },
+        {
+            "label": "IsPointOf",
+            "source": 45,
+            "target": 58
+        },
+        {
+            "label": "IsPointOf",
+            "source": 45,
+            "target": 59
+        },
+        {
+            "label": "IsPointOf",
+            "source": 45,
+            "target": 60
+        },
+        {
+            "label": "IsFedBy",
+            "source": 77,
+            "target": 78
+        },
+        {
+            "label": "IsFedBy",
+            "source": 77,
+            "target": 79
+        },
+        {
+            "label": "IsFedBy",
+            "source": 77,
+            "target": 80
+        },
+        {
+            "label": "IsPointOf",
+            "source": 80,
+            "target": 85
+        },
+        {
+            "label": "IsPointOf",
+            "source": 80,
+            "target": 86
+        },
+        {
+            "label": "IsPointOf",
+            "source": 80,
+            "target": 87
+        },
+        {
+            "label": "IsPointOf",
+            "source": 80,
+            "target": 88
+        },
+        {
+            "label": "IsPointOf",
+            "source": 80,
+            "target": 89
+        },
+        {
+            "label": "IsPointOf",
+            "source": 80,
+            "target": 90
+        },
+        {
+            "label": "IsPointOf",
+            "source": 80,
+            "target": 91
+        },
+        {
+            "label": "IsPointOf",
+            "source": 80,
+            "target": 92
+        },
+        {
+            "label": "IsPointOf",
+            "source": 80,
+            "target": 93
+        },
+        {
+            "label": "IsPointOf",
+            "source": 80,
+            "target": 94
+        },
+        {
+            "label": "IsPointOf",
+            "source": 80,
+            "target": 95
+        },
+        {
+            "label": "IsPointOf",
+            "source": 80,
+            "target": 96
+        },
+        {
+            "label": "IsFedBy",
+            "source": 81,
+            "target": 83
+        },
+        {
+            "label": "IsFedBy",
+            "source": 82,
+            "target": 84
+        },
+        {
+            "label": "IsPropertyOf",
+            "source": 97,
+            "target": 1000000000
+        },
+        {
+            "label": "IsPropertyOf",
+            "source": 97,
+            "target": 1000000001
+        },
+        {
+            "label": "IsPropertyOf",
+            "source": 97,
+            "target": 1000000002
+        },
+        {
+            "label": "IsPropertyOf",
+            "source": 97,
+            "target": 1000000003
+        },
+        {
+            "label": "IsPropertyOf",
+            "source": 98,
+            "target": 1000010000
+        },
+        {
+            "label": "IsPropertyOf",
+            "source": 98,
+            "target": 1000010001
+        },
+        {
+            "label": "IsPropertyOf",
+            "source": 98,
+            "target": 1000010002
+        },
+        {
+            "label": "IsPropertyOf",
+            "source": 98,
+            "target": 1000010003
+        },
+        {
+            "label": "IsPropertyOf",
+            "source": 98,
+            "target": 1000010004
+        },
+        {
+            "label": "IsPropertyOf",
+            "source": 98,
+            "target": 1000010005
+        },
+        {
+            "label": "IsPropertyOf",
+            "source": 98,
+            "target": 1000010006
+        },
+        {
+            "label": "IsKPIOf",
+            "source": 99,
+            "target": 2000000000
+        },
+        {
+            "label": "IsKPIOf",
+            "source": 99,
+            "target": 2000000001
+        },
+        {
+            "label": "IsKPIOf",
+            "source": 99,
+            "target": 2000000002
+        },
+        {
+            "label": "IsKPIOf",
+            "source": 99,
+            "target": 2000000003
+        },
+        {
+            "label": "IsKPIOf",
+            "source": 99,
+            "target": 2000000004
+        },
+        {
+            "label": "IsKPIOf",
+            "source": 99,
+            "target": 2000000005
+        },
+        {
+            "label": "IsKPIOf",
+            "source": 99,
+            "target": 2000000006
+        }
+    ]
+}

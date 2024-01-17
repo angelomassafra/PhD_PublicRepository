@@ -1,0 +1,269 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "label": "tpBL",
+            "UID": "buildingX1",
+            "id": 0
+        },
+        {
+            "label": "eqSY",
+            "UID": "HVACsystem1",
+            "id": 1
+        },
+        {
+            "label": "eqSS",
+            "UID": "heatingSubsystemA",
+            "id": 2
+        },
+        {
+            "label": "eqDV",
+            "UID": "boilerA",
+            "id": 3
+        },
+        {
+            "label": "eqDV",
+            "UID": "radiator1",
+            "id": 4
+        },
+        {
+            "label": "eqDV",
+            "UID": "radiator2",
+            "id": 5
+        },
+        {
+            "label": "eqDV",
+            "UID": "gasMeterA",
+            "id": 6
+        },
+        {
+            "label": "ptBI",
+            "UID": "point01",
+            "ts_Timestamp": "202201",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 108.64
+            },
+            "id": 7
+        },
+        {
+            "label": "ptBI",
+            "UID": "point02",
+            "ts_Timestamp": "202202",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 85.8
+            },
+            "id": 8
+        },
+        {
+            "label": "ptBI",
+            "UID": "point03",
+            "ts_Timestamp": "202203",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 80.31
+            },
+            "id": 9
+        },
+        {
+            "label": "ptBI",
+            "UID": "point04",
+            "ts_Timestamp": "202204",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 43.5
+            },
+            "id": 10
+        },
+        {
+            "label": "ptBI",
+            "UID": "point05",
+            "ts_Timestamp": "202205",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 28.9
+            },
+            "id": 11
+        },
+        {
+            "label": "ptBI",
+            "UID": "point06",
+            "ts_Timestamp": "202206",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 0
+            },
+            "id": 12
+        },
+        {
+            "label": "ptBI",
+            "UID": "point07",
+            "ts_Timestamp": "202207",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 0
+            },
+            "id": 13
+        },
+        {
+            "label": "ptBI",
+            "UID": "point08",
+            "ts_Timestamp": "202208",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 0
+            },
+            "id": 14
+        },
+        {
+            "label": "ptBI",
+            "UID": "point09",
+            "ts_Timestamp": "202209",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 1.0
+            },
+            "id": 15
+        },
+        {
+            "label": "ptBI",
+            "UID": "point10",
+            "ts_Timestamp": "202210",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 20.22
+            },
+            "id": 16
+        },
+        {
+            "label": "ptBI",
+            "UID": "point11",
+            "ts_Timestamp": "202211",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 44.2
+            },
+            "id": 17
+        },
+        {
+            "label": "ptBI",
+            "UID": "point12",
+            "ts_Timestamp": "202212",
+            "vl_Value": {
+                "quantity": "NaturalGasCost_EUR",
+                "value": 96.41
+            },
+            "id": 18
+        }
+    ],
+    "links": [
+        {
+            "label": "Feeds",
+            "source": 0,
+            "target": 1
+        },
+        {
+            "label": "IsPartOf",
+            "source": 1,
+            "target": 2
+        },
+        {
+            "label": "IsPartOf",
+            "source": 2,
+            "target": 3
+        },
+        {
+            "label": "IsPartOf",
+            "source": 2,
+            "target": 4
+        },
+        {
+            "label": "IsPartOf",
+            "source": 2,
+            "target": 5
+        },
+        {
+            "label": "IsPartOf",
+            "source": 2,
+            "target": 6
+        },
+        {
+            "label": "IsFedBy",
+            "source": 3,
+            "target": 4
+        },
+        {
+            "label": "IsFedBy",
+            "source": 3,
+            "target": 5
+        },
+        {
+            "label": "IsFedBy",
+            "source": 3,
+            "target": 6
+        },
+        {
+            "label": "IsPointOf",
+            "source": 6,
+            "target": 7
+        },
+        {
+            "label": "IsPointOf",
+            "source": 6,
+            "target": 8
+        },
+        {
+            "label": "IsPointOf",
+            "source": 6,
+            "target": 9
+        },
+        {
+            "label": "IsPointOf",
+            "source": 6,
+            "target": 10
+        },
+        {
+            "label": "IsPointOf",
+            "source": 6,
+            "target": 11
+        },
+        {
+            "label": "IsPointOf",
+            "source": 6,
+            "target": 12
+        },
+        {
+            "label": "IsPointOf",
+            "source": 6,
+            "target": 13
+        },
+        {
+            "label": "IsPointOf",
+            "source": 6,
+            "target": 14
+        },
+        {
+            "label": "IsPointOf",
+            "source": 6,
+            "target": 15
+        },
+        {
+            "label": "IsPointOf",
+            "source": 6,
+            "target": 16
+        },
+        {
+            "label": "IsPointOf",
+            "source": 6,
+            "target": 17
+        },
+        {
+            "label": "IsPointOf",
+            "source": 6,
+            "target": 18
+        }
+    ]
+}
