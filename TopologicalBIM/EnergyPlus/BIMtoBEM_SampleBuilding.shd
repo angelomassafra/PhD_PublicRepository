@@ -1,0 +1,1034 @@
+Shadowing Combinations
+..Solar Distribution=FullExterior
+..In the following, only the first 10 reference surfaces will be shown.
+..But all surfaces are used in the calculations.
+==================================
+Surface=F51DD5409C1B453D8AA0 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=41A4D89B8E6C488B8BF3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=7
+....Surface=41A4D89B8E6C488B8BF3_GLZ_0_EB24A6CBFEA64A0DAE78
+....Surface=41A4D89B8E6C488B8BF3_GLZ_1_00AC299CA16647E9AFB9
+....Surface=41A4D89B8E6C488B8BF3_GLZ_2_2DC176D21E9748619973
+....Surface=41A4D89B8E6C488B8BF3_GLZ_3_A7E1A91E5F0649A69FA3
+....Surface=41A4D89B8E6C488B8BF3_GLZ_4_0BE7D50570CA4C2C8A7A
+....Surface=41A4D89B8E6C488B8BF3_GLZ_5_6C09B27BFD0A454795C2
+....Surface=41A4D89B8E6C488B8BF3_GLZ_6_FE1ADA1856144019AD85
+==================================
+Surface=41A4D89B8E6C488B8BF3_GLZ_0_EB24A6CBFEA64A0DAE78 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=41A4D89B8E6C488B8BF3_GLZ_1_00AC299CA16647E9AFB9 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=41A4D89B8E6C488B8BF3_GLZ_2_2DC176D21E9748619973 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=41A4D89B8E6C488B8BF3_GLZ_3_A7E1A91E5F0649A69FA3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=41A4D89B8E6C488B8BF3_GLZ_4_0BE7D50570CA4C2C8A7A is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=41A4D89B8E6C488B8BF3_GLZ_5_6C09B27BFD0A454795C2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=41A4D89B8E6C488B8BF3_GLZ_6_FE1ADA1856144019AD85 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=F923F8AB59EF499DA223 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=10
+..Surface=38A7B119719042B3948C
+..Surface=20E1F8653FD24732BB88
+..Surface=E5BE9C599FAD45DB9657
+..Surface=D751A8497F044E7FB344
+..Surface=6E00F7D4AFF84F63ABD3
+..Surface=482D3CFD63AF4894B27D
+..Surface=2BB8AA66B94A43F4AD5E
+..Surface=107E3D67CCFF4D948112
+..Surface=6AF7646EA8214021B459
+..Surface=8A74D5B8F47A476D98E4
+Number of back surfaces=0
+Number of receiving sub surfaces=6
+....Surface=F923F8AB59EF499DA223_GLZ_0_A6A600D2EAEF49D39F65
+....Surface=F923F8AB59EF499DA223_GLZ_1_5FC72F362169414D9BF7
+....Surface=F923F8AB59EF499DA223_GLZ_2_4C8E9329667B440B8A18
+....Surface=F923F8AB59EF499DA223_GLZ_3_716DBBC1759045CBA0FE
+....Surface=F923F8AB59EF499DA223_GLZ_4_0E5CE3FFCFFD42D99F77
+....Surface=F923F8AB59EF499DA223_GLZ_5_ECBC21C4B7E846DB8ADE
+==================================
+Surface=F923F8AB59EF499DA223_GLZ_0_A6A600D2EAEF49D39F65 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=F923F8AB59EF499DA223_GLZ_1_5FC72F362169414D9BF7 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=F923F8AB59EF499DA223_GLZ_2_4C8E9329667B440B8A18 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=F923F8AB59EF499DA223_GLZ_3_716DBBC1759045CBA0FE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=F923F8AB59EF499DA223_GLZ_4_0E5CE3FFCFFD42D99F77 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=F923F8AB59EF499DA223_GLZ_5_ECBC21C4B7E846DB8ADE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=5EF1D2C7DD9A4DEB92EB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=16
+..Surface=38A7B119719042B3948C
+..Surface=20E1F8653FD24732BB88
+..Surface=F5A62A8D64224440A19F
+..Surface=AC40808EDC144B2AA87F
+..Surface=E5BE9C599FAD45DB9657
+..Surface=D751A8497F044E7FB344
+..Surface=0345C2B5A83043678708
+..Surface=D6A837D9CE3C486BAF22
+..Surface=3B0147B5E0F04788B8D3
+..Surface=6E00F7D4AFF84F63ABD3
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=5EF1D2C7DD9A4DEB92EB_GLZ_0_A603C37500F048989641
+==================================
+Surface=5EF1D2C7DD9A4DEB92EB_GLZ_0_A603C37500F048989641 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=B42E6DBEE0544F25A70C is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=16
+..Surface=38A7B119719042B3948C
+..Surface=DE0BCB123278449E8E4C
+..Surface=20E1F8653FD24732BB88
+..Surface=E5BE9C599FAD45DB9657
+..Surface=E98B779774974E5FBE32
+..Surface=D751A8497F044E7FB344
+..Surface=D6A837D9CE3C486BAF22
+..Surface=3B0147B5E0F04788B8D3
+..Surface=6E00F7D4AFF84F63ABD3
+..Surface=3C9AE62FC178493EB8D0
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=B42E6DBEE0544F25A70C_GLZ_0_739D2CD4C1E8498683ED
+==================================
+Surface=B42E6DBEE0544F25A70C_GLZ_0_739D2CD4C1E8498683ED is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=7FE440AE6DCC4C2391F5 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=A862FAD5A96048DC90F8 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=7
+..Surface=D751A8497F044E7FB344
+..Surface=A1A928E4BB6C495F993E
+..Surface=0345C2B5A83043678708
+..Surface=482D3CFD63AF4894B27D
+..Surface=2BB8AA66B94A43F4AD5E
+..Surface=6AF7646EA8214021B459
+..Surface=51EA9B42BED44E97A47F
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=521F828AE27C42288986 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=3
+....Surface=521F828AE27C42288986_GLZ_0_31581FF95BF04FCFAC35
+....Surface=521F828AE27C42288986_GLZ_1_DDAE2A5C2FAD4B228351
+....Surface=521F828AE27C42288986_GLZ_2_7B07E9E521974450AD08
+==================================
+Surface=521F828AE27C42288986_GLZ_0_31581FF95BF04FCFAC35 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=521F828AE27C42288986_GLZ_1_DDAE2A5C2FAD4B228351 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=521F828AE27C42288986_GLZ_2_7B07E9E521974450AD08 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=361C779BCA6443D78AA5 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=361C779BCA6443D78AA5_GLZ_0_CE392C54730A44799E1F
+....Surface=361C779BCA6443D78AA5_GLZ_1_7260AF8180C549E6BE2F
+==================================
+Surface=361C779BCA6443D78AA5_GLZ_0_CE392C54730A44799E1F is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=361C779BCA6443D78AA5_GLZ_1_7260AF8180C549E6BE2F is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=38A7B119719042B3948C is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=11
+..Surface=F923F8AB59EF499DA223
+..Surface=5EF1D2C7DD9A4DEB92EB
+..Surface=B42E6DBEE0544F25A70C
+..Surface=7B0E447D1A4A4B178044
+..Surface=AC40808EDC144B2AA87F
+..Surface=E45127E7BC7A4E54A851
+..Surface=56E7877310DE4CFAAF58
+..Surface=71ACEF592AF44B61A136
+..Surface=6F2803BF69284DA8A21A
+..Surface=D6A837D9CE3C486BAF22
+Number of back surfaces=0
+Number of receiving sub surfaces=6
+....Surface=38A7B119719042B3948C_GLZ_0_8243945B2F8C41B995E2
+....Surface=38A7B119719042B3948C_GLZ_1_D72CB13DDFA44D158B08
+....Surface=38A7B119719042B3948C_GLZ_2_FA5C58FB953A4BE186E9
+....Surface=38A7B119719042B3948C_GLZ_3_0A408117803441A18A4F
+....Surface=38A7B119719042B3948C_GLZ_4_DB11C95B03564F488C6F
+....Surface=38A7B119719042B3948C_GLZ_5_9ED0DAD409C84E44AB7D
+==================================
+Surface=38A7B119719042B3948C_GLZ_0_8243945B2F8C41B995E2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=38A7B119719042B3948C_GLZ_1_D72CB13DDFA44D158B08 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=38A7B119719042B3948C_GLZ_2_FA5C58FB953A4BE186E9 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=38A7B119719042B3948C_GLZ_3_0A408117803441A18A4F is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=38A7B119719042B3948C_GLZ_4_DB11C95B03564F488C6F is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=38A7B119719042B3948C_GLZ_5_9ED0DAD409C84E44AB7D is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=7B0E447D1A4A4B178044 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=10
+..Surface=38A7B119719042B3948C
+..Surface=20E1F8653FD24732BB88
+..Surface=E5BE9C599FAD45DB9657
+..Surface=D751A8497F044E7FB344
+..Surface=6E00F7D4AFF84F63ABD3
+..Surface=482D3CFD63AF4894B27D
+..Surface=2BB8AA66B94A43F4AD5E
+..Surface=107E3D67CCFF4D948112
+..Surface=6AF7646EA8214021B459
+..Surface=8A74D5B8F47A476D98E4
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=2E3EE2646E6F48BE8F2D is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=71ACEF592AF44B61A136
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=2E3EE2646E6F48BE8F2D_GLZ_0_87F1FC4DFC6A4C679B82
+==================================
+Surface=2E3EE2646E6F48BE8F2D_GLZ_0_87F1FC4DFC6A4C679B82 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DE0BCB123278449E8E4C is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=B42E6DBEE0544F25A70C
+..Surface=56E7877310DE4CFAAF58
+..Surface=71ACEF592AF44B61A136
+..Surface=D6A837D9CE3C486BAF22
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=DE0BCB123278449E8E4C_GLZ_0_0D10AA6A408B4876BFE6
+==================================
+Surface=DE0BCB123278449E8E4C_GLZ_0_0D10AA6A408B4876BFE6 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=B495C5B346DB4B149AA3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=20E1F8653FD24732BB88
+..Surface=F5A62A8D64224440A19F
+..Surface=0345C2B5A83043678708
+..Surface=D6A837D9CE3C486BAF22
+..Surface=107E3D67CCFF4D948112
+..Surface=8A74D5B8F47A476D98E4
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=20E1F8653FD24732BB88 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=18
+..Surface=F923F8AB59EF499DA223
+..Surface=5EF1D2C7DD9A4DEB92EB
+..Surface=B42E6DBEE0544F25A70C
+..Surface=7B0E447D1A4A4B178044
+..Surface=B495C5B346DB4B149AA3
+..Surface=F5A62A8D64224440A19F
+..Surface=AC40808EDC144B2AA87F
+..Surface=E45127E7BC7A4E54A851
+..Surface=56E7877310DE4CFAAF58
+..Surface=71ACEF592AF44B61A136
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=024BC196B59F40FDA528 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=F0130D68DC4F4427A0EF is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=947D0530439D4F968774 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=EE3884F395E54E4C9D85 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=C9C5CDA1ADA54700B1FD is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D87D7BD56DAA4C32BCC6 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=56E7877310DE4CFAAF58
+..Surface=0345C2B5A83043678708
+..Surface=2BB8AA66B94A43F4AD5E
+..Surface=6AF7646EA8214021B459
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=168183CA899F405EBA84 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=E45127E7BC7A4E54A851
+..Surface=56E7877310DE4CFAAF58
+..Surface=6F2803BF69284DA8A21A
+..Surface=0345C2B5A83043678708
+..Surface=2BB8AA66B94A43F4AD5E
+..Surface=6AF7646EA8214021B459
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=3D50605C012740DCBF8F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=56E7877310DE4CFAAF58
+..Surface=D751A8497F044E7FB344
+..Surface=0345C2B5A83043678708
+..Surface=482D3CFD63AF4894B27D
+..Surface=2BB8AA66B94A43F4AD5E
+..Surface=6AF7646EA8214021B459
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=197E352D649845D1A9F6 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=E45127E7BC7A4E54A851
+..Surface=56E7877310DE4CFAAF58
+..Surface=6F2803BF69284DA8A21A
+..Surface=CA215ACA62A24FA8A107
+..Surface=BB0144D80141484A9093
+..Surface=0345C2B5A83043678708
+..Surface=C9E20B129CE94C92BBF7
+..Surface=6AF7646EA8214021B459
+..Surface=2556DD4AB3174345A6F2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=A02E8C89BDE64642975E is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=242671140CD64993B510 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=6D5A857488524A608869 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=71ACEF592AF44B61A136
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=6D5A857488524A608869_GLZ_0_C59E3512059B4DFA8B23
+==================================
+Surface=6D5A857488524A608869_GLZ_0_C59E3512059B4DFA8B23 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=F5A62A8D64224440A19F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=12
+..Surface=5EF1D2C7DD9A4DEB92EB
+..Surface=B495C5B346DB4B149AA3
+..Surface=20E1F8653FD24732BB88
+..Surface=56E7877310DE4CFAAF58
+..Surface=71ACEF592AF44B61A136
+..Surface=BB0144D80141484A9093
+..Surface=3B0147B5E0F04788B8D3
+..Surface=6E00F7D4AFF84F63ABD3
+..Surface=3C9AE62FC178493EB8D0
+..Surface=2BB8AA66B94A43F4AD5E
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=F5A62A8D64224440A19F_GLZ_0_2971AF1C9A30493E8FE9
+....Surface=F5A62A8D64224440A19F_GLZ_1_5A5FF55421E045648983
+==================================
+Surface=F5A62A8D64224440A19F_GLZ_0_2971AF1C9A30493E8FE9 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=F5A62A8D64224440A19F_GLZ_1_5A5FF55421E045648983 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=AC40808EDC144B2AA87F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=15
+..Surface=5EF1D2C7DD9A4DEB92EB
+..Surface=38A7B119719042B3948C
+..Surface=20E1F8653FD24732BB88
+..Surface=56E7877310DE4CFAAF58
+..Surface=71ACEF592AF44B61A136
+..Surface=E5BE9C599FAD45DB9657
+..Surface=D751A8497F044E7FB344
+..Surface=3B0147B5E0F04788B8D3
+..Surface=6E00F7D4AFF84F63ABD3
+..Surface=3C9AE62FC178493EB8D0
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=AC40808EDC144B2AA87F_GLZ_0_CEF8CD173E9543F79B42
+==================================
+Surface=AC40808EDC144B2AA87F_GLZ_0_CEF8CD173E9543F79B42 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D470328E56064D10BC13 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BB768ABAABB84ABE840F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=7
+..Surface=56E7877310DE4CFAAF58
+..Surface=D751A8497F044E7FB344
+..Surface=BB0144D80141484A9093
+..Surface=482D3CFD63AF4894B27D
+..Surface=2BB8AA66B94A43F4AD5E
+..Surface=6AF7646EA8214021B459
+..Surface=51EA9B42BED44E97A47F
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=8DC3072A253F42DCB090 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=8DC3072A253F42DCB090_GLZ_0_0B23AB19C5804B90A388
+....Surface=8DC3072A253F42DCB090_GLZ_1_897A0206846D4980ACA5
+==================================
+Surface=8DC3072A253F42DCB090_GLZ_0_0B23AB19C5804B90A388 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=8DC3072A253F42DCB090_GLZ_1_897A0206846D4980ACA5 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=350374417CBC49F4B820 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=5
+....Surface=350374417CBC49F4B820_GLZ_0_18C65E3F79FF447F8C67
+....Surface=350374417CBC49F4B820_GLZ_1_490B25E26C5B4E5ABE3F
+....Surface=350374417CBC49F4B820_GLZ_2_9154DBE19D6C4C468962
+....Surface=350374417CBC49F4B820_GLZ_3_2E0480DF90BE483BB8A0
+....Surface=350374417CBC49F4B820_GLZ_4_2114E115782749EB9B43
+==================================
+Surface=350374417CBC49F4B820_GLZ_0_18C65E3F79FF447F8C67 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=350374417CBC49F4B820_GLZ_1_490B25E26C5B4E5ABE3F is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=350374417CBC49F4B820_GLZ_2_9154DBE19D6C4C468962 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=350374417CBC49F4B820_GLZ_3_2E0480DF90BE483BB8A0 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=350374417CBC49F4B820_GLZ_4_2114E115782749EB9B43 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E45127E7BC7A4E54A851 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=D751A8497F044E7FB344
+..Surface=482D3CFD63AF4894B27D
+..Surface=2BB8AA66B94A43F4AD5E
+..Surface=6AF7646EA8214021B459
+Number of back surfaces=0
+Number of receiving sub surfaces=5
+....Surface=E45127E7BC7A4E54A851_GLZ_0_AA56A9BA2EFA4C0AA615
+....Surface=E45127E7BC7A4E54A851_GLZ_1_71D34BB505BA4E7BA869
+....Surface=E45127E7BC7A4E54A851_GLZ_2_29EBE44768AB4929904D
+....Surface=E45127E7BC7A4E54A851_GLZ_3_A620B8B08DC14702BDDA
+....Surface=E45127E7BC7A4E54A851_GLZ_4_B11B608CD1014FCABA73
+==================================
+Surface=E45127E7BC7A4E54A851_GLZ_0_AA56A9BA2EFA4C0AA615 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E45127E7BC7A4E54A851_GLZ_1_71D34BB505BA4E7BA869 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E45127E7BC7A4E54A851_GLZ_2_29EBE44768AB4929904D is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E45127E7BC7A4E54A851_GLZ_3_A620B8B08DC14702BDDA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E45127E7BC7A4E54A851_GLZ_4_B11B608CD1014FCABA73 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=56E7877310DE4CFAAF58 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=D751A8497F044E7FB344
+..Surface=0345C2B5A83043678708
+..Surface=482D3CFD63AF4894B27D
+..Surface=2BB8AA66B94A43F4AD5E
+..Surface=6AF7646EA8214021B459
+..Surface=51EA9B42BED44E97A47F
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=56E7877310DE4CFAAF58_GLZ_0_70759A733EFA420580ED
+==================================
+Surface=56E7877310DE4CFAAF58_GLZ_0_70759A733EFA420580ED is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=71ACEF592AF44B61A136 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=7982E32B53D941A1AF5A is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=632F8990F03E4715B1CB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=632F8990F03E4715B1CB_GLZ_0_5FA8866F5EB748B2B2BB
+....Surface=632F8990F03E4715B1CB_GLZ_1_58B3D1F1F0CA4F1F8555
+==================================
+Surface=632F8990F03E4715B1CB_GLZ_0_5FA8866F5EB748B2B2BB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=632F8990F03E4715B1CB_GLZ_1_58B3D1F1F0CA4F1F8555 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E5BE9C599FAD45DB9657 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=15
+..Surface=F923F8AB59EF499DA223
+..Surface=5EF1D2C7DD9A4DEB92EB
+..Surface=B42E6DBEE0544F25A70C
+..Surface=7B0E447D1A4A4B178044
+..Surface=AC40808EDC144B2AA87F
+..Surface=E45127E7BC7A4E54A851
+..Surface=56E7877310DE4CFAAF58
+..Surface=71ACEF592AF44B61A136
+..Surface=6F2803BF69284DA8A21A
+..Surface=D6A837D9CE3C486BAF22
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E98B779774974E5FBE32 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=B42E6DBEE0544F25A70C
+..Surface=56E7877310DE4CFAAF58
+..Surface=71ACEF592AF44B61A136
+..Surface=D6A837D9CE3C486BAF22
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=E98B779774974E5FBE32_GLZ_0_1F7F2F8BB2A94E36B401
+....Surface=E98B779774974E5FBE32_GLZ_1_56C21F299DE04FADAAA2
+==================================
+Surface=E98B779774974E5FBE32_GLZ_0_1F7F2F8BB2A94E36B401 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E98B779774974E5FBE32_GLZ_1_56C21F299DE04FADAAA2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=7F6E9184B0634ED4A688 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=107E3D67CCFF4D948112
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=9EF9DE5BFEFE44F1B12B is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=A79531C198E8497186F2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=E45127E7BC7A4E54A851
+..Surface=56E7877310DE4CFAAF58
+..Surface=6F2803BF69284DA8A21A
+..Surface=BB0144D80141484A9093
+..Surface=0345C2B5A83043678708
+..Surface=2BB8AA66B94A43F4AD5E
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=F95BAF0C20F744E0B1BE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=6F2803BF69284DA8A21A is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=D751A8497F044E7FB344
+..Surface=482D3CFD63AF4894B27D
+..Surface=2BB8AA66B94A43F4AD5E
+..Surface=6AF7646EA8214021B459
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D751A8497F044E7FB344 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=E45127E7BC7A4E54A851
+..Surface=56E7877310DE4CFAAF58
+..Surface=6F2803BF69284DA8A21A
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=D751A8497F044E7FB344_GLZ_0_2354DCCEE84141CC8588
+==================================
+Surface=D751A8497F044E7FB344_GLZ_0_2354DCCEE84141CC8588 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=41FCD143713B4F3E9302 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=4
+....Surface=41FCD143713B4F3E9302_GLZ_0_B86F20CE071347B091AE
+....Surface=41FCD143713B4F3E9302_GLZ_1_8F0765B2AFBA4FEA974A
+....Surface=41FCD143713B4F3E9302_GLZ_2_19FF56DAC88B4F8D8298
+....Surface=41FCD143713B4F3E9302_GLZ_3_3B696E9575CB4A38BFB7
+==================================
+Surface=41FCD143713B4F3E9302_GLZ_0_B86F20CE071347B091AE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=41FCD143713B4F3E9302_GLZ_1_8F0765B2AFBA4FEA974A is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=41FCD143713B4F3E9302_GLZ_2_19FF56DAC88B4F8D8298 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=41FCD143713B4F3E9302_GLZ_3_3B696E9575CB4A38BFB7 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=A1A928E4BB6C495F993E is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=A1A928E4BB6C495F993E_GLZ_0_B71E5A5CDD40473F9FED
+==================================
+Surface=A1A928E4BB6C495F993E_GLZ_0_B71E5A5CDD40473F9FED is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=CA215ACA62A24FA8A107 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=CA215ACA62A24FA8A107_GLZ_0_38F50A01CDCC411FA182
+==================================
+Surface=CA215ACA62A24FA8A107_GLZ_0_38F50A01CDCC411FA182 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BB0144D80141484A9093 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=0345C2B5A83043678708
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=BB0144D80141484A9093_GLZ_0_89540E70687543B8BA78
+==================================
+Surface=BB0144D80141484A9093_GLZ_0_89540E70687543B8BA78 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=0345C2B5A83043678708 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=56E7877310DE4CFAAF58
+..Surface=BB0144D80141484A9093
+..Surface=2BB8AA66B94A43F4AD5E
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=0345C2B5A83043678708_GLZ_0_E445234AB002477AB516
+....Surface=0345C2B5A83043678708_GLZ_1_DB2B34194E8F421DA871
+==================================
+Surface=0345C2B5A83043678708_GLZ_0_E445234AB002477AB516 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=0345C2B5A83043678708_GLZ_1_DB2B34194E8F421DA871 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=D6A837D9CE3C486BAF22 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=3B0147B5E0F04788B8D3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=6E00F7D4AFF84F63ABD3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=3C9AE62FC178493EB8D0 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=7438195B65FA4078A087 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=F6A912A93BEB4C81BE5A is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=F574EECBD7C34DF69A2B is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=716BE68D7BE34A62A280 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=C656F086F31646BBBD80 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=788EA371878B43EA84AB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=482D3CFD63AF4894B27D is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=E45127E7BC7A4E54A851
+..Surface=56E7877310DE4CFAAF58
+..Surface=6F2803BF69284DA8A21A
+Number of back surfaces=0
+Number of receiving sub surfaces=5
+....Surface=482D3CFD63AF4894B27D_GLZ_0_DB7E6C49D37C41438854
+....Surface=482D3CFD63AF4894B27D_GLZ_1_E64157A8A4A34A499FF5
+....Surface=482D3CFD63AF4894B27D_GLZ_2_5DB68117ABC34EE6B49F
+....Surface=482D3CFD63AF4894B27D_GLZ_3_24C1007A4DF44088B775
+....Surface=482D3CFD63AF4894B27D_GLZ_4_425F6CFC29AA44919542
+==================================
+Surface=482D3CFD63AF4894B27D_GLZ_0_DB7E6C49D37C41438854 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=482D3CFD63AF4894B27D_GLZ_1_E64157A8A4A34A499FF5 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=482D3CFD63AF4894B27D_GLZ_2_5DB68117ABC34EE6B49F is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=482D3CFD63AF4894B27D_GLZ_3_24C1007A4DF44088B775 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=482D3CFD63AF4894B27D_GLZ_4_425F6CFC29AA44919542 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=04BCB60D23F747C2A1E3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=5
+....Surface=04BCB60D23F747C2A1E3_GLZ_0_857B53A6C18B42A8B4AD
+....Surface=04BCB60D23F747C2A1E3_GLZ_1_035E71D0E45544F69C99
+....Surface=04BCB60D23F747C2A1E3_GLZ_2_0FD28876A27B4A7DB93F
+....Surface=04BCB60D23F747C2A1E3_GLZ_3_108EC090C9894E0197D7
+....Surface=04BCB60D23F747C2A1E3_GLZ_4_E73515C030F745D3AF0D
+==================================
+Surface=04BCB60D23F747C2A1E3_GLZ_0_857B53A6C18B42A8B4AD is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=04BCB60D23F747C2A1E3_GLZ_1_035E71D0E45544F69C99 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=04BCB60D23F747C2A1E3_GLZ_2_0FD28876A27B4A7DB93F is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=04BCB60D23F747C2A1E3_GLZ_3_108EC090C9894E0197D7 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=04BCB60D23F747C2A1E3_GLZ_4_E73515C030F745D3AF0D is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=2EB5ABED9D3647ABAC5B is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=2EB5ABED9D3647ABAC5B_GLZ_0_A2ED6C660182408EA65A
+....Surface=2EB5ABED9D3647ABAC5B_GLZ_1_B7568F3EED9B4EF493EC
+==================================
+Surface=2EB5ABED9D3647ABAC5B_GLZ_0_A2ED6C660182408EA65A is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=2EB5ABED9D3647ABAC5B_GLZ_1_B7568F3EED9B4EF493EC is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=2BB8AA66B94A43F4AD5E is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=E45127E7BC7A4E54A851
+..Surface=56E7877310DE4CFAAF58
+..Surface=6F2803BF69284DA8A21A
+..Surface=0345C2B5A83043678708
+..Surface=6AF7646EA8214021B459
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=2BB8AA66B94A43F4AD5E_GLZ_0_7C8A75558E1A421EA116
+==================================
+Surface=2BB8AA66B94A43F4AD5E_GLZ_0_7C8A75558E1A421EA116 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=C9E20B129CE94C92BBF7 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=C9E20B129CE94C92BBF7_GLZ_0_A4E4C170068643038BFE
+==================================
+Surface=C9E20B129CE94C92BBF7_GLZ_0_A4E4C170068643038BFE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=107E3D67CCFF4D948112 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=B61A1DFE51564DABBF96 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DB02BCC751A34469AFCA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=DB02BCC751A34469AFCA_GLZ_0_58387148432E4FD88F4D
+....Surface=DB02BCC751A34469AFCA_GLZ_1_1F7E4C4050A14A13BA07
+==================================
+Surface=DB02BCC751A34469AFCA_GLZ_0_58387148432E4FD88F4D is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DB02BCC751A34469AFCA_GLZ_1_1F7E4C4050A14A13BA07 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=6AF7646EA8214021B459 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=E45127E7BC7A4E54A851
+..Surface=56E7877310DE4CFAAF58
+..Surface=6F2803BF69284DA8A21A
+..Surface=2BB8AA66B94A43F4AD5E
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=6AF7646EA8214021B459_GLZ_0_B68C4F882FC14BB7A214
+==================================
+Surface=6AF7646EA8214021B459_GLZ_0_B68C4F882FC14BB7A214 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=51EA9B42BED44E97A47F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=56E7877310DE4CFAAF58
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=51EA9B42BED44E97A47F_GLZ_0_BF0F47AECC3F4F1493A6
+....Surface=51EA9B42BED44E97A47F_GLZ_1_BA7ADD42C71C4DCEBC46
+==================================
+Surface=51EA9B42BED44E97A47F_GLZ_0_BF0F47AECC3F4F1493A6 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=51EA9B42BED44E97A47F_GLZ_1_BA7ADD42C71C4DCEBC46 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=2556DD4AB3174345A6F2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=2556DD4AB3174345A6F2_GLZ_0_ADFAE253CC764A6ABB06
+==================================
+Surface=2556DD4AB3174345A6F2_GLZ_0_ADFAE253CC764A6ABB06 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=8A74D5B8F47A476D98E4 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=596085A49A3545C8B937 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0

@@ -1,0 +1,202 @@
+Program Version,EnergyPlus, Version 9.3.0-baff08990c, YMD=2023.09.24 10:38
+! This file shows details about the branches, nodes, and other
+! elements of the flow connections.
+! This file is intended for use in "debugging" potential problems
+! that may also be detected by the program, but may be more easily
+! identified by "eye".
+! This file is also intended to support software which draws a
+! schematic diagram of the HVAC system.
+! ===============================================================
+! #Nodes,<Number of Unique Nodes>
+ #Nodes,24
+! <Node>,<NodeNumber>,<Node Name>,<Node Fluid Type>,<# Times Node Referenced After Definition>
+ Node,1,ZN_OFFICES_A2 ZONE AIR NODE,Air,0
+ Node,2,ZN_OFFICES_A2 IDEAL LOADS SUPPLY INLET,Air,1
+ Node,3,ZN_OFFICES_A2 RETURN OUTLET,Air,0
+ Node,4,ZN_OFFICES_A1 ZONE AIR NODE,Air,0
+ Node,5,ZN_OFFICES_A1 IDEAL LOADS SUPPLY INLET,Air,1
+ Node,6,ZN_OFFICES_A1 RETURN OUTLET,Air,0
+ Node,7,ZN_CLASSROOM_B ZONE AIR NODE,Air,0
+ Node,8,ZN_CLASSROOM_B IDEAL LOADS SUPPLY INLET,Air,1
+ Node,9,ZN_CLASSROOM_B RETURN OUTLET,Air,0
+ Node,10,ZN_OFFICES_B1 ZONE AIR NODE,Air,0
+ Node,11,ZN_OFFICES_B1 IDEAL LOADS SUPPLY INLET,Air,1
+ Node,12,ZN_OFFICES_B1 RETURN OUTLET,Air,0
+ Node,13,ZN_CLASSROOM_A ZONE AIR NODE,Air,0
+ Node,14,ZN_CLASSROOM_A IDEAL LOADS SUPPLY INLET,Air,1
+ Node,15,ZN_CLASSROOM_A RETURN OUTLET,Air,0
+ Node,16,ZN_OFFICE_B2 ZONE AIR NODE,Air,0
+ Node,17,ZN_OFFICE_B2 IDEAL LOADS SUPPLY INLET,Air,1
+ Node,18,ZN_OFFICE_B2 RETURN OUTLET,Air,0
+ Node,19,ZN_OFFICES_A2 IDEAL LOADS OUTDOOR AIR INLET,Air,1
+ Node,20,ZN_OFFICES_A1 IDEAL LOADS OUTDOOR AIR INLET,Air,1
+ Node,21,ZN_CLASSROOM_B IDEAL LOADS OUTDOOR AIR INLET,Air,1
+ Node,22,ZN_OFFICES_B1 IDEAL LOADS OUTDOOR AIR INLET,Air,1
+ Node,23,ZN_CLASSROOM_A IDEAL LOADS OUTDOOR AIR INLET,Air,1
+ Node,24,ZN_OFFICE_B2 IDEAL LOADS OUTDOOR AIR INLET,Air,1
+! ===============================================================
+! Suspicious nodes have 0 references.  It is normal for some nodes, however.
+! Listing nodes with 0 references (culled from previous list):
+! <Suspicious Node>,<NodeNumber>,<Node Name>,<Node Fluid Type>,<# Times Node Referenced After Definition>
+ Suspicious Node,1,ZN_OFFICES_A2 ZONE AIR NODE,Air,0
+ Suspicious Node,3,ZN_OFFICES_A2 RETURN OUTLET,Air,0
+ Suspicious Node,4,ZN_OFFICES_A1 ZONE AIR NODE,Air,0
+ Suspicious Node,6,ZN_OFFICES_A1 RETURN OUTLET,Air,0
+ Suspicious Node,7,ZN_CLASSROOM_B ZONE AIR NODE,Air,0
+ Suspicious Node,9,ZN_CLASSROOM_B RETURN OUTLET,Air,0
+ Suspicious Node,10,ZN_OFFICES_B1 ZONE AIR NODE,Air,0
+ Suspicious Node,12,ZN_OFFICES_B1 RETURN OUTLET,Air,0
+ Suspicious Node,13,ZN_CLASSROOM_A ZONE AIR NODE,Air,0
+ Suspicious Node,15,ZN_CLASSROOM_A RETURN OUTLET,Air,0
+ Suspicious Node,16,ZN_OFFICE_B2 ZONE AIR NODE,Air,0
+ Suspicious Node,18,ZN_OFFICE_B2 RETURN OUTLET,Air,0
+! ===============================================================
+! <#Branch Lists>,<Number of Branch Lists>
+ #Branch Lists,0
+! <Branch List>,<Branch List Count>,<Branch List Name>,<Loop Name>,<Loop Type>,<Number of Branches>
+! <Branch>,<Branch Count>,<Branch Name>,<Loop Name>,<Loop Type>,<Branch Inlet Node Name>,<Branch Outlet Node Name>
+! ===============================================================
+! <#Supply Air Paths>,<Number of Supply Air Paths>
+ #Supply Air Paths,0
+! <Supply Air Path>,<Supply Air Path Count>,<Supply Air Path Name>,<AirLoopHVAC Name>
+! <#Components on Supply Air Path>,<Number of Components>
+! <Supply Air Path Component>,<Component Count>,<Component Type>,<Component Name>,<AirLoopHVAC Name>
+! <#Outlet Nodes on Supply Air Path Component>,<Number of Nodes>
+! <Supply Air Path Component Nodes>,<Node Count>,<Component Type>,<Component Name>,<Inlet Node Name>,<Outlet Node Name>,<AirLoopHVAC Name>
+! ===============================================================
+! <#Return Air Paths>,<Number of Return Air Paths>
+ #Return Air Paths,0
+! <Return Air Path>,<Return Air Path Count>,<Return Air Path Name>,<AirLoopHVAC Name>
+! <#Components on Return Air Path>,<Number of Components>
+! <Return Air Path Component>,<Component Count>,<Component Type>,<Component Name>,<AirLoopHVAC Name>
+! <#Inlet Nodes on Return Air Path Component>,<Number of Nodes>
+! <Return Air Path Component Nodes>,<Node Count>,<Component Type>,<Component Name>,<Inlet Node Name>,<Outlet Node Name>,<AirLoopHVAC Name>
+! ===============================================================
+! #Outdoor Air Nodes,<Number of Outdoor Air Nodes>
+ #Outdoor Air Nodes,6
+! <Outdoor Air Node>,<NodeNumber>,<Node Name>
+ Outdoor Air Node,19,ZN_OFFICES_A2 IDEAL LOADS OUTDOOR AIR INLET
+ Outdoor Air Node,20,ZN_OFFICES_A1 IDEAL LOADS OUTDOOR AIR INLET
+ Outdoor Air Node,21,ZN_CLASSROOM_B IDEAL LOADS OUTDOOR AIR INLET
+ Outdoor Air Node,22,ZN_OFFICES_B1 IDEAL LOADS OUTDOOR AIR INLET
+ Outdoor Air Node,23,ZN_CLASSROOM_A IDEAL LOADS OUTDOOR AIR INLET
+ Outdoor Air Node,24,ZN_OFFICE_B2 IDEAL LOADS OUTDOOR AIR INLET
+! ===============================================================
+! <#Component Sets>,<Number of Component Sets>
+ #Component Sets,0
+! <Component Set>,<Component Set Count>,<Parent Object Type>,<Parent Object Name>,<Component Type>,<Component Name>,<Inlet Node ID>,<Outlet Node ID>,<Description>
+! ===============================================================
+! <# Plant Loops>,<Number of Plant Loops>
+ #Plant Loops,0
+! <Plant Loop>,<Plant Loop Name>,<Loop Type>,<Inlet Node Name>,<Outlet Node Name>,<Branch List>,<Connector List>
+! <Plant Loop Connector>,<Connector Type>,<Connector Name>,<Loop Name>,<Loop Type>,<Number of Inlets/Outlets>
+! <Plant Loop Connector Branches>,<Connector Node Count>,<Connector Type>,<Connector Name>,<Inlet Branch>,<Outlet Branch>,<Loop Name>,<Loop Type>
+! <Plant Loop Connector Nodes>,<Connector Node Count>,<Connector Type>,<Connector Name>,<Inlet Node>,<Outlet Node>,<Loop Name>,<Loop Type>
+! <Plant Loop Supply Connection>,<Plant Loop Name>,<Supply Side Outlet Node Name>,<Demand Side Inlet Node Name>
+! <Plant Loop Return Connection>,<Plant Loop Name>,<Demand Side Outlet Node Name>,<Supply Side Inlet Node Name>
+! ===============================================================
+! <# Condenser Loops>,<Number of Condenser Loops>
+ #Condenser Loops,0
+! <Condenser Loop>,<Condenser Loop Name>,<Loop Type>,<Inlet Node Name>,<Outlet Node Name>,<Branch List>,<Connector List>
+! <Condenser Loop Connector>,<Connector Type>,<Connector Name>,<Loop Name>,<Loop Type>,<Number of Inlets/Outlets>
+! <Condenser Loop Connector Branches>,<Connector Node Count>,<Connector Type>,<Connector Name>,<Inlet Branch>,<Outlet Branch>,<Loop Name>,<Loop Type>
+! <Condenser Loop Connector Nodes>,<Connector Node Count>,<Connector Type>,<Connector Name>,<Inlet Node>,<Outlet Node>,<Loop Name>,<Loop Type>
+! <Condenser Loop Supply Connection>,<Condenser Loop Name>,<Supply Side Outlet Node Name>,<Demand Side Inlet Node Name>
+! <Condenser Loop Return Connection>,<Condenser Loop Name>,<Demand Side Outlet Node Name>,<Supply Side Inlet Node Name>
+! ===============================================================
+! <# Controlled Zones>,<Number of Controlled Zones>
+ #Controlled Zones,6
+! <Controlled Zone>,<Controlled Zone Name>,<Equip List Name>,<Control List Name>,<Zone Node Name>,<# Inlet Nodes>,<# Exhaust Nodes>,<# Return Nodes>
+! <Controlled Zone Inlet>,<Inlet Node Count>,<Controlled Zone Name>,<Supply Air Inlet Node Name>,<SD Sys:Cooling/Heating [DD:Cooling] Inlet Node Name>,<DD Sys:Heating Inlet Node Name>
+! <Controlled Zone Exhaust>,<Exhaust Node Count>,<Controlled Zone Name>,<Exhaust Air Node Name>
+ Controlled Zone,ZN_OFFICES_A1,ZN_OFFICES_A1 EQUIPMENT,,ZN_OFFICES_A1 ZONE AIR NODE,1,0,1
+   Controlled Zone Inlet,1,ZN_OFFICES_A1,ZN_OFFICES_A1 IDEAL LOADS SUPPLY INLET,Undefined,N/A
+   Controlled Zone Return,1,ZN_OFFICES_A1,ZN_OFFICES_A1 RETURN OUTLET
+ Controlled Zone,ZN_OFFICES_A2,ZN_OFFICES_A2 EQUIPMENT,,ZN_OFFICES_A2 ZONE AIR NODE,1,0,1
+   Controlled Zone Inlet,1,ZN_OFFICES_A2,ZN_OFFICES_A2 IDEAL LOADS SUPPLY INLET,Undefined,N/A
+   Controlled Zone Return,1,ZN_OFFICES_A2,ZN_OFFICES_A2 RETURN OUTLET
+ Controlled Zone,ZN_OFFICES_B1,ZN_OFFICES_B1 EQUIPMENT,,ZN_OFFICES_B1 ZONE AIR NODE,1,0,1
+   Controlled Zone Inlet,1,ZN_OFFICES_B1,ZN_OFFICES_B1 IDEAL LOADS SUPPLY INLET,Undefined,N/A
+   Controlled Zone Return,1,ZN_OFFICES_B1,ZN_OFFICES_B1 RETURN OUTLET
+ Controlled Zone,ZN_CLASSROOM_A,ZN_CLASSROOM_A EQUIPMENT,,ZN_CLASSROOM_A ZONE AIR NODE,1,0,1
+   Controlled Zone Inlet,1,ZN_CLASSROOM_A,ZN_CLASSROOM_A IDEAL LOADS SUPPLY INLET,Undefined,N/A
+   Controlled Zone Return,1,ZN_CLASSROOM_A,ZN_CLASSROOM_A RETURN OUTLET
+ Controlled Zone,ZN_OFFICE_B2,ZN_OFFICE_B2 EQUIPMENT,,ZN_OFFICE_B2 ZONE AIR NODE,1,0,1
+   Controlled Zone Inlet,1,ZN_OFFICE_B2,ZN_OFFICE_B2 IDEAL LOADS SUPPLY INLET,Undefined,N/A
+   Controlled Zone Return,1,ZN_OFFICE_B2,ZN_OFFICE_B2 RETURN OUTLET
+ Controlled Zone,ZN_CLASSROOM_B,ZN_CLASSROOM_B EQUIPMENT,,ZN_CLASSROOM_B ZONE AIR NODE,1,0,1
+   Controlled Zone Inlet,1,ZN_CLASSROOM_B,ZN_CLASSROOM_B IDEAL LOADS SUPPLY INLET,Undefined,N/A
+   Controlled Zone Return,1,ZN_CLASSROOM_B,ZN_CLASSROOM_B RETURN OUTLET
+! ===============================================================
+! <#Zone Equipment Lists>,<Number of Zone Equipment Lists>
+ #Zone Equipment Lists,6
+! <Zone Equipment List>,<Zone Equipment List Count>,<Zone Equipment List Name>,<Zone Name>,<Number of Components>
+! <Zone Equipment Component>,<Component Count>,<Component Type>,<Component Name>,<Zone Name>,<Heating Priority>,<Cooling Priority>
+ Zone Equipment List,1,ZN_OFFICES_A1 EQUIPMENT,ZN_OFFICES_A1,1
+   Zone Equipment Component,1,ZONEHVAC:IDEALLOADSAIRSYSTEM,ZN_OFFICES_A1 IDEAL LOADS AIR SYSTEM,ZN_OFFICES_A1,1,1
+ Zone Equipment List,2,ZN_OFFICES_A2 EQUIPMENT,ZN_OFFICES_A2,1
+   Zone Equipment Component,1,ZONEHVAC:IDEALLOADSAIRSYSTEM,ZN_OFFICES_A2 IDEAL LOADS AIR SYSTEM,ZN_OFFICES_A2,1,1
+ Zone Equipment List,4,ZN_OFFICES_B1 EQUIPMENT,ZN_OFFICES_B1,1
+   Zone Equipment Component,1,ZONEHVAC:IDEALLOADSAIRSYSTEM,ZN_OFFICES_B1 IDEAL LOADS AIR SYSTEM,ZN_OFFICES_B1,1,1
+ Zone Equipment List,5,ZN_CLASSROOM_A EQUIPMENT,ZN_CLASSROOM_A,1
+   Zone Equipment Component,1,ZONEHVAC:IDEALLOADSAIRSYSTEM,ZN_CLASSROOM_A IDEAL LOADS AIR SYSTEM,ZN_CLASSROOM_A,1,1
+ Zone Equipment List,7,ZN_OFFICE_B2 EQUIPMENT,ZN_OFFICE_B2,1
+   Zone Equipment Component,1,ZONEHVAC:IDEALLOADSAIRSYSTEM,ZN_OFFICE_B2 IDEAL LOADS AIR SYSTEM,ZN_OFFICE_B2,1,1
+ Zone Equipment List,8,ZN_CLASSROOM_B EQUIPMENT,ZN_CLASSROOM_B,1
+   Zone Equipment Component,1,ZONEHVAC:IDEALLOADSAIRSYSTEM,ZN_CLASSROOM_B IDEAL LOADS AIR SYSTEM,ZN_CLASSROOM_B,1,1
+! ===============================================================
+! <#AirLoopHVACs>,<Number of AirLoopHVACs>
+ #AirLoopHVACs,0
+! <AirLoopHVAC>,<Air Loop Name>,<# Return Nodes>,<# Supply Nodes>,<# Zones Cooled>,<# Zones Heated>,<Outdoor Air Used>
+! <AirLoop Return Connections>,<Connection Count>,<AirLoopHVAC Name>,<Zn Eqp Return Node #>,<Zn Eqp Return Node Name>,<AirLoop Return Node #>,<Air Loop Return Node Name>
+! <AirLoop Supply Connections>,<Connection Count>,<AirLoopHVAC Name>,<Zn Eqp Supply Node #>,<Zn Eqp Supply Node Name>,<AirLoop Supply Node #>,<Air Loop Supply Node Name>
+! <Cooled Zone Info>,<Cooled Zone Count>,<Cooled Zone Name>,<Cooled Zone Inlet Node #>,<Cooled Zone Inlet Node Name>,<AirLoopHVAC Name>
+! <Heated Zone Info>,<Heated Zone Count>,<Heated Zone Name>,<Heated Zone Inlet Node #>,<Heated Zone Inlet Node Name>,<AirLoopHVAC Name>
+! <Outdoor Air Connections>,<OA Inlet Node #>,<OA Return Air Inlet Node Name>,<OA Outlet Node #>,<OA Mixed Air Outlet Node Name>,<AirLoopHVAC Name>
+! <AirLoopHVAC Connector>,<Connector Type>,<Connector Name>,<Loop Name>,<Loop Type>,<Number of Inlets/Outlets>
+! <AirLoopHVAC Connector Branches>,<Connector Node Count>,<Connector Type>,<Connector Name>,<Inlet Branch>,<Outlet Branch>,<Loop Name>,<Loop Type>
+! <AirLoopHVAC Connector Nodes>,<Connector Node Count>,<Connector Type>,<Connector Name>,<Inlet Node>,<Outlet Node>,<Loop Name>,<Loop Type>
+! ===============================================================
+! <#Parent Node Connections>,<Number of Parent Node Connections>
+ #Parent Node Connections,0
+! <Parent Node Connection>,<Node Name>,<Node ObjectType>,<Node ObjectName>,<Node ConnectionType>,<Node FluidStream>
+! ===============================================================
+! <#Non-Parent Node Connections>,<Number of Non-Parent Node Connections>
+ #Non-Parent Node Connections,36
+! <Non-Parent Node Connection>,<Node Name>,<Node ObjectType>,<Node ObjectName>,<Node ConnectionType>,<Node FluidStream>
+ Non-Parent Node Connection,ZN_OFFICES_A2 ZONE AIR NODE,ZONEHVAC:EQUIPMENTCONNECTIONS,ZN_OFFICES_A2,ZoneNode,1
+ Non-Parent Node Connection,ZN_OFFICES_A2 IDEAL LOADS SUPPLY INLET,ZONEHVAC:EQUIPMENTCONNECTIONS,ZN_OFFICES_A2,ZoneInlet,1
+ Non-Parent Node Connection,ZN_OFFICES_A2 RETURN OUTLET,ZONEHVAC:EQUIPMENTCONNECTIONS,ZN_OFFICES_A2,ZoneReturn,1
+ Non-Parent Node Connection,ZN_OFFICES_A1 ZONE AIR NODE,ZONEHVAC:EQUIPMENTCONNECTIONS,ZN_OFFICES_A1,ZoneNode,1
+ Non-Parent Node Connection,ZN_OFFICES_A1 IDEAL LOADS SUPPLY INLET,ZONEHVAC:EQUIPMENTCONNECTIONS,ZN_OFFICES_A1,ZoneInlet,1
+ Non-Parent Node Connection,ZN_OFFICES_A1 RETURN OUTLET,ZONEHVAC:EQUIPMENTCONNECTIONS,ZN_OFFICES_A1,ZoneReturn,1
+ Non-Parent Node Connection,ZN_CLASSROOM_B ZONE AIR NODE,ZONEHVAC:EQUIPMENTCONNECTIONS,ZN_CLASSROOM_B,ZoneNode,1
+ Non-Parent Node Connection,ZN_CLASSROOM_B IDEAL LOADS SUPPLY INLET,ZONEHVAC:EQUIPMENTCONNECTIONS,ZN_CLASSROOM_B,ZoneInlet,1
+ Non-Parent Node Connection,ZN_CLASSROOM_B RETURN OUTLET,ZONEHVAC:EQUIPMENTCONNECTIONS,ZN_CLASSROOM_B,ZoneReturn,1
+ Non-Parent Node Connection,ZN_OFFICES_B1 ZONE AIR NODE,ZONEHVAC:EQUIPMENTCONNECTIONS,ZN_OFFICES_B1,ZoneNode,1
+ Non-Parent Node Connection,ZN_OFFICES_B1 IDEAL LOADS SUPPLY INLET,ZONEHVAC:EQUIPMENTCONNECTIONS,ZN_OFFICES_B1,ZoneInlet,1
+ Non-Parent Node Connection,ZN_OFFICES_B1 RETURN OUTLET,ZONEHVAC:EQUIPMENTCONNECTIONS,ZN_OFFICES_B1,ZoneReturn,1
+ Non-Parent Node Connection,ZN_CLASSROOM_A ZONE AIR NODE,ZONEHVAC:EQUIPMENTCONNECTIONS,ZN_CLASSROOM_A,ZoneNode,1
+ Non-Parent Node Connection,ZN_CLASSROOM_A IDEAL LOADS SUPPLY INLET,ZONEHVAC:EQUIPMENTCONNECTIONS,ZN_CLASSROOM_A,ZoneInlet,1
+ Non-Parent Node Connection,ZN_CLASSROOM_A RETURN OUTLET,ZONEHVAC:EQUIPMENTCONNECTIONS,ZN_CLASSROOM_A,ZoneReturn,1
+ Non-Parent Node Connection,ZN_OFFICE_B2 ZONE AIR NODE,ZONEHVAC:EQUIPMENTCONNECTIONS,ZN_OFFICE_B2,ZoneNode,1
+ Non-Parent Node Connection,ZN_OFFICE_B2 IDEAL LOADS SUPPLY INLET,ZONEHVAC:EQUIPMENTCONNECTIONS,ZN_OFFICE_B2,ZoneInlet,1
+ Non-Parent Node Connection,ZN_OFFICE_B2 RETURN OUTLET,ZONEHVAC:EQUIPMENTCONNECTIONS,ZN_OFFICE_B2,ZoneReturn,1
+ Non-Parent Node Connection,ZN_OFFICES_A2 IDEAL LOADS SUPPLY INLET,ZONEHVAC:IDEALLOADSAIRSYSTEM,ZN_OFFICES_A2 IDEAL LOADS AIR SYSTEM,Outlet,1
+ Non-Parent Node Connection,ZN_OFFICES_A2 IDEAL LOADS OUTDOOR AIR INLET,ZONEHVAC:IDEALLOADSAIRSYSTEM,ZN_OFFICES_A2 IDEAL LOADS AIR SYSTEM,Outlet,1
+ Non-Parent Node Connection,ZN_OFFICES_A2 IDEAL LOADS OUTDOOR AIR INLET,OUTDOORAIR:NODE,OutdoorAir:Node,OutdoorAir,1
+ Non-Parent Node Connection,ZN_OFFICES_A1 IDEAL LOADS SUPPLY INLET,ZONEHVAC:IDEALLOADSAIRSYSTEM,ZN_OFFICES_A1 IDEAL LOADS AIR SYSTEM,Outlet,1
+ Non-Parent Node Connection,ZN_OFFICES_A1 IDEAL LOADS OUTDOOR AIR INLET,ZONEHVAC:IDEALLOADSAIRSYSTEM,ZN_OFFICES_A1 IDEAL LOADS AIR SYSTEM,Outlet,1
+ Non-Parent Node Connection,ZN_OFFICES_A1 IDEAL LOADS OUTDOOR AIR INLET,OUTDOORAIR:NODE,OutdoorAir:Node,OutdoorAir,2
+ Non-Parent Node Connection,ZN_CLASSROOM_B IDEAL LOADS SUPPLY INLET,ZONEHVAC:IDEALLOADSAIRSYSTEM,ZN_CLASSROOM_B IDEAL LOADS AIR SYSTEM,Outlet,1
+ Non-Parent Node Connection,ZN_CLASSROOM_B IDEAL LOADS OUTDOOR AIR INLET,ZONEHVAC:IDEALLOADSAIRSYSTEM,ZN_CLASSROOM_B IDEAL LOADS AIR SYSTEM,Outlet,1
+ Non-Parent Node Connection,ZN_CLASSROOM_B IDEAL LOADS OUTDOOR AIR INLET,OUTDOORAIR:NODE,OutdoorAir:Node,OutdoorAir,3
+ Non-Parent Node Connection,ZN_OFFICES_B1 IDEAL LOADS SUPPLY INLET,ZONEHVAC:IDEALLOADSAIRSYSTEM,ZN_OFFICES_B1 IDEAL LOADS AIR SYSTEM,Outlet,1
+ Non-Parent Node Connection,ZN_OFFICES_B1 IDEAL LOADS OUTDOOR AIR INLET,ZONEHVAC:IDEALLOADSAIRSYSTEM,ZN_OFFICES_B1 IDEAL LOADS AIR SYSTEM,Outlet,1
+ Non-Parent Node Connection,ZN_OFFICES_B1 IDEAL LOADS OUTDOOR AIR INLET,OUTDOORAIR:NODE,OutdoorAir:Node,OutdoorAir,4
+ Non-Parent Node Connection,ZN_CLASSROOM_A IDEAL LOADS SUPPLY INLET,ZONEHVAC:IDEALLOADSAIRSYSTEM,ZN_CLASSROOM_A IDEAL LOADS AIR SYSTEM,Outlet,1
+ Non-Parent Node Connection,ZN_CLASSROOM_A IDEAL LOADS OUTDOOR AIR INLET,ZONEHVAC:IDEALLOADSAIRSYSTEM,ZN_CLASSROOM_A IDEAL LOADS AIR SYSTEM,Outlet,1
+ Non-Parent Node Connection,ZN_CLASSROOM_A IDEAL LOADS OUTDOOR AIR INLET,OUTDOORAIR:NODE,OutdoorAir:Node,OutdoorAir,5
+ Non-Parent Node Connection,ZN_OFFICE_B2 IDEAL LOADS SUPPLY INLET,ZONEHVAC:IDEALLOADSAIRSYSTEM,ZN_OFFICE_B2 IDEAL LOADS AIR SYSTEM,Outlet,1
+ Non-Parent Node Connection,ZN_OFFICE_B2 IDEAL LOADS OUTDOOR AIR INLET,ZONEHVAC:IDEALLOADSAIRSYSTEM,ZN_OFFICE_B2 IDEAL LOADS AIR SYSTEM,Outlet,1
+ Non-Parent Node Connection,ZN_OFFICE_B2 IDEAL LOADS OUTDOOR AIR INLET,OUTDOORAIR:NODE,OutdoorAir:Node,OutdoorAir,6

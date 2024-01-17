@@ -1,0 +1,2065 @@
+Program Version:,EnergyPlus, Version 9.3.0-baff08990c, YMD=2023.09.24 10:38
+Tabular Output Report in Format: ,Comma
+
+Building:,BIMtoBEM_SampleBuilding.idf
+Environment:,CUSTOMRUN ** Bologna-Borgo Panigale - ITA IGDG WMO#=161400
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Annual Building Utility Performance Summary
+FOR:,Entire Facility
+Values gathered over      8760.00 hours
+
+Site and Source Energy
+
+,,Total Energy [kWh],Energy Per Total Building Area [kWh/m2],Energy Per Conditioned Building Area [kWh/m2]
+,Total Site Energy,111710.38,50.63,59.66
+,Net Site Energy,111710.38,50.63,59.66
+,Total Source Energy,275843.29,125.02,147.32
+,Net Source Energy,275843.29,125.02,147.32
+
+
+Site to Source Energy Conversion Factors
+
+,,Site=>Source Conversion Factor
+,Electricity,3.167
+,Natural Gas,1.084
+,District Cooling,1.056
+,District Heating,3.613
+,Steam,0.300
+,Gasoline,1.050
+,Diesel,1.050
+,Coal,1.050
+,Fuel Oil #1,1.050
+,Fuel Oil #2,1.050
+,Propane,1.050
+,Other Fuel 1,1.000
+,Other Fuel 2,1.000
+
+
+Building Area
+
+,,Area [m2]
+,Total Building Area,2206.40
+,Net Conditioned Building Area,1872.44
+,Unconditioned Building Area,333.96
+
+
+End Uses
+
+,,Electricity [kWh],Natural Gas [kWh],Additional Fuel [kWh],District Cooling [kWh],District Heating [kWh],Water [m3]
+,Heating,0.00,0.00,0.00,0.00,4179.66,0.00
+,Cooling,0.00,0.00,0.00,37800.28,0.00,0.00
+,Interior Lighting,59075.43,0.00,0.00,0.00,0.00,0.00
+,Exterior Lighting,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,10655.01,0.00,0.00,0.00,0.00,0.00
+,Exterior Equipment,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans,0.00,0.00,0.00,0.00,0.00,0.00
+,Pumps,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,0.00,0.00,0.00,0.00,0.00,0.00
+,Humidification,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,0.00,0.00,0.00,0.00,0.00,0.00
+,Water Systems,0.00,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,0.00,0.00,0.00,0.00,0.00,0.00
+,Generators,0.00,0.00,0.00,0.00,0.00,0.00
+,,,,,,,
+,Total End Uses,69730.44,0.00,0.00,37800.28,4179.66,0.00
+Note: District heat appears to be the principal heating source based on energy usage.
+
+
+End Uses By Subcategory
+
+,,Subcategory,Electricity [kWh],Natural Gas [kWh],Additional Fuel [kWh],District Cooling [kWh],District Heating [kWh],Water [m3]
+,Heating,General,0.00,0.00,0.00,0.00,4179.66,0.00
+,Cooling,General,0.00,0.00,0.00,37800.28,0.00,0.00
+,Interior Lighting,General,59075.43,0.00,0.00,0.00,0.00,0.00
+,Exterior Lighting,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,ElectricEquipment,10655.01,0.00,0.00,0.00,0.00,0.00
+,Exterior Equipment,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Pumps,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Humidification,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Water Systems,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Generators,General,0.00,0.00,0.00,0.00,0.00,0.00
+
+
+Normalized Metrics
+Utility Use Per Conditioned Floor Area
+
+,,Electricity Intensity [kWh/m2],Natural Gas Intensity [kWh/m2],Additional Fuel Intensity [kWh/m2],District Cooling Intensity [kWh/m2],District Heating Intensity [kWh/m2],Water Intensity [m3/m2]
+,Lighting,31.55,0.00,0.00,0.00,0.00,0.00
+,HVAC,0.00,0.00,0.00,20.19,2.23,0.00
+,Other,5.69,0.00,0.00,0.00,0.00,0.00
+,Total,37.24,0.00,0.00,20.19,2.23,0.00
+
+
+Utility Use Per Total Floor Area
+
+,,Electricity Intensity [kWh/m2],Natural Gas Intensity [kWh/m2],Additional Fuel Intensity [kWh/m2],District Cooling Intensity [kWh/m2],District Heating Intensity [kWh/m2],Water Intensity [m3/m2]
+,Lighting,26.77,0.00,0.00,0.00,0.00,0.00
+,HVAC,0.00,0.00,0.00,17.13,1.89,0.00
+,Other,4.83,0.00,0.00,0.00,0.00,0.00
+,Total,31.60,0.00,0.00,17.13,1.89,0.00
+
+
+Electric Loads Satisfied
+
+,,Electricity [kWh],Percent Electricity [%]
+,Fuel-Fired Power Generation,0.000,0.00
+,High Temperature Geothermal*,0.000,0.00
+,Photovoltaic Power,0.000,0.00
+,Wind Power,0.000,0.00
+,Power Conversion,0.000,0.00
+,Net Decrease in On-Site Storage,0.000,0.00
+,Total On-Site Electric Sources,0.000,0.00
+,,,
+,Electricity Coming From Utility,69730.437,100.00
+,Surplus Electricity Going To Utility,0.000,0.00
+,Net Electricity From Utility,69730.437,100.00
+,,,
+,Total On-Site and Utility Electric Sources,69730.437,100.00
+,Total Electricity End Uses,69730.437,100.00
+
+
+On-Site Thermal Sources
+
+,,Heat [kWh],Percent Heat [%]
+,Water-Side Heat Recovery,0.00,
+,Air to Air Heat Recovery for Cooling,0.00,
+,Air to Air Heat Recovery for Heating,0.00,
+,High-Temperature Geothermal*,0.00,
+,Solar Water Thermal,0.00,
+,Solar Air Thermal,0.00,
+,Total On-Site Thermal Sources,0.00,
+
+
+Water Source Summary
+
+,,Water [m3],Percent Water [%]
+,Rainwater Collection,0.00,-
+,Condensate Collection,0.00,-
+,Groundwater Well,0.00,-
+,Total On Site Water Sources,0.00,-
+,-,-,-
+,Initial Storage,0.00,-
+,Final Storage,0.00,-
+,Change in Storage,0.00,-
+,-,-,-
+,Water Supplied by Utility,0.00,-
+,-,-,-
+,Total On Site, Change in Storage, and Utility Water Sources,0.00,-
+,Total Water End Uses,0.00,-
+
+
+Setpoint Not Met Criteria
+
+,,Degrees [deltaC]
+,Tolerance for Zone Heating Setpoint Not Met Time,0.20
+,Tolerance for Zone Cooling Setpoint Not Met Time,0.20
+
+
+Comfort and Setpoint Not Met Summary
+
+,,Facility [Hours]
+,Time Setpoint Not Met During Occupied Heating,0.00
+,Time Setpoint Not Met During Occupied Cooling,3.00
+,Time Not Comfortable Based on Simple ASHRAE 55-2004,3713.50
+
+
+Note 1: An asterisk (*) indicates that the feature is not yet implemented.
+----------------------------------------------------------------------------------------------------
+REPORT:,Input Verification and Results Summary
+FOR:,Entire Facility
+General
+
+,,Value
+,Program Version and Build,EnergyPlus, Version 9.3.0-baff08990c, YMD=2023.09.24 10:38
+,RunPeriod,CUSTOMRUN
+,Weather File,Bologna-Borgo Panigale - ITA IGDG WMO#=161400
+,Latitude [deg],44.53
+,Longitude [deg],11.30
+,Elevation [m],49.00
+,Time Zone,1.00
+,North Axis Angle [deg],175.00
+,Rotation for Appendix G [deg],0.00
+,Hours Simulated [hrs],8760.00
+
+
+ENVELOPE
+Window-Wall Ratio
+
+,,Total,North (315 to 45 deg),East (45 to 135 deg),South (135 to 225 deg),West (225 to 315 deg)
+,Gross Wall Area [m2],2784.52,706.30,738.96,706.30,632.96
+,Above Ground Wall Area [m2],2784.52,706.30,738.96,706.30,632.96
+,Window Opening Area [m2],428.56,116.23,122.40,111.57,78.36
+,Gross Window-Wall Ratio [%],15.39,16.46,16.56,15.80,12.38
+,Above Ground Window-Wall Ratio [%],15.39,16.46,16.56,15.80,12.38
+
+
+Conditioned Window-Wall Ratio
+
+,,Total,North (315 to 45 deg),East (45 to 135 deg),South (135 to 225 deg),West (225 to 315 deg)
+,Gross Wall Area [m2],2192.47,554.12,595.12,554.12,489.12
+,Above Ground Wall Area [m2],2192.47,554.12,595.12,554.12,489.12
+,Window Opening Area [m2],370.75,95.57,103.33,93.48,78.36
+,Gross Window-Wall Ratio [%],16.91,17.25,17.36,16.87,16.02
+,Above Ground Window-Wall Ratio [%],16.91,17.25,17.36,16.87,16.02
+
+
+Skylight-Roof Ratio
+
+,,Total
+,Gross Roof Area [m2],2206.40
+,Skylight Area [m2],0.00
+,Skylight-Roof Ratio [%],0.00
+
+
+PERFORMANCE
+Zone Summary
+
+,,Area [m2],Conditioned (Y/N),Part of Total Floor Area (Y/N),Volume [m3],Multipliers,Above Ground Gross Wall Area [m2],Underground Gross Wall Area [m2],Window Glass Area [m2],Opening Area [m2],Lighting [W/m2],People [m2 per person],Plug and Process [W/m2]
+,ZN_OFFICES_A1,445.50,Yes,Yes,2191.86,1.00,439.85,0.00,70.49,70.49,10.0000,4.44,3.5800
+,ZN_OFFICES_A2,401.68,Yes,Yes,1976.27,1.00,494.95,0.00,83.75,83.75,10.0000,3.27,3.7720
+,ZN_CIRCULATION_A,147.90,No,Yes,727.67,1.00,243.05,0.00,14.12,14.12,7.4700,2.00,0.0000
+,ZN_OFFICES_B1,445.50,Yes,Yes,2227.50,1.00,447.00,0.00,78.23,78.23,10.0000,4.81,3.9560
+,ZN_CLASSROOM_A,108.12,Yes,Yes,531.95,1.00,204.67,0.00,29.99,29.99,10.0000,0.70,1.0000
+,ZN_CIRCULATION_B,186.06,No,Yes,930.30,1.00,349.00,0.00,43.69,43.69,7.9600,2.00,0.0000
+,ZN_OFFICE_B2,363.52,Yes,Yes,3324.72,1.00,398.00,0.00,73.53,73.53,10.0000,4.57,3.5780
+,ZN_CLASSROOM_B,108.12,Yes,Yes,540.60,1.00,208.00,0.00,34.74,34.74,10.0000,0.79,1.0000
+,Total,2206.40,,,12450.87,,2784.52,0.00,428.56,428.56,9.6584,2.59,2.8958
+,Conditioned Total,1872.44,,,10792.90,,2192.47,0.00,370.75,370.75,10.0000,2.73,3.4123
+,Unconditioned Total,333.96,,,1657.97,,592.05,0.00,57.81,57.81,7.7430,2.00,0.0000
+,Not Part of Total,0.00,,,0.00,,0.00,0.00,0.00,0.00,,,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Demand End Use Components Summary
+FOR:,Entire Facility
+End Uses
+
+,,Electricity [W],Natural Gas [W],Propane [W],District Cooling [W],District Heating [W],Water [m3/s]
+,Time of Peak,19-SEP-10:30,-,-,04-AUG-12:00,19-JAN-05:00,-
+,Heating,0.00,0.00,0.00,0.00,81906.14,0.00
+,Cooling,0.00,0.00,0.00,170540.31,0.00,0.00
+,Interior Lighting,21310.25,0.00,0.00,0.00,0.00,0.00
+,Exterior Lighting,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,6340.18,0.00,0.00,0.00,0.00,0.00
+,Exterior Equipment,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans,0.00,0.00,0.00,0.00,0.00,0.00
+,Pumps,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,0.00,0.00,0.00,0.00,0.00,0.00
+,Humidification,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,0.00,0.00,0.00,0.00,0.00,0.00
+,Water Systems,0.00,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,0.00,0.00,0.00,0.00,0.00,0.00
+,Generators,0.00,0.00,0.00,0.00,0.00,0.00
+,,,,,,,
+,Total End Uses,27650.43,0.00,0.00,170540.31,81906.14,0.00
+
+
+End Uses By Subcategory
+
+,,Subcategory,Electricity [W],Natural Gas [W],Propane [W],District Cooling [W],District Heating [W],Water [m3/s]
+,Heating,General,0.00,0.00,0.00,0.00,81906.14,0.00
+,Cooling,General,0.00,0.00,0.00,170540.31,0.00,0.00
+,Interior Lighting,General,21310.25,0.00,0.00,0.00,0.00,0.00
+,Exterior Lighting,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,ElectricEquipment,6340.18,0.00,0.00,0.00,0.00,0.00
+,Exterior Equipment,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Pumps,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Humidification,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Water Systems,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Generators,General,0.00,0.00,0.00,0.00,0.00,0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Source Energy End Use Components Summary
+FOR:,Entire Facility
+Values gathered over      8760.00 hours
+
+Source Energy End Use Components Summary
+
+,,Source Electricity [kWh],Source Natural Gas [kWh],Source Additional Fuel [kWh],Source District Cooling [kWh],Source District Heating [kWh]
+,Heating,0.00,0.00,0.00,0.00,15102.49
+,Cooling,0.00,0.00,0.00,39904.50,0.00
+,Interior Lighting,187091.87,0.00,0.00,0.00,0.00
+,Exterior Lighting,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,33744.42,0.00,0.00,0.00,0.00
+,Exterior Equipment,0.00,0.00,0.00,0.00,0.00
+,Fans,0.00,0.00,0.00,0.00,0.00
+,Pumps,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,0.00,0.00,0.00,0.00,0.00
+,Humidification,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,0.00,0.00,0.00,0.00,0.00
+,Water Systems,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,0.00,0.00,0.00,0.00,0.00
+,Generators,0.00,0.00,0.00,0.00,0.00
+,,,,,,
+,Total Source Energy End Use Components,220836.30,0.00,0.00,39904.50,15102.49
+
+
+Normalized Metrics
+Source Energy End Use Components Per Conditioned Floor Area
+
+,,Source Electricity [kWh/m2],Source Natural Gas [kWh/m2],Source Additional Fuel [kWh/m2],Source District Cooling [kWh/m2],Source District Heating [kWh/m2]
+,Heating,0.00,0.00,0.00,0.00,8.07
+,Cooling,0.00,0.00,0.00,21.31,0.00
+,Interior Lighting,99.92,0.00,0.00,0.00,0.00
+,Exterior Lighting,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,18.02,0.00,0.00,0.00,0.00
+,Exterior Equipment,0.00,0.00,0.00,0.00,0.00
+,Fans,0.00,0.00,0.00,0.00,0.00
+,Pumps,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,0.00,0.00,0.00,0.00,0.00
+,Humidification,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,0.00,0.00,0.00,0.00,0.00
+,Water Systems,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,0.00,0.00,0.00,0.00,0.00
+,Generators,0.00,0.00,0.00,0.00,0.00
+,,,,,,
+,Total Source Energy End Use Components,117.94,0.00,0.00,21.31,8.07
+
+
+Source Energy End Use Components Per Total Floor Area
+
+,,Source Electricity [kWh/m2],Source Natural Gas [kWh/m2],Source Additional Fuel [kWh/m2],Source District Cooling [kWh/m2],Source District Heating [kWh/m2]
+,Heating,0.00,0.00,0.00,0.00,6.84
+,Cooling,0.00,0.00,0.00,18.09,0.00
+,Interior Lighting,84.80,0.00,0.00,0.00,0.00
+,Exterior Lighting,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,15.29,0.00,0.00,0.00,0.00
+,Exterior Equipment,0.00,0.00,0.00,0.00,0.00
+,Fans,0.00,0.00,0.00,0.00,0.00
+,Pumps,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,0.00,0.00,0.00,0.00,0.00
+,Humidification,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,0.00,0.00,0.00,0.00,0.00
+,Water Systems,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,0.00,0.00,0.00,0.00,0.00
+,Generators,0.00,0.00,0.00,0.00,0.00
+,,,,,,
+,Total Source Energy End Use Components,100.09,0.00,0.00,18.09,6.84
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Component Sizing Summary
+FOR:,Entire Facility
+ZoneHVAC:IdealLoadsAirSystem
+
+,,User-Specified Maximum Heating Air Flow Rate [m3/s],Design Size Maximum Cooling Air Flow Rate [m3/s]
+,ZN_OFFICES_A1 IDEAL LOADS AIR SYSTEM,0.000000,1.02
+,ZN_OFFICES_A2 IDEAL LOADS AIR SYSTEM,0.000000,1.12
+,ZN_OFFICES_B1 IDEAL LOADS AIR SYSTEM,0.000000,1.85
+,ZN_CLASSROOM_A IDEAL LOADS AIR SYSTEM,0.000000,1.08
+,ZN_OFFICE_B2 IDEAL LOADS AIR SYSTEM,0.000000,1.52
+,ZN_CLASSROOM_B IDEAL LOADS AIR SYSTEM,0.000000,0.952861
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Surface Shadowing Summary
+FOR:,Entire Facility
+Surfaces (Walls, Roofs, etc) that may be Shadowed by Other Surfaces
+
+,,Possible Shadow Receivers
+,F923F8AB59EF499DA223,38A7B119719042B3948C | 20E1F8653FD24732BB88 | E5BE9C599FAD45DB9657 | D751A8497F044E7FB344 | 6E00F7D4AFF84F63ABD3 | 482D3CFD63AF4894B27D | 2BB8AA66B94A43F4AD5E | 107E3D67CCFF4D948112 | 6AF7646EA8214021B459 | 8A74D5B8F47A476D98E4 |
+,5EF1D2C7DD9A4DEB92EB,38A7B119719042B3948C | 20E1F8653FD24732BB88 | F5A62A8D64224440A19F | AC40808EDC144B2AA87F | E5BE9C599FAD45DB9657 | D751A8497F044E7FB344 | 0345C2B5A83043678708 | D6A837D9CE3C486BAF22 | 3B0147B5E0F04788B8D3 | 6E00F7D4AFF84F63ABD3 | 3C9AE62FC178493EB8D0 | 482D3CFD63AF4894B27D | 2BB8AA66B94A43F4AD5E | 107E3D67CCFF4D948112 | 6AF7646EA8214021B459 | 8A74D5B8F47A476D98E4 |
+,B42E6DBEE0544F25A70C,38A7B119719042B3948C | DE0BCB123278449E8E4C | 20E1F8653FD24732BB88 | E5BE9C599FAD45DB9657 | E98B779774974E5FBE32 | D751A8497F044E7FB344 | D6A837D9CE3C486BAF22 | 3B0147B5E0F04788B8D3 | 6E00F7D4AFF84F63ABD3 | 3C9AE62FC178493EB8D0 | 482D3CFD63AF4894B27D | 2BB8AA66B94A43F4AD5E | 107E3D67CCFF4D948112 | 6AF7646EA8214021B459 | 51EA9B42BED44E97A47F | 8A74D5B8F47A476D98E4 |
+,A862FAD5A96048DC90F8,D751A8497F044E7FB344 | A1A928E4BB6C495F993E | 0345C2B5A83043678708 | 482D3CFD63AF4894B27D | 2BB8AA66B94A43F4AD5E | 6AF7646EA8214021B459 | 51EA9B42BED44E97A47F |
+,38A7B119719042B3948C,F923F8AB59EF499DA223 | 5EF1D2C7DD9A4DEB92EB | B42E6DBEE0544F25A70C | 7B0E447D1A4A4B178044 | AC40808EDC144B2AA87F | E45127E7BC7A4E54A851 | 56E7877310DE4CFAAF58 | 71ACEF592AF44B61A136 | 6F2803BF69284DA8A21A | D6A837D9CE3C486BAF22 | 3C9AE62FC178493EB8D0 |
+,7B0E447D1A4A4B178044,38A7B119719042B3948C | 20E1F8653FD24732BB88 | E5BE9C599FAD45DB9657 | D751A8497F044E7FB344 | 6E00F7D4AFF84F63ABD3 | 482D3CFD63AF4894B27D | 2BB8AA66B94A43F4AD5E | 107E3D67CCFF4D948112 | 6AF7646EA8214021B459 | 8A74D5B8F47A476D98E4 |
+,2E3EE2646E6F48BE8F2D,71ACEF592AF44B61A136 |
+,DE0BCB123278449E8E4C,B42E6DBEE0544F25A70C | 56E7877310DE4CFAAF58 | 71ACEF592AF44B61A136 | D6A837D9CE3C486BAF22 |
+,B495C5B346DB4B149AA3,20E1F8653FD24732BB88 | F5A62A8D64224440A19F | 0345C2B5A83043678708 | D6A837D9CE3C486BAF22 | 107E3D67CCFF4D948112 | 8A74D5B8F47A476D98E4 |
+,20E1F8653FD24732BB88,F923F8AB59EF499DA223 | 5EF1D2C7DD9A4DEB92EB | B42E6DBEE0544F25A70C | 7B0E447D1A4A4B178044 | B495C5B346DB4B149AA3 | F5A62A8D64224440A19F | AC40808EDC144B2AA87F | E45127E7BC7A4E54A851 | 56E7877310DE4CFAAF58 | 71ACEF592AF44B61A136 | 6F2803BF69284DA8A21A | BB0144D80141484A9093 | 0345C2B5A83043678708 | D6A837D9CE3C486BAF22 | 3B0147B5E0F04788B8D3 | 6E00F7D4AFF84F63ABD3 | 3C9AE62FC178493EB8D0 | 8A74D5B8F47A476D98E4 |
+,D87D7BD56DAA4C32BCC6,56E7877310DE4CFAAF58 | 0345C2B5A83043678708 | 2BB8AA66B94A43F4AD5E | 6AF7646EA8214021B459 |
+,168183CA899F405EBA84,E45127E7BC7A4E54A851 | 56E7877310DE4CFAAF58 | 6F2803BF69284DA8A21A | 0345C2B5A83043678708 | 2BB8AA66B94A43F4AD5E | 6AF7646EA8214021B459 |
+,3D50605C012740DCBF8F,56E7877310DE4CFAAF58 | D751A8497F044E7FB344 | 0345C2B5A83043678708 | 482D3CFD63AF4894B27D | 2BB8AA66B94A43F4AD5E | 6AF7646EA8214021B459 |
+,197E352D649845D1A9F6,E45127E7BC7A4E54A851 | 56E7877310DE4CFAAF58 | 6F2803BF69284DA8A21A | CA215ACA62A24FA8A107 | BB0144D80141484A9093 | 0345C2B5A83043678708 | C9E20B129CE94C92BBF7 | 6AF7646EA8214021B459 | 2556DD4AB3174345A6F2 |
+,6D5A857488524A608869,71ACEF592AF44B61A136 |
+,F5A62A8D64224440A19F,5EF1D2C7DD9A4DEB92EB | B495C5B346DB4B149AA3 | 20E1F8653FD24732BB88 | 56E7877310DE4CFAAF58 | 71ACEF592AF44B61A136 | BB0144D80141484A9093 | 3B0147B5E0F04788B8D3 | 6E00F7D4AFF84F63ABD3 | 3C9AE62FC178493EB8D0 | 2BB8AA66B94A43F4AD5E | 107E3D67CCFF4D948112 | 8A74D5B8F47A476D98E4 |
+,AC40808EDC144B2AA87F,5EF1D2C7DD9A4DEB92EB | 38A7B119719042B3948C | 20E1F8653FD24732BB88 | 56E7877310DE4CFAAF58 | 71ACEF592AF44B61A136 | E5BE9C599FAD45DB9657 | D751A8497F044E7FB344 | 3B0147B5E0F04788B8D3 | 6E00F7D4AFF84F63ABD3 | 3C9AE62FC178493EB8D0 | 482D3CFD63AF4894B27D | 2BB8AA66B94A43F4AD5E | 107E3D67CCFF4D948112 | 6AF7646EA8214021B459 | 8A74D5B8F47A476D98E4 |
+,BB768ABAABB84ABE840F,56E7877310DE4CFAAF58 | D751A8497F044E7FB344 | BB0144D80141484A9093 | 482D3CFD63AF4894B27D | 2BB8AA66B94A43F4AD5E | 6AF7646EA8214021B459 | 51EA9B42BED44E97A47F |
+,E45127E7BC7A4E54A851,D751A8497F044E7FB344 | 482D3CFD63AF4894B27D | 2BB8AA66B94A43F4AD5E | 6AF7646EA8214021B459 |
+,56E7877310DE4CFAAF58,D751A8497F044E7FB344 | 0345C2B5A83043678708 | 482D3CFD63AF4894B27D | 2BB8AA66B94A43F4AD5E | 6AF7646EA8214021B459 | 51EA9B42BED44E97A47F |
+,E5BE9C599FAD45DB9657,F923F8AB59EF499DA223 | 5EF1D2C7DD9A4DEB92EB | B42E6DBEE0544F25A70C | 7B0E447D1A4A4B178044 | AC40808EDC144B2AA87F | E45127E7BC7A4E54A851 | 56E7877310DE4CFAAF58 | 71ACEF592AF44B61A136 | 6F2803BF69284DA8A21A | D6A837D9CE3C486BAF22 | 3B0147B5E0F04788B8D3 | 6E00F7D4AFF84F63ABD3 | 3C9AE62FC178493EB8D0 | 2BB8AA66B94A43F4AD5E | 107E3D67CCFF4D948112 |
+,E98B779774974E5FBE32,B42E6DBEE0544F25A70C | 56E7877310DE4CFAAF58 | 71ACEF592AF44B61A136 | D6A837D9CE3C486BAF22 |
+,7F6E9184B0634ED4A688,107E3D67CCFF4D948112 |
+,A79531C198E8497186F2,E45127E7BC7A4E54A851 | 56E7877310DE4CFAAF58 | 6F2803BF69284DA8A21A | BB0144D80141484A9093 | 0345C2B5A83043678708 | 2BB8AA66B94A43F4AD5E |
+,6F2803BF69284DA8A21A,D751A8497F044E7FB344 | 482D3CFD63AF4894B27D | 2BB8AA66B94A43F4AD5E | 6AF7646EA8214021B459 |
+,D751A8497F044E7FB344,E45127E7BC7A4E54A851 | 56E7877310DE4CFAAF58 | 6F2803BF69284DA8A21A |
+,BB0144D80141484A9093,0345C2B5A83043678708 |
+,0345C2B5A83043678708,56E7877310DE4CFAAF58 | BB0144D80141484A9093 | 2BB8AA66B94A43F4AD5E |
+,482D3CFD63AF4894B27D,E45127E7BC7A4E54A851 | 56E7877310DE4CFAAF58 | 6F2803BF69284DA8A21A |
+,2BB8AA66B94A43F4AD5E,E45127E7BC7A4E54A851 | 56E7877310DE4CFAAF58 | 6F2803BF69284DA8A21A | 0345C2B5A83043678708 | 6AF7646EA8214021B459 |
+,6AF7646EA8214021B459,E45127E7BC7A4E54A851 | 56E7877310DE4CFAAF58 | 6F2803BF69284DA8A21A | 2BB8AA66B94A43F4AD5E |
+,51EA9B42BED44E97A47F,56E7877310DE4CFAAF58 |
+
+
+Subsurfaces (Windows and Doors) that may be Shadowed by Surfaces
+
+,,Possible Shadow Receivers
+,41A4D89B8E6C488B8BF3,41A4D89B8E6C488B8BF3_GLZ_0_EB24A6CBFEA64A0DAE78 | 41A4D89B8E6C488B8BF3_GLZ_1_00AC299CA16647E9AFB9 | 41A4D89B8E6C488B8BF3_GLZ_2_2DC176D21E9748619973 | 41A4D89B8E6C488B8BF3_GLZ_3_A7E1A91E5F0649A69FA3 | 41A4D89B8E6C488B8BF3_GLZ_4_0BE7D50570CA4C2C8A7A | 41A4D89B8E6C488B8BF3_GLZ_5_6C09B27BFD0A454795C2 | 41A4D89B8E6C488B8BF3_GLZ_6_FE1ADA1856144019AD85 |
+,F923F8AB59EF499DA223,F923F8AB59EF499DA223_GLZ_0_A6A600D2EAEF49D39F65 | F923F8AB59EF499DA223_GLZ_1_5FC72F362169414D9BF7 | F923F8AB59EF499DA223_GLZ_2_4C8E9329667B440B8A18 | F923F8AB59EF499DA223_GLZ_3_716DBBC1759045CBA0FE | F923F8AB59EF499DA223_GLZ_4_0E5CE3FFCFFD42D99F77 | F923F8AB59EF499DA223_GLZ_5_ECBC21C4B7E846DB8ADE |
+,5EF1D2C7DD9A4DEB92EB,5EF1D2C7DD9A4DEB92EB_GLZ_0_A603C37500F048989641 |
+,B42E6DBEE0544F25A70C,B42E6DBEE0544F25A70C_GLZ_0_739D2CD4C1E8498683ED |
+,521F828AE27C42288986,521F828AE27C42288986_GLZ_0_31581FF95BF04FCFAC35 | 521F828AE27C42288986_GLZ_1_DDAE2A5C2FAD4B228351 | 521F828AE27C42288986_GLZ_2_7B07E9E521974450AD08 |
+,361C779BCA6443D78AA5,361C779BCA6443D78AA5_GLZ_0_CE392C54730A44799E1F | 361C779BCA6443D78AA5_GLZ_1_7260AF8180C549E6BE2F |
+,38A7B119719042B3948C,38A7B119719042B3948C_GLZ_0_8243945B2F8C41B995E2 | 38A7B119719042B3948C_GLZ_1_D72CB13DDFA44D158B08 | 38A7B119719042B3948C_GLZ_2_FA5C58FB953A4BE186E9 | 38A7B119719042B3948C_GLZ_3_0A408117803441A18A4F | 38A7B119719042B3948C_GLZ_4_DB11C95B03564F488C6F | 38A7B119719042B3948C_GLZ_5_9ED0DAD409C84E44AB7D |
+,2E3EE2646E6F48BE8F2D,2E3EE2646E6F48BE8F2D_GLZ_0_87F1FC4DFC6A4C679B82 |
+,DE0BCB123278449E8E4C,DE0BCB123278449E8E4C_GLZ_0_0D10AA6A408B4876BFE6 |
+,6D5A857488524A608869,6D5A857488524A608869_GLZ_0_C59E3512059B4DFA8B23 |
+,F5A62A8D64224440A19F,F5A62A8D64224440A19F_GLZ_0_2971AF1C9A30493E8FE9 | F5A62A8D64224440A19F_GLZ_1_5A5FF55421E045648983 |
+,AC40808EDC144B2AA87F,AC40808EDC144B2AA87F_GLZ_0_CEF8CD173E9543F79B42 |
+,8DC3072A253F42DCB090,8DC3072A253F42DCB090_GLZ_0_0B23AB19C5804B90A388 | 8DC3072A253F42DCB090_GLZ_1_897A0206846D4980ACA5 |
+,350374417CBC49F4B820,350374417CBC49F4B820_GLZ_0_18C65E3F79FF447F8C67 | 350374417CBC49F4B820_GLZ_1_490B25E26C5B4E5ABE3F | 350374417CBC49F4B820_GLZ_2_9154DBE19D6C4C468962 | 350374417CBC49F4B820_GLZ_3_2E0480DF90BE483BB8A0 | 350374417CBC49F4B820_GLZ_4_2114E115782749EB9B43 |
+,E45127E7BC7A4E54A851,E45127E7BC7A4E54A851_GLZ_0_AA56A9BA2EFA4C0AA615 | E45127E7BC7A4E54A851_GLZ_1_71D34BB505BA4E7BA869 | E45127E7BC7A4E54A851_GLZ_2_29EBE44768AB4929904D | E45127E7BC7A4E54A851_GLZ_3_A620B8B08DC14702BDDA | E45127E7BC7A4E54A851_GLZ_4_B11B608CD1014FCABA73 |
+,56E7877310DE4CFAAF58,56E7877310DE4CFAAF58_GLZ_0_70759A733EFA420580ED |
+,632F8990F03E4715B1CB,632F8990F03E4715B1CB_GLZ_0_5FA8866F5EB748B2B2BB | 632F8990F03E4715B1CB_GLZ_1_58B3D1F1F0CA4F1F8555 |
+,E98B779774974E5FBE32,E98B779774974E5FBE32_GLZ_0_1F7F2F8BB2A94E36B401 | E98B779774974E5FBE32_GLZ_1_56C21F299DE04FADAAA2 |
+,D751A8497F044E7FB344,D751A8497F044E7FB344_GLZ_0_2354DCCEE84141CC8588 |
+,41FCD143713B4F3E9302,41FCD143713B4F3E9302_GLZ_0_B86F20CE071347B091AE | 41FCD143713B4F3E9302_GLZ_1_8F0765B2AFBA4FEA974A | 41FCD143713B4F3E9302_GLZ_2_19FF56DAC88B4F8D8298 | 41FCD143713B4F3E9302_GLZ_3_3B696E9575CB4A38BFB7 |
+,A1A928E4BB6C495F993E,A1A928E4BB6C495F993E_GLZ_0_B71E5A5CDD40473F9FED |
+,CA215ACA62A24FA8A107,CA215ACA62A24FA8A107_GLZ_0_38F50A01CDCC411FA182 |
+,BB0144D80141484A9093,BB0144D80141484A9093_GLZ_0_89540E70687543B8BA78 |
+,0345C2B5A83043678708,0345C2B5A83043678708_GLZ_0_E445234AB002477AB516 | 0345C2B5A83043678708_GLZ_1_DB2B34194E8F421DA871 |
+,482D3CFD63AF4894B27D,482D3CFD63AF4894B27D_GLZ_0_DB7E6C49D37C41438854 | 482D3CFD63AF4894B27D_GLZ_1_E64157A8A4A34A499FF5 | 482D3CFD63AF4894B27D_GLZ_2_5DB68117ABC34EE6B49F | 482D3CFD63AF4894B27D_GLZ_3_24C1007A4DF44088B775 | 482D3CFD63AF4894B27D_GLZ_4_425F6CFC29AA44919542 |
+,04BCB60D23F747C2A1E3,04BCB60D23F747C2A1E3_GLZ_0_857B53A6C18B42A8B4AD | 04BCB60D23F747C2A1E3_GLZ_1_035E71D0E45544F69C99 | 04BCB60D23F747C2A1E3_GLZ_2_0FD28876A27B4A7DB93F | 04BCB60D23F747C2A1E3_GLZ_3_108EC090C9894E0197D7 | 04BCB60D23F747C2A1E3_GLZ_4_E73515C030F745D3AF0D |
+,2EB5ABED9D3647ABAC5B,2EB5ABED9D3647ABAC5B_GLZ_0_A2ED6C660182408EA65A | 2EB5ABED9D3647ABAC5B_GLZ_1_B7568F3EED9B4EF493EC |
+,2BB8AA66B94A43F4AD5E,2BB8AA66B94A43F4AD5E_GLZ_0_7C8A75558E1A421EA116 |
+,C9E20B129CE94C92BBF7,C9E20B129CE94C92BBF7_GLZ_0_A4E4C170068643038BFE |
+,DB02BCC751A34469AFCA,DB02BCC751A34469AFCA_GLZ_0_58387148432E4FD88F4D | DB02BCC751A34469AFCA_GLZ_1_1F7E4C4050A14A13BA07 |
+,6AF7646EA8214021B459,6AF7646EA8214021B459_GLZ_0_B68C4F882FC14BB7A214 |
+,51EA9B42BED44E97A47F,51EA9B42BED44E97A47F_GLZ_0_BF0F47AECC3F4F1493A6 | 51EA9B42BED44E97A47F_GLZ_1_BA7ADD42C71C4DCEBC46 |
+,2556DD4AB3174345A6F2,2556DD4AB3174345A6F2_GLZ_0_ADFAE253CC764A6ABB06 |
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Adaptive Comfort Summary
+FOR:,Entire Facility
+Time Not Meeting the Adaptive Comfort Models during Occupied Hours
+
+,,ASHRAE55 90% Acceptability Limits [Hours],ASHRAE55 80% Acceptability Limits  [Hours],CEN15251 Category I Acceptability Limits [Hours],CEN15251 Category II Acceptability Limits [Hours],CEN15251 Category III Acceptability Limits [Hours]
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Initialization Summary
+FOR:,Entire Facility
+Version
+
+,,Version ID
+,           1,=9.3.0
+
+
+Timesteps per Hour
+
+,,#TimeSteps,Minutes per TimeStep {minutes}
+,           1,2,30
+
+
+System Convergence Limits
+
+,,Minimum System TimeStep {minutes},Max HVAC Iterations,Minimum Plant Iterations,Maximum Plant Iterations
+,           1,1,20,2,8
+
+
+Simulation Control
+
+,,Do Zone Sizing,Do System Sizing,Do Plant Sizing,Do Design Days,Do Weather Simulation,Do HVAC Sizing Simulation
+,           1,Yes,Yes,Yes,No,Yes,No
+
+
+Performance Precision Tradeoffs
+
+,,Use Coil Direct Simulation,Zone Radiant Exchange Algorithm,Override Mode,Number of Timestep In Hour,Force Euler Method,Minimum Number of Warmup Days,Force Suppress All Begin Environment Resets,MaxZoneTempDiff
+,           1,No,ScriptF,Normal,2,No,1,No,0.300
+
+
+Output Reporting Tolerances
+
+,,Tolerance for Time Heating Setpoint Not Met,Tolerance for Zone Cooling Setpoint Not Met Time
+,           1,0.200,0.200
+
+
+Site:GroundTemperature:BuildingSurface
+
+,,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+,           1,18.00,18.00,18.00,18.00,18.00,18.00,18.00,18.00,18.00,18.00,18.00,18.00
+
+
+Site:GroundTemperature:FCfactorMethod
+
+,,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+,           1,3.56,2.63,4.27,6.83,13.51,18.68,22.16,23.22,21.41,17.40,12.05,7.08
+
+
+Site:GroundTemperature:Shallow
+
+,,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+,           1,13.00,13.00,13.00,13.00,13.00,13.00,13.00,13.00,13.00,13.00,13.00,13.00
+
+
+Site:GroundTemperature:Deep
+
+,,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+,           1,16.00,16.00,16.00,16.00,16.00,16.00,16.00,16.00,16.00,16.00,16.00,16.00
+
+
+Site:GroundReflectance
+
+,,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+,           1,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.20
+
+
+Site:GroundReflectance:SnowModifier
+
+,,Normal,Daylighting {dimensionless}
+,           1,1.000,1.000
+
+
+Site:GroundReflectance:Snow
+
+,,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+,           1,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.20
+
+
+Site:GroundReflectance:Snow:Daylighting
+
+,,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+,           1,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.20,0.20
+
+
+Environment:Weather Station
+
+,,Wind Sensor Height Above Ground {m},Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Sensor Height Above Ground {m},Wind Speed Modifier Coefficient-Internal,Temperature Modifier Coefficient-Internal
+,           1,10.000,0.140,270.000,1.500,1.586,9.750E-003
+
+
+Site:Location
+
+,,Location Name,Latitude {N+/S- Deg},Longitude {E+/W- Deg},Time Zone Number {GMT+/-},Elevation {m},Standard Pressure at Elevation {Pa},Standard RhoAir at Elevation
+,           1,Bologna-Borgo Panigale - ITA IGDG WMO#=161400,44.53,11.30,1.00,49.00,100738,1.1973
+
+
+Site Water Mains Temperature Information
+
+,,Calculation Method{},Water Mains Temperature Schedule Name{},Annual Average Outdoor Air Temperature{C},Maximum Difference In Monthly Average Outdoor Air Temperatures{deltaC},Fixed Default Water Mains Temperature{C}
+,           1,FixedDefault,NA,NA,NA,10.0
+
+
+Building Information
+
+,,Building Name,North Axis {deg},Terrain,Loads Convergence Tolerance Value,Temperature Convergence Tolerance Value,Solar Distribution,Maximum Number of Warmup Days,Minimum Number of Warmup Days
+,           1,BIMtoBEM_SampleBuilding.idf,175.000,Suburbs,4.00000E-002,0.40000,FullExterior,25,6
+
+
+Inside Convection Algorithm
+
+,,Algorithm {Simple
+,,TARP
+,,CeilingDiffuser
+,,AdaptiveConvectionAlgorithm}
+,           1,TARP
+
+
+Outside Convection Algorithm
+
+,,Algorithm {SimpleCombined
+,,TARP
+,,MoWitt
+,,DOE-2
+,,AdaptiveConvectionAlgorithm}
+,           1,DOE-2
+
+
+Sky Radiance Distribution
+
+,,Value {Anisotropic}
+,           1,Anisotropic
+
+
+Zone Air Solution Algorithm
+
+,,Value {ThirdOrderBackwardDifference
+,,AnalyticalSolution
+,,EulerMethod}
+,           1,ThirdOrderBackwardDifference
+
+
+Zone Air Carbon Dioxide Balance Simulation
+
+,,Simulation {Yes/No},Carbon Dioxide Concentration
+,           1,No,N/A
+
+
+Zone Air Generic Contaminant Balance Simulation
+
+,,Simulation {Yes/No},Generic Contaminant Concentration
+,           1,No,N/A
+
+
+Zone Air Mass Flow Balance Simulation
+
+,,Enforce Mass Balance,Adjust Zone Mixing,Adjust Zone Infiltration {AddInfiltration,Infiltration Zones {MixingSourceZonesOnly
+,,,,AdjustInfiltration,AllZones}
+,,,,None},
+,           1,No,N/A,N/A,N/A
+
+
+HVACSystemRootFindingAlgorithm
+
+,,Value {RegulaFalsi
+,,Bisection
+,,BisectionThenRegulaFalsi
+,,RegulaFalsiThenBisection}
+,           1,RegulaFalsi
+
+
+Environment:Site Atmospheric Variation
+
+,,Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Gradient Coefficient {K/m}
+,           1,0.220,370.000,6.500000E-003
+
+
+Surface Geometry
+
+,,Starting Corner,Vertex Input Direction,Coordinate System,Daylight Reference Point Coordinate System,Rectangular (Simple) Surface Coordinate System
+,           1,LowerLeftCorner,Counterclockwise,RelativeCoordinateSystem,RelativeCoordinateSystem,RelativeToZoneOrigin
+
+
+Surface Heat Transfer Algorithm
+
+,,Value {CTF - ConductionTransferFunction,Inside Surface Max Temperature Limit{C},Surface Convection Coefficient Lower Limit {W/m2-K},Surface Convection Coefficient Upper Limit {W/m2-K}
+,,EMPD - MoisturePenetrationDepthConductionTransferFunction,,,
+,,CondFD - ConductionFiniteDifference,,,
+,,HAMT - CombinedHeatAndMoistureFiniteElement} - Description,,,
+,           1,CTF - ConductionTransferFunction,200,0.10,1000.0
+
+
+Shading Summary
+
+,,Number of Fixed Detached Shades,Number of Building Detached Shades,Number of Attached Shades
+,           1,0,0,0
+
+
+Zone Summary
+
+,,Number of Zones,Number of Zone Surfaces,Number of SubSurfaces
+,           1,8,153,79
+
+
+Zone Information
+
+,,Zone Name,North Axis {deg},Origin X-Coordinate {m},Origin Y-Coordinate {m},Origin Z-Coordinate {m},Centroid X-Coordinate {m},Centroid Y-Coordinate {m},Centroid Z-Coordinate {m},Type,Zone Multiplier,Zone List Multiplier,Minimum X {m},Maximum X {m},Minimum Y {m},Maximum Y {m},Minimum Z {m},Maximum Z {m},Ceiling Height {m},Volume {m3},Zone Inside Convection Algorithm {Simple-Detailed-CeilingDiffuser-TrombeWall},Zone Outside Convection Algorithm {Simple-Detailed-Tarp-MoWitt-DOE-2-BLAST},Floor Area {m2},Exterior Gross Wall Area {m2},Exterior Net Wall Area {m2},Exterior Window Area {m2},Number of Surfaces,Number of SubSurfaces,Number of Shading SubSurfaces,Part of Total Building Area
+,           1,ZN_OFFICES_A1,0.0,0.00,0.00,0.00,30.67,-9.12,11.72,1,1,1,21.90,39.43,-24.57,6.32,9.26,14.18,4.92,2191.86,TARP,DOE-2,445.50,439.85,369.35,70.49,7,15,0,Yes
+,           2,ZN_OFFICES_A2,0.0,0.00,0.00,0.00,51.78,14.31,11.72,1,1,1,31.72,67.70,5.91,23.47,9.26,14.18,4.92,1976.27,TARP,DOE-2,401.68,494.95,411.20,83.75,17,13,0,Yes
+,           3,ZN_CIRCULATION_A,0.0,0.00,0.00,0.00,26.35,12.68,11.72,1,1,1,20.64,32.06,5.02,20.35,9.26,14.18,4.92,727.67,TARP,DOE-2,147.90,243.05,228.93,14.12,7,4,0,Yes
+,           4,ZN_OFFICES_B1,0.0,0.00,0.00,0.00,30.67,-9.12,16.68,1,1,1,21.90,39.43,-24.57,6.32,14.18,19.18,5.00,2227.50,TARP,DOE-2,445.50,447.00,368.77,78.23,6,13,0,Yes
+,           5,ZN_CLASSROOM_A,0.0,0.00,0.00,0.00,36.34,15.51,11.72,1,1,1,30.80,41.88,9.79,21.24,9.26,14.18,4.92,531.95,TARP,DOE-2,108.12,204.67,174.68,29.99,6,4,0,Yes
+,           6,ZN_CIRCULATION_B,0.0,0.00,0.00,0.00,29.23,11.64,16.68,1,1,1,20.64,42.20,5.02,20.35,14.18,19.18,5.00,930.30,TARP,DOE-2,186.06,349.00,305.31,43.69,18,10,0,Yes
+,           7,ZN_OFFICE_B2,0.0,0.00,0.00,0.00,54.33,15.28,16.68,1,1,1,40.96,67.70,7.09,23.47,14.18,19.18,5.00,3324.72,TARP,DOE-2,363.52,398.00,324.47,73.53,7,14,0,Yes
+,           8,ZN_CLASSROOM_B,0.0,0.00,0.00,0.00,36.34,15.51,16.68,1,1,1,30.80,41.88,9.79,21.24,14.18,19.18,5.00,540.60,TARP,DOE-2,108.12,208.00,173.26,34.74,6,6,0,Yes
+
+
+Zone Internal Gains Nominal
+
+,,Zone Name,Floor Area {m2},# Occupants,Area per Occupant {m2/person},Occupant per Area {person/m2},Interior Lighting {W/m2},Electric Load {W/m2},Gas Load {W/m2},Other Load {W/m2},Hot Water Eq {W/m2},Steam Equipment {W/m2},Sum Loads per Area {W/m2},Outdoor Controlled Baseboard Heat
+,           1,ZN_OFFICES_A1,445.50,100.2,4.444,0.225,10.000,3.580,0.000,0.000,0.000,0.000,13.580,No
+,           2,ZN_OFFICES_A2,401.68,122.9,3.268,0.306,10.000,3.772,0.000,0.000,0.000,0.000,13.772,No
+,           3,ZN_CIRCULATION_A,147.90,74.0,2.000,0.500,7.470,0.000,0.000,0.000,0.000,0.000,7.470,No
+,           4,ZN_OFFICES_B1,445.50,92.7,4.808,0.208,10.000,3.956,0.000,0.000,0.000,0.000,13.956,No
+,           5,ZN_CLASSROOM_A,108.12,154.3,0.701,1.427,10.000,1.000,0.000,0.000,0.000,0.000,11.000,No
+,           6,ZN_CIRCULATION_B,186.06,93.0,2.000,0.500,7.960,0.000,0.000,0.000,0.000,0.000,7.960,No
+,           7,ZN_OFFICE_B2,363.52,79.6,4.566,0.219,10.000,3.578,0.000,0.000,0.000,0.000,13.578,No
+,           8,ZN_CLASSROOM_B,108.12,136.1,0.794,1.259,10.000,1.000,0.000,0.000,0.000,0.000,11.000,No
+
+
+People Internal Gains Nominal
+
+,,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Number of People {},People/Floor Area {person/m2},Floor Area per person {m2/person},Fraction Radiant,Fraction Convected,Sensible Fraction Calculation,Activity level,ASHRAE 55 Warnings,Carbon Dioxide Generation Rate,Nominal Minimum Number of People,Nominal Maximum Number of People
+,           1,ZN_OFFICES_A2OFFICEPEOPLE,SCHSCH-OCC_ADMINISTRATIONOFFICES_EP,ZN_OFFICES_A2,401.68,122.9,122.9,0.306,3.268,0.300,0.700,AutoCalculate,MEDIUM OFFICE ACTIVITY,No,3.8200E-008,0,123
+,           2,ZN_CIRCULATION_AOFFICEPEOPLE,SCHSCH-OCC_COMMONCIRCULATION_EP,ZN_CIRCULATION_A,147.90,74.0,74.0,0.500,2.000,0.300,0.700,AutoCalculate,MEDIUM OFFICE ACTIVITY,No,3.8200E-008,0,74
+,           3,ZN_OFFICES_A1OFFICEPEOPLE,SCHSCH-OCC_RESEARCHOFFICES_EP,ZN_OFFICES_A1,445.50,100.2,100.2,0.225,4.444,0.300,0.700,AutoCalculate,MEDIUM OFFICE ACTIVITY,No,3.8200E-008,0,99
+,           4,ZN_CLASSROOM_BOFFICEPEOPLE,SCHSCH-OCC_AULA3_6_EP,ZN_CLASSROOM_B,108.12,136.1,136.1,1.259,0.794,0.300,0.700,AutoCalculate,MEDIUM OFFICE ACTIVITY,No,3.8200E-008,0,136
+,           5,ZN_OFFICES_B1OFFICEPEOPLE,SCHSCH-OCC_RESEARCHOFFICES_EP,ZN_OFFICES_B1,445.50,92.7,92.7,0.208,4.808,0.300,0.700,AutoCalculate,MEDIUM OFFICE ACTIVITY,No,3.8200E-008,0,92
+,           6,ZN_CIRCULATION_BOFFICEPEOPLE,SCHSCH-OCC_COMMONCIRCULATION_EP,ZN_CIRCULATION_B,186.06,93.0,93.0,0.500,2.000,0.300,0.700,AutoCalculate,MEDIUM OFFICE ACTIVITY,No,3.8200E-008,0,93
+,           7,ZN_CLASSROOM_AOFFICEPEOPLE,SCHSCH-OCC_AULA2_8_EP,ZN_CLASSROOM_A,108.12,154.3,154.3,1.427,0.701,0.300,0.700,AutoCalculate,MEDIUM OFFICE ACTIVITY,No,3.8200E-008,0,154
+,           8,ZN_OFFICE_B2OFFICEPEOPLE,SCHSCH-OCC_RESEARCHOFFICES_EP,ZN_OFFICE_B2,363.52,79.6,79.6,0.219,4.566,0.300,0.700,AutoCalculate,MEDIUM OFFICE ACTIVITY,No,3.8200E-008,0,79
+
+
+Lights Internal Gains Nominal
+
+,,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Lighting Level {W},Lights/Floor Area {W/m2},Lights per person {W/person},Fraction Return Air,Fraction Radiant,Fraction Short Wave,Fraction Convected,Fraction Replaceable,End-Use Category,Nominal Minimum Lighting Level {W},Nominal Maximum Lighting Level {W}
+,           1,ZN_OFFICES_A2OFFICELIGHTS,SCHSCH-LIGHT_ON_ADMINISTRATIONOFFICEOCCUPANCY_EP,ZN_OFFICES_A2,401.68,122.9,4016.800,10.000,32.680,0.000,0.000,0.000,1.000,1.000,General,0.000,4016.800
+,           2,ZN_CIRCULATION_AOFFICELIGHTS,SCHSCH-LIGHT_ON_8-20_EP,ZN_CIRCULATION_A,147.90,74.0,1104.813,7.470,14.940,0.000,0.000,0.000,1.000,1.000,General,0.000,1104.813
+,           3,ZN_OFFICES_A1OFFICELIGHTS,SCHSCH-LIGHT_ON_RESEARCHOFFICEOCCUPANCY_EP,ZN_OFFICES_A1,445.50,100.2,4455.000,10.000,44.444,0.000,0.000,0.000,1.000,1.000,General,0.000,4455.000
+,           4,ZN_CLASSROOM_BOFFICELIGHTS,SCHSCH-LIGHT_ON_8-20_EP,ZN_CLASSROOM_B,108.12,136.1,1081.200,10.000,7.943,0.000,0.000,0.000,1.000,1.000,General,0.000,1081.200
+,           5,ZN_OFFICES_B1OFFICELIGHTS,SCHSCH-LIGHT_ON_RESEARCHOFFICEOCCUPANCY_EP,ZN_OFFICES_B1,445.50,92.7,4455.000,10.000,48.077,0.000,0.000,0.000,1.000,1.000,General,0.000,4455.000
+,           6,ZN_CIRCULATION_BOFFICELIGHTS,SCHSCH-LIGHT_ON_8-20_EP,ZN_CIRCULATION_B,186.06,93.0,1481.038,7.960,15.920,0.000,0.000,0.000,1.000,1.000,General,0.000,1481.038
+,           7,ZN_CLASSROOM_AOFFICELIGHTS,SCHSCH-LIGHT_ON_8-20_EP,ZN_CLASSROOM_A,108.12,154.3,1081.200,10.000,7.008,0.000,0.000,0.000,1.000,1.000,General,0.000,1081.200
+,           8,ZN_OFFICE_B2OFFICELIGHTS,SCHSCH-LIGHT_ON_RESEARCHOFFICEOCCUPANCY_EP,ZN_OFFICE_B2,363.52,79.6,3635.200,10.000,45.662,0.000,0.000,0.000,1.000,1.000,General,0.000,3635.200
+
+
+ElectricEquipment Internal Gains Nominal
+
+,,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Equipment Level {W},Equipment/Floor Area {W/m2},Equipment per person {W/person},Fraction Latent,Fraction Radiant,Fraction Lost,Fraction Convected,End-Use SubCategory,Nominal Minimum Equipment Level {W},Nominal Maximum Equipment Level {W}
+,           1,ZN_OFFICES_A2ELECTRICEQUIPMENT,SCHSCH-OCC_ADMINISTRATIONOFFICES_EP,ZN_OFFICES_A2,401.68,122.9,1515.137,3.772,12.327,0.000,0.000,0.000,1.000,ElectricEquipment,0.000,1515.137
+,           2,ZN_CIRCULATION_AELECTRICEQUIPMENT,SCHSCH-OCC_COMMONCIRCULATION_EP,ZN_CIRCULATION_A,147.90,74.0,0.000,0.000,0.000,0.000,0.000,0.000,1.000,ElectricEquipment,0.000,0.000
+,           3,ZN_OFFICES_A1ELECTRICEQUIPMENT,SCHSCH-OCC_RESEARCHOFFICES_EP,ZN_OFFICES_A1,445.50,100.2,1594.890,3.580,15.911,0.000,0.000,0.000,1.000,ElectricEquipment,0.000,1582.131
+,           4,ZN_CLASSROOM_BELECTRICEQUIPMENT,SCHSCH-OCC_AULA3_6_EP,ZN_CLASSROOM_B,108.12,136.1,108.120,1.000,0.794,0.000,0.000,0.000,1.000,ElectricEquipment,0.000,108.120
+,           5,ZN_OFFICES_B1ELECTRICEQUIPMENT,SCHSCH-OCC_RESEARCHOFFICES_EP,ZN_OFFICES_B1,445.50,92.7,1762.398,3.956,19.019,0.000,0.000,0.000,1.000,ElectricEquipment,0.000,1748.299
+,           6,ZN_CIRCULATION_BELECTRICEQUIPMENT,SCHSCH-OCC_COMMONCIRCULATION_EP,ZN_CIRCULATION_B,186.06,93.0,0.000,0.000,0.000,0.000,0.000,0.000,1.000,ElectricEquipment,0.000,0.000
+,           7,ZN_CLASSROOM_AELECTRICEQUIPMENT,SCHSCH-OCC_AULA2_8_EP,ZN_CLASSROOM_A,108.12,154.3,108.120,1.000,0.701,0.000,0.000,0.000,1.000,ElectricEquipment,0.000,108.120
+,           8,ZN_OFFICE_B2ELECTRICEQUIPMENT,SCHSCH-OCC_RESEARCHOFFICES_EP,ZN_OFFICE_B2,363.52,79.6,1300.675,3.578,16.338,0.000,0.000,0.000,1.000,ElectricEquipment,0.000,1290.269
+
+
+Shadowing/Sun Position Calculations Annual Simulations
+
+,,Shading Calculation Method,Shading Calculation Update Frequency Method,Shading Calculation Update Frequency {days},Maximum Figures in Shadow Overlap Calculations {},Polygon Clipping Algorithm,Pixel Counting Resolution,Sky Diffuse Modeling Algorithm,Output External Shading Calculation Results,Disable Self-Shading Within Shading Zone Groups,Disable Self-Shading From Shading Zone Groups to Other Zones
+,           1,PolygonClipping,Periodic,30,3000,SutherlandHodgman,512,SimpleSkyDiffuseModeling,No,No,No
+
+
+Surface Convection Parameters
+
+,,Surface Name,Outside Model Assignment,Outside Area [m2],Outside Perimeter [m],Outside Height [m],Inside Model Assignment,Inside Height [m],Inside Perimeter Envelope [m],Inside Hydraulic Diameter [m],Window Wall Ratio,Window Location,Near Radiant {Yes/No},Has Active HVAC {Yes/No}
+,           1,F51DD5409C1B453D8AA0,0,706.30,191.01,19.18,0,4.92,89.40,18.40,0.16,4,No,No
+,           2,41A4D89B8E6C488B8BF3,0,632.96,162.92,19.18,0,4.92,89.40,18.40,0.16,4,No,No
+,           3,41A4D89B8E6C488B8BF3_GLZ_0_EB24A6CBFEA64A0DAE78,0,632.96,162.92,19.18,0,4.92,89.40,18.40,0.16,1,No,No
+,           4,41A4D89B8E6C488B8BF3_GLZ_1_00AC299CA16647E9AFB9,0,632.96,162.92,19.18,0,4.92,89.40,18.40,0.16,1,No,No
+,           5,41A4D89B8E6C488B8BF3_GLZ_2_2DC176D21E9748619973,0,632.96,162.92,19.18,0,4.92,89.40,18.40,0.16,1,No,No
+,           6,41A4D89B8E6C488B8BF3_GLZ_3_A7E1A91E5F0649A69FA3,0,632.96,162.92,19.18,0,4.92,89.40,18.40,0.16,1,No,No
+,           7,41A4D89B8E6C488B8BF3_GLZ_4_0BE7D50570CA4C2C8A7A,0,632.96,162.92,19.18,0,4.92,89.40,18.40,0.16,1,No,No
+,           8,41A4D89B8E6C488B8BF3_GLZ_5_6C09B27BFD0A454795C2,0,632.96,162.92,19.18,0,4.92,89.40,18.40,0.16,1,No,No
+,           9,41A4D89B8E6C488B8BF3_GLZ_6_FE1ADA1856144019AD85,0,632.96,162.92,19.18,0,4.92,89.40,18.40,0.16,1,No,No
+,          10,F923F8AB59EF499DA223,0,738.96,202.89,19.18,0,4.92,89.40,18.40,0.16,4,No,No
+,          11,F923F8AB59EF499DA223_GLZ_0_A6A600D2EAEF49D39F65,0,738.96,202.89,19.18,0,4.92,89.40,18.40,0.16,1,No,No
+,          12,F923F8AB59EF499DA223_GLZ_1_5FC72F362169414D9BF7,0,738.96,202.89,19.18,0,4.92,89.40,18.40,0.16,1,No,No
+,          13,F923F8AB59EF499DA223_GLZ_2_4C8E9329667B440B8A18,0,738.96,202.89,19.18,0,4.92,89.40,18.40,0.16,1,No,No
+,          14,F923F8AB59EF499DA223_GLZ_3_716DBBC1759045CBA0FE,0,738.96,202.89,19.18,0,4.92,89.40,18.40,0.16,1,No,No
+,          15,F923F8AB59EF499DA223_GLZ_4_0E5CE3FFCFFD42D99F77,0,738.96,202.89,19.18,0,4.92,89.40,18.40,0.16,1,No,No
+,          16,F923F8AB59EF499DA223_GLZ_5_ECBC21C4B7E846DB8ADE,0,738.96,202.89,19.18,0,4.92,89.40,18.40,0.16,1,No,No
+,          17,5EF1D2C7DD9A4DEB92EB,0,706.30,179.33,19.18,0,4.92,89.40,18.40,0.16,4,No,No
+,          18,5EF1D2C7DD9A4DEB92EB_GLZ_0_A603C37500F048989641,0,706.30,179.33,19.18,0,4.92,89.40,18.40,0.16,1,No,No
+,          19,B42E6DBEE0544F25A70C,0,706.30,179.33,19.18,0,4.92,89.40,18.40,0.16,4,No,No
+,          20,B42E6DBEE0544F25A70C_GLZ_0_739D2CD4C1E8498683ED,0,706.30,179.33,19.18,0,4.92,89.40,18.40,0.16,1,No,No
+,          21,7FE440AE6DCC4C2391F5,0,0.00,0.00,0.00,0,4.92,89.40,18.40,0.16,0,No,No
+,          22,A862FAD5A96048DC90F8,0,2206.40,136.91,5.00,0,4.92,89.40,18.40,0.16,0,No,No
+,          23,521F828AE27C42288986,0,706.30,179.33,19.18,0,4.92,100.60,15.00,0.17,4,No,No
+,          24,521F828AE27C42288986_GLZ_0_31581FF95BF04FCFAC35,0,706.30,179.33,19.18,0,4.92,100.60,15.00,0.17,1,No,No
+,          25,521F828AE27C42288986_GLZ_1_DDAE2A5C2FAD4B228351,0,706.30,179.33,19.18,0,4.92,100.60,15.00,0.17,1,No,No
+,          26,521F828AE27C42288986_GLZ_2_7B07E9E521974450AD08,0,706.30,179.33,19.18,0,4.92,100.60,15.00,0.17,1,No,No
+,          27,361C779BCA6443D78AA5,0,738.96,202.89,19.18,0,4.92,100.60,15.00,0.17,3,No,No
+,          28,361C779BCA6443D78AA5_GLZ_0_CE392C54730A44799E1F,0,738.96,202.89,19.18,0,4.92,100.60,15.00,0.17,2,No,No
+,          29,361C779BCA6443D78AA5_GLZ_1_7260AF8180C549E6BE2F,0,738.96,202.89,19.18,0,4.92,100.60,15.00,0.17,2,No,No
+,          30,38A7B119719042B3948C,0,706.30,191.01,19.18,0,4.92,100.60,15.00,0.17,4,No,No
+,          31,38A7B119719042B3948C_GLZ_0_8243945B2F8C41B995E2,0,706.30,191.01,19.18,0,4.92,100.60,15.00,0.17,1,No,No
+,          32,38A7B119719042B3948C_GLZ_1_D72CB13DDFA44D158B08,0,706.30,191.01,19.18,0,4.92,100.60,15.00,0.17,1,No,No
+,          33,38A7B119719042B3948C_GLZ_2_FA5C58FB953A4BE186E9,0,706.30,191.01,19.18,0,4.92,100.60,15.00,0.17,1,No,No
+,          34,38A7B119719042B3948C_GLZ_3_0A408117803441A18A4F,0,706.30,191.01,19.18,0,4.92,100.60,15.00,0.17,1,No,No
+,          35,38A7B119719042B3948C_GLZ_4_DB11C95B03564F488C6F,0,706.30,191.01,19.18,0,4.92,100.60,15.00,0.17,1,No,No
+,          36,38A7B119719042B3948C_GLZ_5_9ED0DAD409C84E44AB7D,0,706.30,191.01,19.18,0,4.92,100.60,15.00,0.17,1,No,No
+,          37,7B0E447D1A4A4B178044,0,738.96,202.89,19.18,0,4.92,100.60,15.00,0.17,3,No,No
+,          38,2E3EE2646E6F48BE8F2D,0,706.30,191.01,19.18,0,4.92,100.60,15.00,0.17,4,No,No
+,          39,2E3EE2646E6F48BE8F2D_GLZ_0_87F1FC4DFC6A4C679B82,0,706.30,191.01,19.18,0,4.92,100.60,15.00,0.17,1,No,No
+,          40,DE0BCB123278449E8E4C,0,632.96,162.92,19.18,0,4.92,100.60,15.00,0.17,4,No,No
+,          41,DE0BCB123278449E8E4C_GLZ_0_0D10AA6A408B4876BFE6,0,632.96,162.92,19.18,0,4.92,100.60,15.00,0.17,1,No,No
+,          42,B495C5B346DB4B149AA3,0,706.30,179.33,19.18,0,4.92,100.60,15.00,0.17,3,No,No
+,          43,20E1F8653FD24732BB88,0,632.96,162.92,19.18,0,4.92,100.60,15.00,0.17,4,No,No
+,          44,024BC196B59F40FDA528,0,0.00,0.00,0.00,0,4.92,100.60,15.00,0.17,0,No,No
+,          45,F0130D68DC4F4427A0EF,0,0.00,0.00,0.00,0,4.92,100.60,15.00,0.17,0,No,No
+,          46,947D0530439D4F968774,0,0.00,0.00,0.00,0,4.92,100.60,15.00,0.17,0,No,No
+,          47,EE3884F395E54E4C9D85,0,0.00,0.00,0.00,0,4.92,100.60,15.00,0.17,0,No,No
+,          48,C9C5CDA1ADA54700B1FD,0,0.00,0.00,0.00,0,4.92,100.60,15.00,0.17,0,No,No
+,          49,D87D7BD56DAA4C32BCC6,0,2206.40,136.91,5.00,0,4.92,100.60,15.00,0.17,0,No,No
+,          50,168183CA899F405EBA84,0,2206.40,136.91,5.00,0,4.92,100.60,15.00,0.17,0,No,No
+,          51,3D50605C012740DCBF8F,0,2206.40,136.91,5.00,0,4.92,100.60,15.00,0.17,0,No,No
+,          52,197E352D649845D1A9F6,0,2206.40,136.91,5.00,0,4.92,100.60,15.00,0.17,0,No,No
+,          53,A02E8C89BDE64642975E,0,632.96,162.92,19.18,0,4.92,49.40,11.05,5.81E-002,4,No,No
+,          54,242671140CD64993B510,0,706.30,179.33,19.18,0,4.92,49.40,11.05,5.81E-002,4,No,No
+,          55,6D5A857488524A608869,0,706.30,191.01,19.18,0,4.92,49.40,11.05,5.81E-002,4,No,No
+,          56,6D5A857488524A608869_GLZ_0_C59E3512059B4DFA8B23,0,706.30,191.01,19.18,0,4.92,49.40,11.05,5.81E-002,1,No,No
+,          57,F5A62A8D64224440A19F,0,738.96,202.89,19.18,0,4.92,49.40,11.05,5.81E-002,4,No,No
+,          58,F5A62A8D64224440A19F_GLZ_0_2971AF1C9A30493E8FE9,0,738.96,202.89,19.18,0,4.92,49.40,11.05,5.81E-002,1,No,No
+,          59,F5A62A8D64224440A19F_GLZ_1_5A5FF55421E045648983,0,738.96,202.89,19.18,0,4.92,49.40,11.05,5.81E-002,1,No,No
+,          60,AC40808EDC144B2AA87F,0,738.96,202.89,19.18,0,4.92,49.40,11.05,5.81E-002,4,No,No
+,          61,AC40808EDC144B2AA87F_GLZ_0_CEF8CD173E9543F79B42,0,738.96,202.89,19.18,0,4.92,49.40,11.05,5.81E-002,1,No,No
+,          62,D470328E56064D10BC13,0,0.00,0.00,0.00,0,4.92,49.40,11.05,5.81E-002,0,No,No
+,          63,BB768ABAABB84ABE840F,0,2206.40,136.91,5.00,0,4.92,49.40,11.05,5.81E-002,0,No,No
+,          64,8DC3072A253F42DCB090,0,706.30,191.01,19.18,0,5.00,89.40,18.40,0.18,3,No,No
+,          65,8DC3072A253F42DCB090_GLZ_0_0B23AB19C5804B90A388,0,706.30,191.01,19.18,0,5.00,89.40,18.40,0.18,2,No,No
+,          66,8DC3072A253F42DCB090_GLZ_1_897A0206846D4980ACA5,0,706.30,191.01,19.18,0,5.00,89.40,18.40,0.18,2,No,No
+,          67,350374417CBC49F4B820,0,632.96,162.92,19.18,0,5.00,89.40,18.40,0.18,4,No,No
+,          68,350374417CBC49F4B820_GLZ_0_18C65E3F79FF447F8C67,0,632.96,162.92,19.18,0,5.00,89.40,18.40,0.18,1,No,No
+,          69,350374417CBC49F4B820_GLZ_1_490B25E26C5B4E5ABE3F,0,632.96,162.92,19.18,0,5.00,89.40,18.40,0.18,1,No,No
+,          70,350374417CBC49F4B820_GLZ_2_9154DBE19D6C4C468962,0,632.96,162.92,19.18,0,5.00,89.40,18.40,0.18,1,No,No
+,          71,350374417CBC49F4B820_GLZ_3_2E0480DF90BE483BB8A0,0,632.96,162.92,19.18,0,5.00,89.40,18.40,0.18,1,No,No
+,          72,350374417CBC49F4B820_GLZ_4_2114E115782749EB9B43,0,632.96,162.92,19.18,0,5.00,89.40,18.40,0.18,1,No,No
+,          73,E45127E7BC7A4E54A851,0,738.96,202.89,19.18,0,5.00,89.40,18.40,0.18,4,No,No
+,          74,E45127E7BC7A4E54A851_GLZ_0_AA56A9BA2EFA4C0AA615,0,738.96,202.89,19.18,0,5.00,89.40,18.40,0.18,1,No,No
+,          75,E45127E7BC7A4E54A851_GLZ_1_71D34BB505BA4E7BA869,0,738.96,202.89,19.18,0,5.00,89.40,18.40,0.18,1,No,No
+,          76,E45127E7BC7A4E54A851_GLZ_2_29EBE44768AB4929904D,0,738.96,202.89,19.18,0,5.00,89.40,18.40,0.18,1,No,No
+,          77,E45127E7BC7A4E54A851_GLZ_3_A620B8B08DC14702BDDA,0,738.96,202.89,19.18,0,5.00,89.40,18.40,0.18,1,No,No
+,          78,E45127E7BC7A4E54A851_GLZ_4_B11B608CD1014FCABA73,0,738.96,202.89,19.18,0,5.00,89.40,18.40,0.18,1,No,No
+,          79,56E7877310DE4CFAAF58,0,706.30,179.33,19.18,0,5.00,89.40,18.40,0.18,4,No,No
+,          80,56E7877310DE4CFAAF58_GLZ_0_70759A733EFA420580ED,0,706.30,179.33,19.18,0,5.00,89.40,18.40,0.18,1,No,No
+,          81,71ACEF592AF44B61A136,0,445.50,89.40,0.00,0,5.00,89.40,18.40,0.18,0,No,No
+,          82,7982E32B53D941A1AF5A,0,2206.40,136.91,5.00,0,5.00,89.40,18.40,0.18,0,No,No
+,          83,632F8990F03E4715B1CB,0,706.30,179.33,19.18,0,4.92,41.60,9.60,0.15,4,No,No
+,          84,632F8990F03E4715B1CB_GLZ_0_5FA8866F5EB748B2B2BB,0,706.30,179.33,19.18,0,4.92,41.60,9.60,0.15,1,No,No
+,          85,632F8990F03E4715B1CB_GLZ_1_58B3D1F1F0CA4F1F8555,0,706.30,179.33,19.18,0,4.92,41.60,9.60,0.15,1,No,No
+,          86,E5BE9C599FAD45DB9657,0,706.30,191.01,19.18,0,4.92,41.60,9.60,0.15,3,No,No
+,          87,E98B779774974E5FBE32,0,632.96,162.92,19.18,0,4.92,41.60,9.60,0.15,4,No,No
+,          88,E98B779774974E5FBE32_GLZ_0_1F7F2F8BB2A94E36B401,0,632.96,162.92,19.18,0,4.92,41.60,9.60,0.15,1,No,No
+,          89,E98B779774974E5FBE32_GLZ_1_56C21F299DE04FADAAA2,0,632.96,162.92,19.18,0,4.92,41.60,9.60,0.15,1,No,No
+,          90,7F6E9184B0634ED4A688,0,738.96,202.89,19.18,0,4.92,41.60,9.60,0.15,4,No,No
+,          91,9EF9DE5BFEFE44F1B12B,0,0.00,0.00,0.00,0,4.92,41.60,9.60,0.15,0,No,No
+,          92,A79531C198E8497186F2,0,2206.40,136.91,5.00,0,4.92,41.60,9.60,0.15,0,No,No
+,          93,F95BAF0C20F744E0B1BE,0,632.96,162.92,19.18,0,5.00,69.80,10.09,0.13,3,No,No
+,          94,6F2803BF69284DA8A21A,0,738.96,202.89,19.18,0,5.00,69.80,10.09,0.13,3,No,No
+,          95,D751A8497F044E7FB344,0,706.30,191.01,19.18,0,5.00,69.80,10.09,0.13,4,No,No
+,          96,D751A8497F044E7FB344_GLZ_0_2354DCCEE84141CC8588,0,706.30,191.01,19.18,0,5.00,69.80,10.09,0.13,1,No,No
+,          97,41FCD143713B4F3E9302,0,706.30,179.33,19.18,0,5.00,69.80,10.09,0.13,4,No,No
+,          98,41FCD143713B4F3E9302_GLZ_0_B86F20CE071347B091AE,0,706.30,179.33,19.18,0,5.00,69.80,10.09,0.13,1,No,No
+,          99,41FCD143713B4F3E9302_GLZ_1_8F0765B2AFBA4FEA974A,0,706.30,179.33,19.18,0,5.00,69.80,10.09,0.13,1,No,No
+,         100,41FCD143713B4F3E9302_GLZ_2_19FF56DAC88B4F8D8298,0,706.30,179.33,19.18,0,5.00,69.80,10.09,0.13,1,No,No
+,         101,41FCD143713B4F3E9302_GLZ_3_3B696E9575CB4A38BFB7,0,706.30,179.33,19.18,0,5.00,69.80,10.09,0.13,1,No,No
+,         102,A1A928E4BB6C495F993E,0,706.30,191.01,19.18,0,5.00,69.80,10.09,0.13,4,No,No
+,         103,A1A928E4BB6C495F993E_GLZ_0_B71E5A5CDD40473F9FED,0,706.30,191.01,19.18,0,5.00,69.80,10.09,0.13,1,No,No
+,         104,CA215ACA62A24FA8A107,0,738.96,202.89,19.18,0,5.00,69.80,10.09,0.13,4,No,No
+,         105,CA215ACA62A24FA8A107_GLZ_0_38F50A01CDCC411FA182,0,738.96,202.89,19.18,0,5.00,69.80,10.09,0.13,1,No,No
+,         106,BB0144D80141484A9093,0,706.30,179.33,19.18,0,5.00,69.80,10.09,0.13,4,No,No
+,         107,BB0144D80141484A9093_GLZ_0_89540E70687543B8BA78,0,706.30,179.33,19.18,0,5.00,69.80,10.09,0.13,1,No,No
+,         108,0345C2B5A83043678708,0,738.96,202.89,19.18,0,5.00,69.80,10.09,0.13,4,No,No
+,         109,0345C2B5A83043678708_GLZ_0_E445234AB002477AB516,0,738.96,202.89,19.18,0,5.00,69.80,10.09,0.13,1,No,No
+,         110,0345C2B5A83043678708_GLZ_1_DB2B34194E8F421DA871,0,738.96,202.89,19.18,0,5.00,69.80,10.09,0.13,1,No,No
+,         111,D6A837D9CE3C486BAF22,0,147.90,49.40,0.00,0,5.00,69.80,10.09,0.13,0,No,No
+,         112,3B0147B5E0F04788B8D3,0,17.28,16.80,0.00,0,5.00,69.80,10.09,0.13,0,No,No
+,         113,6E00F7D4AFF84F63ABD3,0,19.44,18.00,0.00,0,5.00,69.80,10.09,0.13,0,No,No
+,         114,3C9AE62FC178493EB8D0,0,1.44,10.20,0.00,0,5.00,69.80,10.09,0.13,0,No,No
+,         115,7438195B65FA4078A087,0,2206.40,136.91,5.00,0,5.00,69.80,10.09,0.13,0,No,No
+,         116,F6A912A93BEB4C81BE5A,0,2206.40,136.91,5.00,0,5.00,69.80,10.09,0.13,0,No,No
+,         117,F574EECBD7C34DF69A2B,0,2206.40,136.91,5.00,0,5.00,69.80,10.09,0.13,0,No,No
+,         118,716BE68D7BE34A62A280,0,2206.40,136.91,5.00,0,5.00,69.80,10.09,0.13,0,No,No
+,         119,C656F086F31646BBBD80,0,2206.40,136.91,5.00,0,5.00,69.80,10.09,0.13,0,No,No
+,         120,788EA371878B43EA84AB,0,2206.40,136.91,5.00,0,5.00,69.80,10.09,0.13,0,No,No
+,         121,482D3CFD63AF4894B27D,0,706.30,191.01,19.18,0,5.00,79.60,16.86,0.18,4,No,No
+,         122,482D3CFD63AF4894B27D_GLZ_0_DB7E6C49D37C41438854,0,706.30,191.01,19.18,0,5.00,79.60,16.86,0.18,1,No,No
+,         123,482D3CFD63AF4894B27D_GLZ_1_E64157A8A4A34A499FF5,0,706.30,191.01,19.18,0,5.00,79.60,16.86,0.18,1,No,No
+,         124,482D3CFD63AF4894B27D_GLZ_2_5DB68117ABC34EE6B49F,0,706.30,191.01,19.18,0,5.00,79.60,16.86,0.18,1,No,No
+,         125,482D3CFD63AF4894B27D_GLZ_3_24C1007A4DF44088B775,0,706.30,191.01,19.18,0,5.00,79.60,16.86,0.18,1,No,No
+,         126,482D3CFD63AF4894B27D_GLZ_4_425F6CFC29AA44919542,0,706.30,191.01,19.18,0,5.00,79.60,16.86,0.18,1,No,No
+,         127,04BCB60D23F747C2A1E3,0,706.30,179.33,19.18,0,5.00,79.60,16.86,0.18,4,No,No
+,         128,04BCB60D23F747C2A1E3_GLZ_0_857B53A6C18B42A8B4AD,0,706.30,179.33,19.18,0,5.00,79.60,16.86,0.18,1,No,No
+,         129,04BCB60D23F747C2A1E3_GLZ_1_035E71D0E45544F69C99,0,706.30,179.33,19.18,0,5.00,79.60,16.86,0.18,1,No,No
+,         130,04BCB60D23F747C2A1E3_GLZ_2_0FD28876A27B4A7DB93F,0,706.30,179.33,19.18,0,5.00,79.60,16.86,0.18,1,No,No
+,         131,04BCB60D23F747C2A1E3_GLZ_3_108EC090C9894E0197D7,0,706.30,179.33,19.18,0,5.00,79.60,16.86,0.18,1,No,No
+,         132,04BCB60D23F747C2A1E3_GLZ_4_E73515C030F745D3AF0D,0,706.30,179.33,19.18,0,5.00,79.60,16.86,0.18,1,No,No
+,         133,2EB5ABED9D3647ABAC5B,0,738.96,202.89,19.18,0,5.00,79.60,16.86,0.18,3,No,No
+,         134,2EB5ABED9D3647ABAC5B_GLZ_0_A2ED6C660182408EA65A,0,738.96,202.89,19.18,0,5.00,79.60,16.86,0.18,2,No,No
+,         135,2EB5ABED9D3647ABAC5B_GLZ_1_B7568F3EED9B4EF493EC,0,738.96,202.89,19.18,0,5.00,79.60,16.86,0.18,2,No,No
+,         136,2BB8AA66B94A43F4AD5E,0,632.96,162.92,19.18,0,5.00,79.60,16.86,0.18,4,No,No
+,         137,2BB8AA66B94A43F4AD5E_GLZ_0_7C8A75558E1A421EA116,0,632.96,162.92,19.18,0,5.00,79.60,16.86,0.18,1,No,No
+,         138,C9E20B129CE94C92BBF7,0,738.96,202.89,19.18,0,5.00,79.60,16.86,0.18,4,No,No
+,         139,C9E20B129CE94C92BBF7_GLZ_0_A4E4C170068643038BFE,0,738.96,202.89,19.18,0,5.00,79.60,16.86,0.18,1,No,No
+,         140,107E3D67CCFF4D948112,0,363.52,79.60,0.00,0,5.00,79.60,16.86,0.18,0,No,No
+,         141,B61A1DFE51564DABBF96,0,2206.40,136.91,5.00,0,5.00,79.60,16.86,0.18,0,No,No
+,         142,DB02BCC751A34469AFCA,0,706.30,179.33,19.18,0,5.00,41.60,9.60,0.17,4,No,No
+,         143,DB02BCC751A34469AFCA_GLZ_0_58387148432E4FD88F4D,0,706.30,179.33,19.18,0,5.00,41.60,9.60,0.17,1,No,No
+,         144,DB02BCC751A34469AFCA_GLZ_1_1F7E4C4050A14A13BA07,0,706.30,179.33,19.18,0,5.00,41.60,9.60,0.17,1,No,No
+,         145,6AF7646EA8214021B459,0,706.30,191.01,19.18,0,5.00,41.60,9.60,0.17,4,No,No
+,         146,6AF7646EA8214021B459_GLZ_0_B68C4F882FC14BB7A214,0,706.30,191.01,19.18,0,5.00,41.60,9.60,0.17,1,No,No
+,         147,51EA9B42BED44E97A47F,0,632.96,162.92,19.18,0,5.00,41.60,9.60,0.17,4,No,No
+,         148,51EA9B42BED44E97A47F_GLZ_0_BF0F47AECC3F4F1493A6,0,632.96,162.92,19.18,0,5.00,41.60,9.60,0.17,1,No,No
+,         149,51EA9B42BED44E97A47F_GLZ_1_BA7ADD42C71C4DCEBC46,0,632.96,162.92,19.18,0,5.00,41.60,9.60,0.17,1,No,No
+,         150,2556DD4AB3174345A6F2,0,738.96,202.89,19.18,0,5.00,41.60,9.60,0.17,4,No,No
+,         151,2556DD4AB3174345A6F2_GLZ_0_ADFAE253CC764A6ABB06,0,738.96,202.89,19.18,0,5.00,41.60,9.60,0.17,1,No,No
+,         152,8A74D5B8F47A476D98E4,0,108.12,41.60,0.00,0,5.00,41.60,9.60,0.17,0,No,No
+,         153,596085A49A3545C8B937,0,2206.40,136.91,5.00,0,5.00,41.60,9.60,0.17,0,No,No
+
+
+ZoneInfiltration Airflow Stats Nominal
+
+,,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Design Volume Flow Rate {m3/s},Volume Flow Rate/Floor Area {m3/s-m2},Volume Flow Rate/Exterior Surface Area {m3/s-m2},ACH - Air Changes per Hour,Equation A - Constant Term Coefficient {},Equation B - Temperature Term Coefficient {1/C},Equation C - Velocity Term Coefficient {s/m},Equation D - Velocity Squared Term Coefficient {s2/m2}
+,           1,ZN_OFFICES_A2_INFILTRATION,MEDIUM OFFICE INFIL QUARTER ON,ZN_OFFICES_A2,401.68,122.9,0.538,1.339E-003,6.000E-004,0.980,1.000,0.000,0.000,0.000
+,           2,ZN_CIRCULATION_A_INFILTRATION,MEDIUM OFFICE INFIL QUARTER ON,ZN_CIRCULATION_A,147.90,74.0,0.235,1.586E-003,6.000E-004,1.160,1.000,0.000,0.000,0.000
+,           3,ZN_OFFICES_A1_INFILTRATION,MEDIUM OFFICE INFIL QUARTER ON,ZN_OFFICES_A1,445.50,100.2,0.531,1.192E-003,6.000E-004,0.872,1.000,0.000,0.000,0.000
+,           4,ZN_CLASSROOM_B_INFILTRATION,MEDIUM OFFICE INFIL QUARTER ON,ZN_CLASSROOM_B,108.12,136.1,0.255,2.354E-003,6.000E-004,1.695,1.000,0.000,0.000,0.000
+,           5,ZN_OFFICES_B1_INFILTRATION,MEDIUM OFFICE INFIL QUARTER ON,ZN_OFFICES_B1,445.50,92.7,0.803,1.802E-003,6.000E-004,1.297,1.000,0.000,0.000,0.000
+,           6,ZN_CIRCULATION_B_INFILTRATION,MEDIUM OFFICE INFIL QUARTER ON,ZN_CIRCULATION_B,186.06,93.0,0.433,2.325E-003,6.000E-004,1.674,1.000,0.000,0.000,0.000
+,           7,ZN_CLASSROOM_A_INFILTRATION,MEDIUM OFFICE INFIL QUARTER ON,ZN_CLASSROOM_A,108.12,154.3,0.188,1.736E-003,6.000E-004,1.270,1.000,0.000,0.000,0.000
+,           8,ZN_OFFICE_B2_INFILTRATION,MEDIUM OFFICE INFIL QUARTER ON,ZN_OFFICE_B2,363.52,79.6,0.675,1.857E-003,6.000E-004,0.731,1.000,0.000,0.000,0.000
+
+
+AirFlow Model
+
+,,Simple
+,           1,Simple
+
+
+RoomAir Model
+
+,,Zone Name,Mixing/Mundt/UCSDDV/UCSDCV/UCSDUFI/UCSDUFE/User Defined
+,           1,ZN_OFFICES_A1,Mixing/Well-Stirred
+,           2,ZN_OFFICES_A2,Mixing/Well-Stirred
+,           3,ZN_CIRCULATION_A,Mixing/Well-Stirred
+,           4,ZN_OFFICES_B1,Mixing/Well-Stirred
+,           5,ZN_CLASSROOM_A,Mixing/Well-Stirred
+,           6,ZN_CIRCULATION_B,Mixing/Well-Stirred
+,           7,ZN_OFFICE_B2,Mixing/Well-Stirred
+,           8,ZN_CLASSROOM_B,Mixing/Well-Stirred
+
+
+AirflowNetwork Model:Control
+
+,,No Multizone or Distribution/Multizone with Distribution/Multizone without Distribution/Multizone with Distribution only during Fan Operation
+,           1,NoMultizoneOrDistribution
+
+
+Zone Volume Capacitance Multiplier
+
+,,Sensible Heat Capacity Multiplier,Moisture Capacity Multiplier,Carbon Dioxide Capacity Multiplier,Generic Contaminant Capacity Multiplier
+,           1,1.000,1.000,1.000,1.000
+
+
+Load Timesteps in Zone Design Calculation Averaging Window
+
+,,Value
+,           1,2
+
+
+Heating Sizing Factor Information
+
+,,Sizing Factor ID,Value
+,           1,Global,1.0000
+
+
+Cooling Sizing Factor Information
+
+,,Sizing Factor ID,Value
+,           1,Global,1.0000
+
+
+Zone Sizing Information
+
+,,Zone Name,Load Type,Calc Des Load {W},User Des Load {W},Calc Des Air Flow Rate {m3/s},User Des Air Flow Rate {m3/s},Design Day Name,Date/Time of Peak,Temperature at Peak {C},Humidity Ratio at Peak {kgWater/kgDryAir},Floor Area {m2},# Occupants,Calc Outdoor Air Flow Rate {m3/s},Calc DOAS Heat Addition Rate {W}
+,           1,ZN_OFFICES_A1,Cooling,16132.89188,16132.89188,1.01620,1.01620,BOLOGNA-BORGO PANIGALE ANN CLG .4% CONDNS DB=>MWB,7/21 17:00:00,32.54600,1.33811E-002,445.50000,100.23750,0.70166,0.00000
+,           2,ZN_OFFICES_A1,Heating,0.00000,0.00000,0.00000,0.70166,BOLOGNA-BORGO PANIGALE ANN HTG 99.6% CONDNS DB,,-4.80000,2.53360E-003,445.50000,100.23750,0.70166,0.00000
+,           3,ZN_OFFICES_A2,Cooling,17779.18308,17779.18308,1.12057,1.12057,BOLOGNA-BORGO PANIGALE ANN CLG .4% CONDNS DB=>MWB,7/21 13:00:00,33.54500,1.33828E-002,401.67998,122.91407,0.86040,0.00000
+,           4,ZN_OFFICES_A2,Heating,0.00000,0.00000,0.00000,0.86040,BOLOGNA-BORGO PANIGALE ANN HTG 99.6% CONDNS DB,,-4.80000,2.53360E-003,401.67998,122.91407,0.86040,0.00000
+,           5,ZN_OFFICES_B1,Cooling,29308.21447,29308.21447,1.84575,1.84575,BOLOGNA-BORGO PANIGALE ANN CLG .4% CONDNS DB=>MWB,7/21 11:00:00,31.54700,1.33793E-002,445.50000,92.66400,0.64865,0.00000
+,           6,ZN_OFFICES_B1,Heating,11749.26653,11749.26653,0.24049,0.64865,BOLOGNA-BORGO PANIGALE ANN HTG 99.6% CONDNS DB,1/21 06:00:00,-4.80000,2.53360E-003,445.50000,92.66400,0.64865,0.00000
+,           7,ZN_CLASSROOM_A,Cooling,0.00000,0.00000,0.00000,1.08001,BOLOGNA-BORGO PANIGALE ANN CLG .4% CONDNS DB=>MWB,,34.10000,1.33838E-002,108.11998,154.28721,1.08001,0.00000
+,           8,ZN_CLASSROOM_A,Heating,0.00000,0.00000,0.00000,1.08001,BOLOGNA-BORGO PANIGALE ANN HTG 99.6% CONDNS DB,,-4.80000,2.53360E-003,108.11998,154.28721,1.08001,0.00000
+,           9,ZN_OFFICE_B2,Cooling,24146.01540,24146.01540,1.52053,1.52053,BOLOGNA-BORGO PANIGALE ANN CLG .4% CONDNS DB=>MWB,7/21 11:00:00,31.54700,1.33793E-002,363.51999,79.61088,0.55728,0.00000
+,          10,ZN_OFFICE_B2,Heating,9893.73014,9893.73014,0.20253,0.55728,BOLOGNA-BORGO PANIGALE ANN HTG 99.6% CONDNS DB,1/21 06:00:00,-4.80000,2.53360E-003,363.51999,79.61088,0.55728,0.00000
+,          11,ZN_CLASSROOM_B,Cooling,0.00000,0.00000,0.00000,0.95286,BOLOGNA-BORGO PANIGALE ANN CLG .4% CONDNS DB=>MWB,,34.10000,1.33838E-002,108.11998,136.12305,0.95286,0.00000
+,          12,ZN_CLASSROOM_B,Heating,3798.36700,3798.36700,7.77673E-002,0.95286,BOLOGNA-BORGO PANIGALE ANN HTG 99.6% CONDNS DB,1/21 22:00:00,-4.80000,2.53360E-003,108.11998,136.12305,0.95286,0.00000
+
+
+Component Sizing Information
+
+,,Component Type,Component Name,Input Field Description,Value
+,           1,ZoneHVAC:IdealLoadsAirSystem,ZN_OFFICES_A1 IDEAL LOADS AIR SYSTEM,User-Specified Maximum Heating Air Flow Rate [m3/s],0.00000
+,           2,ZoneHVAC:IdealLoadsAirSystem,ZN_OFFICES_A1 IDEAL LOADS AIR SYSTEM,Design Size Maximum Cooling Air Flow Rate [m3/s],1.01620
+,           3,ZoneHVAC:IdealLoadsAirSystem,ZN_OFFICES_A2 IDEAL LOADS AIR SYSTEM,User-Specified Maximum Heating Air Flow Rate [m3/s],0.00000
+,           4,ZoneHVAC:IdealLoadsAirSystem,ZN_OFFICES_A2 IDEAL LOADS AIR SYSTEM,Design Size Maximum Cooling Air Flow Rate [m3/s],1.12057
+,           5,ZoneHVAC:IdealLoadsAirSystem,ZN_OFFICES_B1 IDEAL LOADS AIR SYSTEM,User-Specified Maximum Heating Air Flow Rate [m3/s],0.00000
+,           6,ZoneHVAC:IdealLoadsAirSystem,ZN_OFFICES_B1 IDEAL LOADS AIR SYSTEM,Design Size Maximum Cooling Air Flow Rate [m3/s],1.84575
+,           7,ZoneHVAC:IdealLoadsAirSystem,ZN_CLASSROOM_A IDEAL LOADS AIR SYSTEM,User-Specified Maximum Heating Air Flow Rate [m3/s],0.00000
+,           8,ZoneHVAC:IdealLoadsAirSystem,ZN_CLASSROOM_A IDEAL LOADS AIR SYSTEM,Design Size Maximum Cooling Air Flow Rate [m3/s],1.08001
+,           9,ZoneHVAC:IdealLoadsAirSystem,ZN_OFFICE_B2 IDEAL LOADS AIR SYSTEM,User-Specified Maximum Heating Air Flow Rate [m3/s],0.00000
+,          10,ZoneHVAC:IdealLoadsAirSystem,ZN_OFFICE_B2 IDEAL LOADS AIR SYSTEM,Design Size Maximum Cooling Air Flow Rate [m3/s],1.52053
+,          11,ZoneHVAC:IdealLoadsAirSystem,ZN_CLASSROOM_B IDEAL LOADS AIR SYSTEM,User-Specified Maximum Heating Air Flow Rate [m3/s],0.00000
+,          12,ZoneHVAC:IdealLoadsAirSystem,ZN_CLASSROOM_B IDEAL LOADS AIR SYSTEM,Design Size Maximum Cooling Air Flow Rate [m3/s],0.95286
+
+
+Zone Surfaces
+
+,,Zone Name,# Surfaces
+,           1,ZN_OFFICES_A1,22
+,           2,ZN_OFFICES_A2,30
+,           3,ZN_CIRCULATION_A,11
+,           4,ZN_OFFICES_B1,19
+,           5,ZN_CLASSROOM_A,10
+,           6,ZN_CIRCULATION_B,28
+,           7,ZN_OFFICE_B2,21
+,           8,ZN_CLASSROOM_B,12
+
+
+HeatTransfer Surface
+
+,,Surface Name,Surface Class,Base Surface,Heat Transfer Algorithm,Construction,Nominal U (w/o film coefs) {W/m2-K},Nominal U (with film coefs) {W/m2-K},Solar Diffusing,Area (Net) {m2},Area (Gross) {m2},Area (Sunlit Calc) {m2},Azimuth {deg},Tilt {deg},~Width {m},~Height {m},Reveal {m},ExtBoundCondition,ExtConvCoeffCalc,IntConvCoeffCalc,SunExposure,WindExposure,ViewFactorToGround,ViewFactorToSky,ViewFactorToGround-IR,ViewFactorToSky-IR,#Sides
+,           1,F51DD5409C1B453D8AA0,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,73.80,73.80,73.80,175.00,90.00,15.00,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,           2,41A4D89B8E6C488B8BF3,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,113.78,146.12,113.78,265.00,90.00,29.70,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,           3,41A4D89B8E6C488B8BF3_GLZ_0_EB24A6CBFEA64A0DAE78,Window,41A4D89B8E6C488B8BF3,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-8,N/A,2.803,No,5.39,5.39,5.39,265.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,           4,41A4D89B8E6C488B8BF3_GLZ_1_00AC299CA16647E9AFB9,Window,41A4D89B8E6C488B8BF3,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-9,N/A,2.803,No,5.39,5.39,5.39,265.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,           5,41A4D89B8E6C488B8BF3_GLZ_2_2DC176D21E9748619973,Window,41A4D89B8E6C488B8BF3,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-10,N/A,2.803,No,5.39,5.39,5.39,265.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,           6,41A4D89B8E6C488B8BF3_GLZ_3_A7E1A91E5F0649A69FA3,Window,41A4D89B8E6C488B8BF3,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-11,N/A,2.803,No,5.39,5.39,5.39,265.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,           7,41A4D89B8E6C488B8BF3_GLZ_4_0BE7D50570CA4C2C8A7A,Window,41A4D89B8E6C488B8BF3,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-12,N/A,2.803,No,5.39,5.39,5.39,265.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,           8,41A4D89B8E6C488B8BF3_GLZ_5_6C09B27BFD0A454795C2,Window,41A4D89B8E6C488B8BF3,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-33,N/A,2.803,No,2.70,2.70,2.70,265.00,90.00,0.99,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,           9,41A4D89B8E6C488B8BF3_GLZ_6_FE1ADA1856144019AD85,Window,41A4D89B8E6C488B8BF3,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-34,N/A,2.803,No,2.70,2.70,2.70,265.00,90.00,0.99,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          10,F923F8AB59EF499DA223,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,113.78,146.12,113.78,85.00,90.00,29.70,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.58,0.42,4
+,          11,F923F8AB59EF499DA223_GLZ_0_A6A600D2EAEF49D39F65,Window,F923F8AB59EF499DA223,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-0,N/A,4.899,No,5.39,5.39,5.39,85.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.71,0.29,4
+,          12,F923F8AB59EF499DA223_GLZ_1_5FC72F362169414D9BF7,Window,F923F8AB59EF499DA223,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-3,N/A,4.899,No,5.39,5.39,5.39,85.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.62,0.38,4
+,          13,F923F8AB59EF499DA223_GLZ_2_4C8E9329667B440B8A18,Window,F923F8AB59EF499DA223,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-4,N/A,4.899,No,5.39,5.39,5.39,85.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.59,0.41,4
+,          14,F923F8AB59EF499DA223_GLZ_3_716DBBC1759045CBA0FE,Window,F923F8AB59EF499DA223,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-5,N/A,4.899,No,5.39,5.39,5.39,85.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.55,0.45,4
+,          15,F923F8AB59EF499DA223_GLZ_4_0E5CE3FFCFFD42D99F77,Window,F923F8AB59EF499DA223,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-6,N/A,4.899,No,5.39,5.39,5.39,85.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.54,0.46,4
+,          16,F923F8AB59EF499DA223_GLZ_5_ECBC21C4B7E846DB8ADE,Window,F923F8AB59EF499DA223,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-7,N/A,4.899,No,5.39,5.39,5.39,85.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.52,0.48,4
+,          17,5EF1D2C7DD9A4DEB92EB,Wall,,CTF - ConductionTransferFunction,_INT_AREATEDBRICKWALL_17(1),1.538,1.250,,21.87,23.62,21.87,355.00,90.00,4.80,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,1.00,4.69E-004,4
+,          18,5EF1D2C7DD9A4DEB92EB_GLZ_0_A603C37500F048989641,Window,5EF1D2C7DD9A4DEB92EB,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-1,N/A,4.999,No,1.75,1.75,1.75,355.00,90.00,0.84,2.08,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,1.00,1.27E-003,4
+,          19,B42E6DBEE0544F25A70C,Wall,,CTF - ConductionTransferFunction,_INT_BRICKWALL_46,0.562,0.518,,46.13,50.18,46.13,355.00,90.00,10.20,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.89,0.11,4
+,          20,B42E6DBEE0544F25A70C_GLZ_0_739D2CD4C1E8498683ED,Window,B42E6DBEE0544F25A70C,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-0,N/A,4.999,No,4.06,4.06,4.06,355.00,90.00,1.78,2.28,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.89,0.11,4
+,          21,7FE440AE6DCC4C2391F5,Floor,,CTF - ConductionTransferFunction,NDFLOOR,2.979,1.728,,445.50,445.50,445.50,265.00,180.00,29.70,15.00,0.00,Ground,N/A-Ground,ASHRAETARP,SunExposed,WindExposed,1.00,0.00,1.00,0.00,4
+,          22,A862FAD5A96048DC90F8,Roof,,CTF - ConductionTransferFunction,STIMIP_52,1.355,1.079,,445.50,445.50,445.50,355.00,0.00,15.00,29.70,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.00,1.00,6.99E-002,0.93,4
+,          23,521F828AE27C42288986,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,109.78,125.95,109.78,355.00,90.00,25.60,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          24,521F828AE27C42288986_GLZ_0_31581FF95BF04FCFAC35,Window,521F828AE27C42288986,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-19,N/A,2.803,No,5.39,5.39,5.39,355.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          25,521F828AE27C42288986_GLZ_1_DDAE2A5C2FAD4B228351,Window,521F828AE27C42288986,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-20,N/A,2.803,No,5.39,5.39,5.39,355.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          26,521F828AE27C42288986_GLZ_2_7B07E9E521974450AD08,Window,521F828AE27C42288986,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-21,N/A,2.803,No,5.39,5.39,5.39,355.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          27,361C779BCA6443D78AA5,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,49.60,69.86,49.60,85.00,90.00,14.20,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          28,361C779BCA6443D78AA5_GLZ_0_CE392C54730A44799E1F,Window,361C779BCA6443D78AA5,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-22,N/A,5.689,No,10.13,10.13,10.13,85.00,90.00,4.36,2.33,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          29,361C779BCA6443D78AA5_GLZ_1_7260AF8180C549E6BE2F,Window,361C779BCA6443D78AA5,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-23,N/A,5.689,No,10.13,10.13,10.13,85.00,90.00,4.36,2.33,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          30,38A7B119719042B3948C,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,111.01,152.52,111.01,175.00,90.00,31.00,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.58,0.42,4
+,          31,38A7B119719042B3948C_GLZ_0_8243945B2F8C41B995E2,Window,38A7B119719042B3948C,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-1,N/A,2.803,No,9.97,9.97,9.97,175.00,90.00,3.66,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.69,0.31,4
+,          32,38A7B119719042B3948C_GLZ_1_D72CB13DDFA44D158B08,Window,38A7B119719042B3948C,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-17,N/A,2.803,No,5.39,5.39,5.39,175.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.62,0.38,4
+,          33,38A7B119719042B3948C_GLZ_2_FA5C58FB953A4BE186E9,Window,38A7B119719042B3948C,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-24,N/A,2.803,No,5.39,5.39,5.39,175.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.55,0.45,4
+,          34,38A7B119719042B3948C_GLZ_3_0A408117803441A18A4F,Window,38A7B119719042B3948C,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-25,N/A,2.803,No,5.39,5.39,5.39,175.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.57,0.43,4
+,          35,38A7B119719042B3948C_GLZ_4_DB11C95B03564F488C6F,Window,38A7B119719042B3948C,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-48,N/A,2.803,No,9.97,9.97,9.97,175.00,90.00,3.66,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.53,0.47,4
+,          36,38A7B119719042B3948C_GLZ_5_9ED0DAD409C84E44AB7D,Window,38A7B119719042B3948C,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-49,N/A,2.803,No,5.39,5.39,5.39,175.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.53,0.47,4
+,          37,7B0E447D1A4A4B178044,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,1.48,1.48,1.48,85.00,90.00,0.30,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.74,0.26,4
+,          38,2E3EE2646E6F48BE8F2D,Wall,,CTF - ConductionTransferFunction,_INT_AREATEDBRICKWALL_17(1),1.538,1.250,,21.87,23.62,21.87,175.00,90.00,4.80,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.85,0.15,4
+,          39,2E3EE2646E6F48BE8F2D_GLZ_0_87F1FC4DFC6A4C679B82,Window,2E3EE2646E6F48BE8F2D,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-1,N/A,4.999,No,1.75,1.75,1.75,175.00,90.00,0.84,2.08,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.74,0.26,4
+,          40,DE0BCB123278449E8E4C,Wall,,CTF - ConductionTransferFunction,_INT_BRICKWALL_46,0.562,0.518,,15.13,19.19,15.13,265.00,90.00,3.90,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.94,6.14E-002,4
+,          41,DE0BCB123278449E8E4C_GLZ_0_0D10AA6A408B4876BFE6,Window,DE0BCB123278449E8E4C,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-2,N/A,4.999,No,4.06,4.06,4.06,265.00,90.00,1.78,2.28,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.89,0.11,4
+,          42,B495C5B346DB4B149AA3,Wall,,CTF - ConductionTransferFunction,_INT_BRICKWALL_46,0.562,0.518,,50.18,50.18,50.18,355.00,90.00,10.20,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.95,5.00E-002,4
+,          43,20E1F8653FD24732BB88,Wall,,CTF - ConductionTransferFunction,_INT_BRICKWALL_46,0.562,0.518,,52.15,52.15,52.15,265.00,90.00,10.60,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.93,7.08E-002,4
+,          44,024BC196B59F40FDA528,Floor,,CTF - ConductionTransferFunction,NDFLOOR,2.979,1.728,,92.16,92.16,92.16,265.00,180.00,3.60,25.60,0.00,Ground,N/A-Ground,ASHRAETARP,SunExposed,WindExposed,1.00,0.00,1.00,0.00,4
+,          45,F0130D68DC4F4427A0EF,Floor,,CTF - ConductionTransferFunction,NDFLOOR,2.979,1.728,,1.44,1.44,1.44,265.00,180.00,0.30,4.80,0.00,Ground,N/A-Ground,ASHRAETARP,SunExposed,WindExposed,1.00,0.00,1.00,0.00,4
+,          46,947D0530439D4F968774,Floor,,CTF - ConductionTransferFunction,NDFLOOR,2.979,1.728,,17.28,17.28,17.28,265.00,180.00,3.60,4.80,0.00,Ground,N/A-Ground,ASHRAETARP,SunExposed,WindExposed,1.00,0.00,1.00,0.00,4
+,          47,EE3884F395E54E4C9D85,Floor,,CTF - ConductionTransferFunction,NDFLOOR,2.979,1.728,,271.36,271.36,271.36,265.00,180.00,10.60,25.60,0.00,Ground,N/A-Ground,ASHRAETARP,SunExposed,WindExposed,1.00,0.00,1.00,0.00,4
+,          48,C9C5CDA1ADA54700B1FD,Floor,,CTF - ConductionTransferFunction,NDFLOOR,2.979,1.728,,19.44,19.44,19.44,265.00,180.00,3.60,5.40,0.00,Ground,N/A-Ground,ASHRAETARP,SunExposed,WindExposed,1.00,0.00,1.00,0.00,4
+,          49,D87D7BD56DAA4C32BCC6,Roof,,CTF - ConductionTransferFunction,STIMIP_52,1.355,1.079,,17.28,17.28,17.28,355.00,0.00,4.80,3.60,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.00,1.00,0.57,0.43,4
+,          50,168183CA899F405EBA84,Roof,,CTF - ConductionTransferFunction,STIMIP_52,1.355,1.079,,19.44,19.44,19.44,355.00,0.00,5.40,3.60,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.00,1.00,0.55,0.45,4
+,          51,3D50605C012740DCBF8F,Roof,,CTF - ConductionTransferFunction,STIMIP_52,1.355,1.079,,1.44,1.44,1.44,355.00,0.00,4.80,0.30,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.00,1.00,0.64,0.36,4
+,          52,197E352D649845D1A9F6,Roof,,CTF - ConductionTransferFunction,STIMIP_52,1.355,1.079,,363.52,363.52,363.52,355.00,0.00,25.60,14.20,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.00,1.00,7.37E-002,0.93,4
+,          53,A02E8C89BDE64642975E,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,71.34,71.34,71.34,265.00,90.00,14.50,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          54,242671140CD64993B510,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,50.18,50.18,50.18,355.00,90.00,10.20,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          55,6D5A857488524A608869,Wall,,CTF - ConductionTransferFunction,_INT_BRICKWALL_46,0.562,0.518,,46.13,50.18,46.13,175.00,90.00,10.20,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.88,0.12,4
+,          56,6D5A857488524A608869_GLZ_0_C59E3512059B4DFA8B23,Window,6D5A857488524A608869,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-0,N/A,4.999,No,4.06,4.06,4.06,175.00,90.00,1.78,2.28,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.84,0.16,4
+,          57,F5A62A8D64224440A19F,Wall,,CTF - ConductionTransferFunction,_INT_BRICKWALL_46,0.562,0.518,,46.15,52.15,46.15,85.00,90.00,10.60,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.93,6.86E-002,4
+,          58,F5A62A8D64224440A19F_GLZ_0_2971AF1C9A30493E8FE9,Window,F5A62A8D64224440A19F,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-3,N/A,4.999,No,3.00,3.00,3.00,85.00,90.00,1.31,2.30,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.95,5.07E-002,4
+,          59,F5A62A8D64224440A19F_GLZ_1_5A5FF55421E045648983,Window,F5A62A8D64224440A19F,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-4,N/A,4.999,No,3.00,3.00,3.00,85.00,90.00,1.31,2.30,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.88,0.12,4
+,          60,AC40808EDC144B2AA87F,Wall,,CTF - ConductionTransferFunction,_INT_BRICKWALL_46,0.562,0.518,,15.13,19.19,15.13,85.00,90.00,3.90,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.98,2.22E-002,4
+,          61,AC40808EDC144B2AA87F_GLZ_0_CEF8CD173E9543F79B42,Window,AC40808EDC144B2AA87F,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-2,N/A,4.999,No,4.06,4.06,4.06,85.00,90.00,1.78,2.28,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.96,4.33E-002,4
+,          62,D470328E56064D10BC13,Floor,,CTF - ConductionTransferFunction,NDFLOOR,2.979,1.728,,147.90,147.90,147.90,265.00,180.00,14.50,10.20,0.00,Ground,N/A-Ground,ASHRAETARP,SunExposed,WindExposed,1.00,0.00,1.00,0.00,4
+,          63,BB768ABAABB84ABE840F,Roof,,CTF - ConductionTransferFunction,STIMIP_52,1.355,1.079,,147.90,147.90,147.90,355.00,0.00,10.20,14.50,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.00,1.00,0.24,0.76,4
+,          64,8DC3072A253F42DCB090,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,54.73,75.00,54.73,175.00,90.00,15.00,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          65,8DC3072A253F42DCB090_GLZ_0_0B23AB19C5804B90A388,Window,8DC3072A253F42DCB090,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-29,N/A,5.689,No,10.13,10.13,10.13,175.00,90.00,4.36,2.33,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          66,8DC3072A253F42DCB090_GLZ_1_897A0206846D4980ACA5,Window,8DC3072A253F42DCB090,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-30,N/A,5.689,No,10.13,10.13,10.13,175.00,90.00,4.36,2.33,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          67,350374417CBC49F4B820,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,121.55,148.50,121.55,265.00,90.00,29.70,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          68,350374417CBC49F4B820_GLZ_0_18C65E3F79FF447F8C67,Window,350374417CBC49F4B820,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-31,N/A,2.803,No,5.39,5.39,5.39,265.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          69,350374417CBC49F4B820_GLZ_1_490B25E26C5B4E5ABE3F,Window,350374417CBC49F4B820,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-32,N/A,2.803,No,5.39,5.39,5.39,265.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          70,350374417CBC49F4B820_GLZ_2_9154DBE19D6C4C468962,Window,350374417CBC49F4B820,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-35,N/A,2.803,No,5.39,5.39,5.39,265.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          71,350374417CBC49F4B820_GLZ_3_2E0480DF90BE483BB8A0,Window,350374417CBC49F4B820,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-36,N/A,2.803,No,5.39,5.39,5.39,265.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          72,350374417CBC49F4B820_GLZ_4_2114E115782749EB9B43,Window,350374417CBC49F4B820,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-37,N/A,2.803,No,5.39,5.39,5.39,265.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          73,E45127E7BC7A4E54A851,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,121.55,148.50,121.55,85.00,90.00,29.70,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.53,0.47,4
+,          74,E45127E7BC7A4E54A851_GLZ_0_AA56A9BA2EFA4C0AA615,Window,E45127E7BC7A4E54A851,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-2,N/A,4.899,No,5.39,5.39,5.39,85.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.65,0.35,4
+,          75,E45127E7BC7A4E54A851_GLZ_1_71D34BB505BA4E7BA869,Window,E45127E7BC7A4E54A851,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-13,N/A,4.899,No,5.39,5.39,5.39,85.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.56,0.44,4
+,          76,E45127E7BC7A4E54A851_GLZ_2_29EBE44768AB4929904D,Window,E45127E7BC7A4E54A851,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-26,N/A,4.899,No,5.39,5.39,5.39,85.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.54,0.46,4
+,          77,E45127E7BC7A4E54A851_GLZ_3_A620B8B08DC14702BDDA,Window,E45127E7BC7A4E54A851,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-27,N/A,4.899,No,5.39,5.39,5.39,85.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.52,0.48,4
+,          78,E45127E7BC7A4E54A851_GLZ_4_B11B608CD1014FCABA73,Window,E45127E7BC7A4E54A851,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-28,N/A,4.899,No,5.39,5.39,5.39,85.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.51,0.49,4
+,          79,56E7877310DE4CFAAF58,Wall,,CTF - ConductionTransferFunction,_INT_BRICKWALL_46,0.562,0.518,,70.94,75.00,70.94,355.00,90.00,15.00,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.60,0.40,4
+,          80,56E7877310DE4CFAAF58_GLZ_0_70759A733EFA420580ED,Window,56E7877310DE4CFAAF58,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-5,N/A,4.999,No,4.06,4.06,4.06,355.00,90.00,1.78,2.28,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.61,0.39,4
+,          81,71ACEF592AF44B61A136,Floor,,CTF - ConductionTransferFunction,STIMIP_52,1.355,1.019,,445.50,445.50,445.50,265.00,180.00,29.70,15.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,1.00,0.00,1.00,0.00,4
+,          82,7982E32B53D941A1AF5A,Roof,,CTF - ConductionTransferFunction,_STIMIP_50,1.410,1.114,,445.50,445.50,445.50,355.00,0.00,15.00,29.70,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.00,1.00,0.00,1.00,4
+,          83,632F8990F03E4715B1CB,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,26.20,50.18,26.20,355.00,90.00,10.20,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          84,632F8990F03E4715B1CB_GLZ_0_5FA8866F5EB748B2B2BB,Window,632F8990F03E4715B1CB,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-15,N/A,2.803,No,11.99,11.99,11.99,355.00,90.00,4.41,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          85,632F8990F03E4715B1CB_GLZ_1_58B3D1F1F0CA4F1F8555,Window,632F8990F03E4715B1CB,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-16,N/A,2.803,No,11.99,11.99,11.99,355.00,90.00,4.41,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          86,E5BE9C599FAD45DB9657,Wall,,CTF - ConductionTransferFunction,_INT_BRICKWALL_46,0.562,0.518,,50.18,50.18,50.18,175.00,90.00,10.20,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.90,0.10,4
+,          87,E98B779774974E5FBE32,Wall,,CTF - ConductionTransferFunction,_INT_BRICKWALL_46,0.562,0.518,,46.15,52.15,46.15,265.00,90.00,10.60,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.87,0.13,4
+,          88,E98B779774974E5FBE32_GLZ_0_1F7F2F8BB2A94E36B401,Window,E98B779774974E5FBE32,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-3,N/A,4.999,No,3.00,3.00,3.00,265.00,90.00,1.31,2.30,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.85,0.15,4
+,          89,E98B779774974E5FBE32_GLZ_1_56C21F299DE04FADAAA2,Window,E98B779774974E5FBE32,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-4,N/A,4.999,No,3.00,3.00,3.00,265.00,90.00,1.31,2.30,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.78,0.22,4
+,          90,7F6E9184B0634ED4A688,Wall,,CTF - ConductionTransferFunction,_INT_BRICKWALL_46,0.562,0.518,,52.15,52.15,52.15,85.00,90.00,10.60,4.92,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.87,0.13,4
+,          91,9EF9DE5BFEFE44F1B12B,Floor,,CTF - ConductionTransferFunction,NDFLOOR,2.979,1.728,,108.12,108.12,108.12,85.00,180.00,10.60,10.20,0.00,Ground,N/A-Ground,ASHRAETARP,SunExposed,WindExposed,1.00,0.00,1.00,0.00,4
+,          92,A79531C198E8497186F2,Roof,,CTF - ConductionTransferFunction,STIMIP_52,1.355,1.079,,108.12,108.12,108.12,355.00,0.00,10.20,10.60,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.00,1.00,0.29,0.71,4
+,          93,F95BAF0C20F744E0B1BE,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,72.50,72.50,72.50,265.00,90.00,14.50,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          94,6F2803BF69284DA8A21A,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,1.50,1.50,1.50,85.00,90.00,0.30,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.73,0.27,4
+,          95,D751A8497F044E7FB344,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,17.03,27.00,17.03,175.00,90.00,5.40,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.61,0.39,4
+,          96,D751A8497F044E7FB344_GLZ_0_2354DCCEE84141CC8588,Window,D751A8497F044E7FB344,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-14,N/A,2.803,No,9.97,9.97,9.97,175.00,90.00,3.66,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.63,0.37,4
+,          97,41FCD143713B4F3E9302,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,33.34,51.00,33.34,355.00,90.00,10.20,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          98,41FCD143713B4F3E9302_GLZ_0_B86F20CE071347B091AE,Window,41FCD143713B4F3E9302,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-53,N/A,0.999,No,6.47,6.47,6.47,355.00,90.00,2.38,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,          99,41FCD143713B4F3E9302_GLZ_1_8F0765B2AFBA4FEA974A,Window,41FCD143713B4F3E9302,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-54,N/A,0.999,No,0.67,0.67,0.67,355.00,90.00,0.25,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         100,41FCD143713B4F3E9302_GLZ_2_19FF56DAC88B4F8D8298,Window,41FCD143713B4F3E9302,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-55,N/A,0.999,No,5.26,5.26,5.26,355.00,90.00,1.93,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         101,41FCD143713B4F3E9302_GLZ_3_3B696E9575CB4A38BFB7,Window,41FCD143713B4F3E9302,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-56,N/A,0.999,No,5.26,5.26,5.26,355.00,90.00,1.93,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         102,A1A928E4BB6C495F993E,Wall,,CTF - ConductionTransferFunction,_INT_BRICKWALL_46,0.562,0.518,,70.94,75.00,70.94,175.00,90.00,15.00,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         103,A1A928E4BB6C495F993E_GLZ_0_B71E5A5CDD40473F9FED,Window,A1A928E4BB6C495F993E,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-5,N/A,4.999,No,4.06,4.06,4.06,175.00,90.00,1.78,2.28,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         104,CA215ACA62A24FA8A107,Wall,,CTF - ConductionTransferFunction,_INT_AREATEDBRICKWALL_17(1),1.538,1.250,,15.00,18.00,15.00,85.00,90.00,3.60,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         105,CA215ACA62A24FA8A107_GLZ_0_38F50A01CDCC411FA182,Window,CA215ACA62A24FA8A107,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-6,N/A,4.999,No,3.00,3.00,3.00,85.00,90.00,1.31,2.30,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         106,BB0144D80141484A9093,Wall,,CTF - ConductionTransferFunction,_INT_BRICKWALL_46,0.562,0.518,,48.00,51.00,48.00,355.00,90.00,10.20,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.57,0.43,4
+,         107,BB0144D80141484A9093_GLZ_0_89540E70687543B8BA78,Window,BB0144D80141484A9093,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-7,N/A,4.999,No,3.00,3.00,3.00,355.00,90.00,1.31,2.30,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.58,0.42,4
+,         108,0345C2B5A83043678708,Wall,,CTF - ConductionTransferFunction,_INT_BRICKWALL_46,0.562,0.518,,47.00,53.00,47.00,85.00,90.00,10.60,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.57,0.43,4
+,         109,0345C2B5A83043678708_GLZ_0_E445234AB002477AB516,Window,0345C2B5A83043678708,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-9,N/A,4.999,No,3.00,3.00,3.00,85.00,90.00,1.31,2.30,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.62,0.38,4
+,         110,0345C2B5A83043678708_GLZ_1_DB2B34194E8F421DA871,Window,0345C2B5A83043678708,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-10,N/A,4.999,No,3.00,3.00,3.00,85.00,90.00,1.31,2.30,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.54,0.46,4
+,         111,D6A837D9CE3C486BAF22,Floor,,CTF - ConductionTransferFunction,STIMIP_52,1.355,1.019,,147.90,147.90,147.90,265.00,180.00,14.50,10.20,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,1.00,0.00,1.00,0.00,4
+,         112,3B0147B5E0F04788B8D3,Floor,,CTF - ConductionTransferFunction,STIMIP_52,1.355,1.019,,17.28,17.28,17.28,265.00,180.00,3.60,4.80,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,1.00,0.00,1.00,0.00,4
+,         113,6E00F7D4AFF84F63ABD3,Floor,,CTF - ConductionTransferFunction,STIMIP_52,1.355,1.019,,19.44,19.44,19.44,265.00,180.00,3.60,5.40,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,1.00,0.00,1.00,0.00,4
+,         114,3C9AE62FC178493EB8D0,Floor,,CTF - ConductionTransferFunction,STIMIP_52,1.355,1.019,,1.44,1.44,1.44,265.00,180.00,0.30,4.80,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,1.00,0.00,1.00,0.00,4
+,         115,7438195B65FA4078A087,Roof,,CTF - ConductionTransferFunction,_STIMIP_50,1.410,1.114,,36.72,36.72,36.72,355.00,0.00,10.20,3.60,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.00,1.00,0.00,1.00,4
+,         116,F6A912A93BEB4C81BE5A,Roof,,CTF - ConductionTransferFunction,_STIMIP_50,1.410,1.114,,3.06,3.06,3.06,355.00,0.00,10.20,0.30,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.00,1.00,0.00,1.00,4
+,         117,F574EECBD7C34DF69A2B,Roof,,CTF - ConductionTransferFunction,_STIMIP_50,1.410,1.114,,108.12,108.12,108.12,355.00,0.00,10.20,10.60,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.00,1.00,0.00,1.00,4
+,         118,716BE68D7BE34A62A280,Roof,,CTF - ConductionTransferFunction,_STIMIP_50,1.410,1.114,,1.44,1.44,1.44,355.00,0.00,4.80,0.30,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.00,1.00,0.00,1.00,4
+,         119,C656F086F31646BBBD80,Roof,,CTF - ConductionTransferFunction,_STIMIP_50,1.410,1.114,,17.28,17.28,17.28,355.00,0.00,4.80,3.60,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.00,1.00,0.00,1.00,4
+,         120,788EA371878B43EA84AB,Roof,,CTF - ConductionTransferFunction,_STIMIP_50,1.410,1.114,,19.44,19.44,19.44,355.00,0.00,5.40,3.60,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.00,1.00,0.00,1.00,4
+,         121,482D3CFD63AF4894B27D,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,101.05,128.00,101.05,175.00,90.00,25.60,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.52,0.48,4
+,         122,482D3CFD63AF4894B27D_GLZ_0_DB7E6C49D37C41438854,Window,482D3CFD63AF4894B27D,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-18,N/A,2.803,No,5.39,5.39,5.39,175.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.56,0.44,4
+,         123,482D3CFD63AF4894B27D_GLZ_1_E64157A8A4A34A499FF5,Window,482D3CFD63AF4894B27D,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-40,N/A,2.803,No,5.39,5.39,5.39,175.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.53,0.47,4
+,         124,482D3CFD63AF4894B27D_GLZ_2_5DB68117ABC34EE6B49F,Window,482D3CFD63AF4894B27D,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-47,N/A,2.803,No,5.39,5.39,5.39,175.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.51,0.49,4
+,         125,482D3CFD63AF4894B27D_GLZ_3_24C1007A4DF44088B775,Window,482D3CFD63AF4894B27D,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-51,N/A,2.803,No,5.39,5.39,5.39,175.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.52,0.48,4
+,         126,482D3CFD63AF4894B27D_GLZ_4_425F6CFC29AA44919542,Window,482D3CFD63AF4894B27D,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-52,N/A,2.803,No,5.39,5.39,5.39,175.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.52,0.48,4
+,         127,04BCB60D23F747C2A1E3,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,106.44,128.00,106.44,355.00,90.00,25.60,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         128,04BCB60D23F747C2A1E3_GLZ_0_857B53A6C18B42A8B4AD,Window,04BCB60D23F747C2A1E3,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-41,N/A,2.803,No,5.39,5.39,5.39,355.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         129,04BCB60D23F747C2A1E3_GLZ_1_035E71D0E45544F69C99,Window,04BCB60D23F747C2A1E3,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-42,N/A,2.803,No,5.39,5.39,5.39,355.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         130,04BCB60D23F747C2A1E3_GLZ_2_0FD28876A27B4A7DB93F,Window,04BCB60D23F747C2A1E3,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-43,N/A,2.803,No,2.70,2.70,2.70,355.00,90.00,0.99,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         131,04BCB60D23F747C2A1E3_GLZ_3_108EC090C9894E0197D7,Window,04BCB60D23F747C2A1E3,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-44,N/A,2.803,No,2.70,2.70,2.70,355.00,90.00,0.99,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         132,04BCB60D23F747C2A1E3_GLZ_4_E73515C030F745D3AF0D,Window,04BCB60D23F747C2A1E3,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-50,N/A,2.803,No,5.39,5.39,5.39,355.00,90.00,1.98,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         133,2EB5ABED9D3647ABAC5B,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,50.73,71.00,50.73,85.00,90.00,14.20,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         134,2EB5ABED9D3647ABAC5B_GLZ_0_A2ED6C660182408EA65A,Window,2EB5ABED9D3647ABAC5B,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-45,N/A,5.689,No,10.13,10.13,10.13,85.00,90.00,4.36,2.33,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         135,2EB5ABED9D3647ABAC5B_GLZ_1_B7568F3EED9B4EF493EC,Window,2EB5ABED9D3647ABAC5B,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-46,N/A,5.689,No,10.13,10.13,10.13,85.00,90.00,4.36,2.33,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         136,2BB8AA66B94A43F4AD5E,Wall,,CTF - ConductionTransferFunction,_INT_AREATEDBRICKWALL_17(1),1.538,1.250,,15.00,18.00,15.00,265.00,90.00,3.60,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.70,0.30,4
+,         137,2BB8AA66B94A43F4AD5E_GLZ_0_7C8A75558E1A421EA116,Window,2BB8AA66B94A43F4AD5E,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-6,N/A,4.999,No,3.00,3.00,3.00,265.00,90.00,1.31,2.30,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.78,0.22,4
+,         138,C9E20B129CE94C92BBF7,Wall,,CTF - ConductionTransferFunction,_INT_BRICKWALL_46,0.562,0.518,,51.25,53.00,51.25,85.00,90.00,10.60,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         139,C9E20B129CE94C92BBF7_GLZ_0_A4E4C170068643038BFE,Window,C9E20B129CE94C92BBF7,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-8,N/A,4.999,No,1.75,1.75,1.75,85.00,90.00,0.84,2.08,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         140,107E3D67CCFF4D948112,Floor,,CTF - ConductionTransferFunction,STIMIP_52,1.355,1.019,,363.52,363.52,363.52,265.00,180.00,14.20,25.60,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,1.00,0.00,1.00,0.00,4
+,         141,B61A1DFE51564DABBF96,Roof,,CTF - ConductionTransferFunction,_STIMIP_50,1.410,1.114,,363.52,363.52,363.52,355.00,0.00,25.60,14.20,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.00,1.00,0.00,1.00,4
+,         142,DB02BCC751A34469AFCA,Wall,,CTF - ConductionTransferFunction,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.643,0.587,,27.01,51.00,27.01,355.00,90.00,10.20,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         143,DB02BCC751A34469AFCA_GLZ_0_58387148432E4FD88F4D,Window,DB02BCC751A34469AFCA,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-38,N/A,2.803,No,11.99,11.99,11.99,355.00,90.00,4.41,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         144,DB02BCC751A34469AFCA_GLZ_1_1F7E4C4050A14A13BA07,Window,DB02BCC751A34469AFCA,Window5 Detailed Fenestration,DTU_WINDOW_MATERIAL_WN-39,N/A,2.803,No,11.99,11.99,11.99,355.00,90.00,4.41,2.72,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         145,6AF7646EA8214021B459,Wall,,CTF - ConductionTransferFunction,_INT_BRICKWALL_46,0.562,0.518,,48.00,51.00,48.00,175.00,90.00,10.20,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.68,0.32,4
+,         146,6AF7646EA8214021B459_GLZ_0_B68C4F882FC14BB7A214,Window,6AF7646EA8214021B459,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-7,N/A,4.999,No,3.00,3.00,3.00,175.00,90.00,1.31,2.30,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.70,0.30,4
+,         147,51EA9B42BED44E97A47F,Wall,,CTF - ConductionTransferFunction,_INT_BRICKWALL_46,0.562,0.518,,47.00,53.00,47.00,265.00,90.00,10.60,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.53,0.47,4
+,         148,51EA9B42BED44E97A47F_GLZ_0_BF0F47AECC3F4F1493A6,Window,51EA9B42BED44E97A47F,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-9,N/A,4.999,No,3.00,3.00,3.00,265.00,90.00,1.31,2.30,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.55,0.45,4
+,         149,51EA9B42BED44E97A47F_GLZ_1_BA7ADD42C71C4DCEBC46,Window,51EA9B42BED44E97A47F,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-10,N/A,4.999,No,3.00,3.00,3.00,265.00,90.00,1.31,2.30,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.52,0.48,4
+,         150,2556DD4AB3174345A6F2,Wall,,CTF - ConductionTransferFunction,_INT_BRICKWALL_46,0.562,0.518,,51.25,53.00,51.25,85.00,90.00,10.60,5.00,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         151,2556DD4AB3174345A6F2_GLZ_0_ADFAE253CC764A6ABB06,Window,2556DD4AB3174345A6F2,Window5 Detailed Fenestration,DTU_DOOR_MATERIAL_DR-8,N/A,4.999,No,1.75,1.75,1.75,85.00,90.00,0.84,2.08,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.50,0.50,0.50,0.50,4
+,         152,8A74D5B8F47A476D98E4,Floor,,CTF - ConductionTransferFunction,STIMIP_52,1.355,1.019,,108.12,108.12,108.12,265.00,180.00,10.60,10.20,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,1.00,0.00,1.00,0.00,4
+,         153,596085A49A3545C8B937,Roof,,CTF - ConductionTransferFunction,_STIMIP_50,1.410,1.114,,108.12,108.12,108.12,355.00,0.00,10.20,10.60,0.00,ExternalEnvironment,DOE-2,ASHRAETARP,SunExposed,WindExposed,0.00,1.00,0.00,1.00,4
+
+
+Environment
+
+,,Environment Name,Environment Type,Start Date,End Date,Start DayOfWeek,Duration {#days},Source:Start DayOfWeek,Use Daylight Saving,Use Holidays,Apply Weekend Holiday Rule,Use Rain Values,Use Snow Values,Sky Temperature Model
+,           1,CUSTOMRUN,WeatherFileRunPeriod,01/01/2007,12/31/2007,Monday,365,Use RunPeriod Specified Day,Yes,Yes,No,Yes,Yes,Clark and Allen
+
+
+Environment:Daylight Saving
+
+,,Daylight Saving Indicator,Source,Start Date,End Date
+,           1,No,,,
+
+
+Environment:WarmupDays
+
+,,NumberofWarmupDays
+,           1,8
+
+
+Warmup Convergence Information
+
+,,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
+,           1,ZN_OFFICES_A1,RunPeriod: CUSTOMRUN,0.1784840259,0.1442439467,Pass,Pass,7.2419785569E-002,6.4552073330E-002,Pass,Pass
+,           2,ZN_OFFICES_A2,RunPeriod: CUSTOMRUN,0.1961789136,0.1608103681,Pass,Pass,7.3823247856E-002,6.3449708240E-002,Pass,Pass
+,           3,ZN_CIRCULATION_A,RunPeriod: CUSTOMRUN,0.1296671248,0.1775229331,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+,           4,ZN_OFFICES_B1,RunPeriod: CUSTOMRUN,0.2047635810,0.1774548835,Pass,Pass,0.2210290635,0.4406436506,Pass,Pass
+,           5,ZN_CLASSROOM_A,RunPeriod: CUSTOMRUN,0.2727622292,0.2465376036,Pass,Pass,0.1981524263,0.2827097780,Pass,Pass
+,           6,ZN_CIRCULATION_B,RunPeriod: CUSTOMRUN,0.1550499669,0.1390292069,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+,           7,ZN_OFFICE_B2,RunPeriod: CUSTOMRUN,0.2029393478,0.1644155358,Pass,Pass,0.1952168888,0.3443187521,Pass,Pass
+,           8,ZN_CLASSROOM_B,RunPeriod: CUSTOMRUN,0.2594918312,0.2830790940,Pass,Pass,0.2463861747,0.4321823638,Pass,Pass
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Annual Heat Emissions Summary
+FOR:,Entire Facility
+Heat Emission by Components
+
+,,Envelope Convection,Zone Exfiltration,Zone Exhaust Air,HVAC Relief Air,HVAC Reject Heat,Total
+,Heat Emissions [GJ],3469.80,392.36,0.00,0.00,0.00,3862.35
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Climatic Data Summary
+FOR:,Entire Facility
+SizingPeriod:DesignDay
+
+,,Maximum Dry Bulb [C],Daily Temperature Range [deltaC],Humidity Value,Humidity Type,Wind Speed [m/s],Wind Direction
+,BOLOGNA-BORGO PANIGALE ANN HTG 99.6% CONDNS DB,-4.80,0.00,-4.80,Wetbulb [C],1.40,220.00
+,BOLOGNA-BORGO PANIGALE ANN HUM_N 99.6% CONDNS DP=>MCDB,0.90,0.00,-10.20,Dewpoint [C],1.40,220.00
+,BOLOGNA-BORGO PANIGALE ANN HTG WIND 99.6% CONDNS WS=>MCDB,6.20,0.00,6.20,Wetbulb [C],8.20,220.00
+,BOLOGNA-BORGO PANIGALE ANN CLG .4% CONDNS DB=>MWB,34.10,11.10,23.10,Wetbulb [C],2.80,70.00
+,BOLOGNA-BORGO PANIGALE ANN CLG .4% CONDNS WB=>MDB,31.30,11.10,24.90,Wetbulb [C],2.80,70.00
+,BOLOGNA-BORGO PANIGALE ANN CLG .4% CONDNS DP=>MDB,28.40,11.10,23.00,Dewpoint [C],2.80,70.00
+,BOLOGNA-BORGO PANIGALE ANN CLG .4% CONDNS ENTH=>MDB,31.50,11.10,75800.00,Enthalpy [J/kg],2.80,70.00
+
+
+Weather Statistics File
+
+,,Value
+,Reference,ITA_Bologna-Borgo.Panigale.161400_IGDG
+,Site:Location,Bologna-Borgo Panigale - ITA
+,Latitude,{N 44� 31'}
+,Longitude,{E  11� 18'}
+,Time Zone,{GMT +1.0 Hours}
+,Elevation (m) above sea level,49
+,Standard Pressure at Elevation,100738Pa
+,Data Source,IGDG
+,WMO Station,161400
+,Weather File Design Conditions,Climate Design Data 2009 ASHRAE Handbook
+,Heating Design Temperature 99.6% (C),-4.8°
+,Heating Design Temperature 99% (C),-3.1°
+,Cooling Design Temperature 0.4% (C),34.1°
+,Cooling Design Temperature 1% (C),32.8°
+,Cooling Design Temperature 2% (C),31.2°
+,Maximum Dry Bulb Temperature (C),34.8°
+,Maximum Dry Bulb Occurs on,Jul 31
+,Minimum Dry Bulb Temperature (C),-13.0°
+,Minimum Dry Bulb Occurs on,Jan 19
+,Maximum Dew Point Temperature (C),24.1°
+,Maximum Dew Point Occurs on,Jun 22
+,Minimum Dew Point Temperature (C),-13.0°
+,Minimum Dew Point Occurs on,Jan 19
+,ASHRAE Handbook 2009  Cooling Degree-Days (base 10°C),2178
+,Weather File Cooling Degree-Days (base 10°C),1977
+,ASHRAE Handbook 2009 Heating Degree-Days (base 18.3°C),2213
+,Weather File Heating Degree-Days (base 18°C),2394
+,Köppen Classification,Cfa
+,Köppen Description,Humid subtropical (mild with no dry season, hot summer, lat. 20-35�N)
+,Köppen Recommendation,
+,ASHRAE Climate Zone,4A
+,ASHRAE Description,Mixed-Humid
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Envelope Summary
+FOR:,Entire Facility
+Opaque Exterior
+
+,,Construction,Reflectance,U-Factor with Film [W/m2-K],U-Factor no Film [W/m2-K],Gross Area [m2],Net Area [m2],Azimuth [deg],Tilt [deg],Cardinal Direction
+,F51DD5409C1B453D8AA0,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,73.80,73.80,175.00,90.00,S
+,41A4D89B8E6C488B8BF3,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,146.12,113.78,265.00,90.00,W
+,F923F8AB59EF499DA223,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,146.12,113.78,85.00,90.00,E
+,5EF1D2C7DD9A4DEB92EB,_INT_AREATEDBRICKWALL_17(1),0.30,1.250,1.538,23.62,21.87,355.00,90.00,N
+,B42E6DBEE0544F25A70C,_INT_BRICKWALL_46,0.30,0.518,0.562,50.18,46.13,355.00,90.00,N
+,7FE440AE6DCC4C2391F5,NDFLOOR,0.30,2.009,2.979,445.50,445.50,265.00,180.00,
+,A862FAD5A96048DC90F8,STIMIP_52,0.30,1.142,1.355,445.50,445.50,355.00,0.00,
+,521F828AE27C42288986,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,125.95,109.78,355.00,90.00,N
+,361C779BCA6443D78AA5,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,69.86,49.60,85.00,90.00,E
+,38A7B119719042B3948C,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,152.52,111.01,175.00,90.00,S
+,7B0E447D1A4A4B178044,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,1.48,1.48,85.00,90.00,E
+,2E3EE2646E6F48BE8F2D,_INT_AREATEDBRICKWALL_17(1),0.30,1.250,1.538,23.62,21.87,175.00,90.00,S
+,DE0BCB123278449E8E4C,_INT_BRICKWALL_46,0.30,0.518,0.562,19.19,15.13,265.00,90.00,W
+,B495C5B346DB4B149AA3,_INT_BRICKWALL_46,0.30,0.518,0.562,50.18,50.18,355.00,90.00,N
+,20E1F8653FD24732BB88,_INT_BRICKWALL_46,0.30,0.518,0.562,52.15,52.15,265.00,90.00,W
+,024BC196B59F40FDA528,NDFLOOR,0.30,2.009,2.979,92.16,92.16,265.00,180.00,
+,F0130D68DC4F4427A0EF,NDFLOOR,0.30,2.009,2.979,1.44,1.44,265.00,180.00,
+,947D0530439D4F968774,NDFLOOR,0.30,2.009,2.979,17.28,17.28,265.00,180.00,
+,EE3884F395E54E4C9D85,NDFLOOR,0.30,2.009,2.979,271.36,271.36,265.00,180.00,
+,C9C5CDA1ADA54700B1FD,NDFLOOR,0.30,2.009,2.979,19.44,19.44,265.00,180.00,
+,D87D7BD56DAA4C32BCC6,STIMIP_52,0.30,1.142,1.355,17.28,17.28,355.00,0.00,
+,168183CA899F405EBA84,STIMIP_52,0.30,1.142,1.355,19.44,19.44,355.00,0.00,
+,3D50605C012740DCBF8F,STIMIP_52,0.30,1.142,1.355,1.44,1.44,355.00,0.00,
+,197E352D649845D1A9F6,STIMIP_52,0.30,1.142,1.355,363.52,363.52,355.00,0.00,
+,A02E8C89BDE64642975E,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,71.34,71.34,265.00,90.00,W
+,242671140CD64993B510,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,50.18,50.18,355.00,90.00,N
+,6D5A857488524A608869,_INT_BRICKWALL_46,0.30,0.518,0.562,50.18,46.13,175.00,90.00,S
+,F5A62A8D64224440A19F,_INT_BRICKWALL_46,0.30,0.518,0.562,52.15,46.15,85.00,90.00,E
+,AC40808EDC144B2AA87F,_INT_BRICKWALL_46,0.30,0.518,0.562,19.19,15.13,85.00,90.00,E
+,D470328E56064D10BC13,NDFLOOR,0.30,2.009,2.979,147.90,147.90,265.00,180.00,
+,BB768ABAABB84ABE840F,STIMIP_52,0.30,1.142,1.355,147.90,147.90,355.00,0.00,
+,8DC3072A253F42DCB090,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,75.00,54.73,175.00,90.00,S
+,350374417CBC49F4B820,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,148.50,121.55,265.00,90.00,W
+,E45127E7BC7A4E54A851,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,148.50,121.55,85.00,90.00,E
+,56E7877310DE4CFAAF58,_INT_BRICKWALL_46,0.30,0.518,0.562,75.00,70.94,355.00,90.00,N
+,71ACEF592AF44B61A136,STIMIP_52,0.30,1.075,1.355,445.50,445.50,265.00,180.00,
+,7982E32B53D941A1AF5A,_STIMIP_50,0.30,1.181,1.410,445.50,445.50,355.00,0.00,
+,632F8990F03E4715B1CB,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,50.18,26.20,355.00,90.00,N
+,E5BE9C599FAD45DB9657,_INT_BRICKWALL_46,0.30,0.518,0.562,50.18,50.18,175.00,90.00,S
+,E98B779774974E5FBE32,_INT_BRICKWALL_46,0.30,0.518,0.562,52.15,46.15,265.00,90.00,W
+,7F6E9184B0634ED4A688,_INT_BRICKWALL_46,0.30,0.518,0.562,52.15,52.15,85.00,90.00,E
+,9EF9DE5BFEFE44F1B12B,NDFLOOR,0.30,2.009,2.979,108.12,108.12,85.00,180.00,
+,A79531C198E8497186F2,STIMIP_52,0.30,1.142,1.355,108.12,108.12,355.00,0.00,
+,F95BAF0C20F744E0B1BE,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,72.50,72.50,265.00,90.00,W
+,6F2803BF69284DA8A21A,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,1.50,1.50,85.00,90.00,E
+,D751A8497F044E7FB344,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,27.00,17.03,175.00,90.00,S
+,41FCD143713B4F3E9302,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,51.00,33.34,355.00,90.00,N
+,A1A928E4BB6C495F993E,_INT_BRICKWALL_46,0.30,0.518,0.562,75.00,70.94,175.00,90.00,S
+,CA215ACA62A24FA8A107,_INT_AREATEDBRICKWALL_17(1),0.30,1.250,1.538,18.00,15.00,85.00,90.00,E
+,BB0144D80141484A9093,_INT_BRICKWALL_46,0.30,0.518,0.562,51.00,48.00,355.00,90.00,N
+,0345C2B5A83043678708,_INT_BRICKWALL_46,0.30,0.518,0.562,53.00,47.00,85.00,90.00,E
+,D6A837D9CE3C486BAF22,STIMIP_52,0.30,1.075,1.355,147.90,147.90,265.00,180.00,
+,3B0147B5E0F04788B8D3,STIMIP_52,0.30,1.075,1.355,17.28,17.28,265.00,180.00,
+,6E00F7D4AFF84F63ABD3,STIMIP_52,0.30,1.075,1.355,19.44,19.44,265.00,180.00,
+,3C9AE62FC178493EB8D0,STIMIP_52,0.30,1.075,1.355,1.44,1.44,265.00,180.00,
+,7438195B65FA4078A087,_STIMIP_50,0.30,1.181,1.410,36.72,36.72,355.00,0.00,
+,F6A912A93BEB4C81BE5A,_STIMIP_50,0.30,1.181,1.410,3.06,3.06,355.00,0.00,
+,F574EECBD7C34DF69A2B,_STIMIP_50,0.30,1.181,1.410,108.12,108.12,355.00,0.00,
+,716BE68D7BE34A62A280,_STIMIP_50,0.30,1.181,1.410,1.44,1.44,355.00,0.00,
+,C656F086F31646BBBD80,_STIMIP_50,0.30,1.181,1.410,17.28,17.28,355.00,0.00,
+,788EA371878B43EA84AB,_STIMIP_50,0.30,1.181,1.410,19.44,19.44,355.00,0.00,
+,482D3CFD63AF4894B27D,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,128.00,101.05,175.00,90.00,S
+,04BCB60D23F747C2A1E3,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,128.00,106.44,355.00,90.00,N
+,2EB5ABED9D3647ABAC5B,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,71.00,50.73,85.00,90.00,E
+,2BB8AA66B94A43F4AD5E,_INT_AREATEDBRICKWALL_17(1),0.30,1.250,1.538,18.00,15.00,265.00,90.00,W
+,C9E20B129CE94C92BBF7,_INT_BRICKWALL_46,0.30,0.518,0.562,53.00,51.25,85.00,90.00,E
+,107E3D67CCFF4D948112,STIMIP_52,0.30,1.075,1.355,363.52,363.52,265.00,180.00,
+,B61A1DFE51564DABBF96,_STIMIP_50,0.30,1.181,1.410,363.52,363.52,355.00,0.00,
+,DB02BCC751A34469AFCA,_EXT_BRICKWALL_64-(2+1)_PLASTER,0.30,0.587,0.643,51.00,27.01,355.00,90.00,N
+,6AF7646EA8214021B459,_INT_BRICKWALL_46,0.30,0.518,0.562,51.00,48.00,175.00,90.00,S
+,51EA9B42BED44E97A47F,_INT_BRICKWALL_46,0.30,0.518,0.562,53.00,47.00,265.00,90.00,W
+,2556DD4AB3174345A6F2,_INT_BRICKWALL_46,0.30,0.518,0.562,53.00,51.25,85.00,90.00,E
+,8A74D5B8F47A476D98E4,STIMIP_52,0.30,1.075,1.355,108.12,108.12,265.00,180.00,
+,596085A49A3545C8B937,_STIMIP_50,0.30,1.181,1.410,108.12,108.12,355.00,0.00,
+
+
+Exterior Fenestration
+
+,,Construction,Glass Area [m2],Frame Area [m2],Divider Area [m2],Area of One Opening [m2],Area of Multiplied Openings [m2],Glass U-Factor [W/m2-K],Glass SHGC,Glass Visible Transmittance,Frame Conductance [W/m2-K],Divider Conductance [W/m2-K],Shade Control,Parent Surface,Azimuth [deg],Tilt [deg],Cardinal Direction
+,41A4D89B8E6C488B8BF3_GLZ_0_EB24A6CBFEA64A0DAE78,DTU_WINDOW_MATERIAL_WN-8,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,41A4D89B8E6C488B8BF3,265.00,90.00,W
+,41A4D89B8E6C488B8BF3_GLZ_1_00AC299CA16647E9AFB9,DTU_WINDOW_MATERIAL_WN-9,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,41A4D89B8E6C488B8BF3,265.00,90.00,W
+,41A4D89B8E6C488B8BF3_GLZ_2_2DC176D21E9748619973,DTU_WINDOW_MATERIAL_WN-10,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,41A4D89B8E6C488B8BF3,265.00,90.00,W
+,41A4D89B8E6C488B8BF3_GLZ_3_A7E1A91E5F0649A69FA3,DTU_WINDOW_MATERIAL_WN-11,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,41A4D89B8E6C488B8BF3,265.00,90.00,W
+,41A4D89B8E6C488B8BF3_GLZ_4_0BE7D50570CA4C2C8A7A,DTU_WINDOW_MATERIAL_WN-12,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,41A4D89B8E6C488B8BF3,265.00,90.00,W
+,41A4D89B8E6C488B8BF3_GLZ_5_6C09B27BFD0A454795C2,DTU_WINDOW_MATERIAL_WN-33,2.70,0.00,0.00,2.70,2.70,2.803,0.751,0.951,,,No,41A4D89B8E6C488B8BF3,265.00,90.00,W
+,41A4D89B8E6C488B8BF3_GLZ_6_FE1ADA1856144019AD85,DTU_WINDOW_MATERIAL_WN-34,2.70,0.00,0.00,2.70,2.70,2.803,0.751,0.951,,,No,41A4D89B8E6C488B8BF3,265.00,90.00,W
+,F923F8AB59EF499DA223_GLZ_0_A6A600D2EAEF49D39F65,DTU_WINDOW_MATERIAL_WN-0,5.39,0.00,0.00,5.39,5.39,4.899,0.850,0.951,,,No,F923F8AB59EF499DA223,85.00,90.00,E
+,F923F8AB59EF499DA223_GLZ_1_5FC72F362169414D9BF7,DTU_WINDOW_MATERIAL_WN-3,5.39,0.00,0.00,5.39,5.39,4.899,0.850,0.951,,,No,F923F8AB59EF499DA223,85.00,90.00,E
+,F923F8AB59EF499DA223_GLZ_2_4C8E9329667B440B8A18,DTU_WINDOW_MATERIAL_WN-4,5.39,0.00,0.00,5.39,5.39,4.899,0.850,0.951,,,No,F923F8AB59EF499DA223,85.00,90.00,E
+,F923F8AB59EF499DA223_GLZ_3_716DBBC1759045CBA0FE,DTU_WINDOW_MATERIAL_WN-5,5.39,0.00,0.00,5.39,5.39,4.899,0.850,0.951,,,No,F923F8AB59EF499DA223,85.00,90.00,E
+,F923F8AB59EF499DA223_GLZ_4_0E5CE3FFCFFD42D99F77,DTU_WINDOW_MATERIAL_WN-6,5.39,0.00,0.00,5.39,5.39,4.899,0.850,0.951,,,No,F923F8AB59EF499DA223,85.00,90.00,E
+,F923F8AB59EF499DA223_GLZ_5_ECBC21C4B7E846DB8ADE,DTU_WINDOW_MATERIAL_WN-7,5.39,0.00,0.00,5.39,5.39,4.899,0.850,0.951,,,No,F923F8AB59EF499DA223,85.00,90.00,E
+,5EF1D2C7DD9A4DEB92EB_GLZ_0_A603C37500F048989641,DTU_DOOR_MATERIAL_DR-1,1.75,0.00,0.00,1.75,1.75,4.999,0.950,0.951,,,No,5EF1D2C7DD9A4DEB92EB,355.00,90.00,N
+,B42E6DBEE0544F25A70C_GLZ_0_739D2CD4C1E8498683ED,DTU_DOOR_MATERIAL_DR-0,4.06,0.00,0.00,4.06,4.06,4.999,0.950,0.951,,,No,B42E6DBEE0544F25A70C,355.00,90.00,N
+,521F828AE27C42288986_GLZ_0_31581FF95BF04FCFAC35,DTU_WINDOW_MATERIAL_WN-19,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,521F828AE27C42288986,355.00,90.00,N
+,521F828AE27C42288986_GLZ_1_DDAE2A5C2FAD4B228351,DTU_WINDOW_MATERIAL_WN-20,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,521F828AE27C42288986,355.00,90.00,N
+,521F828AE27C42288986_GLZ_2_7B07E9E521974450AD08,DTU_WINDOW_MATERIAL_WN-21,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,521F828AE27C42288986,355.00,90.00,N
+,361C779BCA6443D78AA5_GLZ_0_CE392C54730A44799E1F,DTU_WINDOW_MATERIAL_WN-22,10.13,0.00,0.00,10.13,10.13,5.689,0.850,0.951,,,No,361C779BCA6443D78AA5,85.00,90.00,E
+,361C779BCA6443D78AA5_GLZ_1_7260AF8180C549E6BE2F,DTU_WINDOW_MATERIAL_WN-23,10.13,0.00,0.00,10.13,10.13,5.689,0.850,0.951,,,No,361C779BCA6443D78AA5,85.00,90.00,E
+,38A7B119719042B3948C_GLZ_0_8243945B2F8C41B995E2,DTU_WINDOW_MATERIAL_WN-1,9.97,0.00,0.00,9.97,9.97,2.803,0.751,0.951,,,No,38A7B119719042B3948C,175.00,90.00,S
+,38A7B119719042B3948C_GLZ_1_D72CB13DDFA44D158B08,DTU_WINDOW_MATERIAL_WN-17,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,38A7B119719042B3948C,175.00,90.00,S
+,38A7B119719042B3948C_GLZ_2_FA5C58FB953A4BE186E9,DTU_WINDOW_MATERIAL_WN-24,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,38A7B119719042B3948C,175.00,90.00,S
+,38A7B119719042B3948C_GLZ_3_0A408117803441A18A4F,DTU_WINDOW_MATERIAL_WN-25,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,38A7B119719042B3948C,175.00,90.00,S
+,38A7B119719042B3948C_GLZ_4_DB11C95B03564F488C6F,DTU_WINDOW_MATERIAL_WN-48,9.97,0.00,0.00,9.97,9.97,2.803,0.751,0.951,,,No,38A7B119719042B3948C,175.00,90.00,S
+,38A7B119719042B3948C_GLZ_5_9ED0DAD409C84E44AB7D,DTU_WINDOW_MATERIAL_WN-49,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,38A7B119719042B3948C,175.00,90.00,S
+,2E3EE2646E6F48BE8F2D_GLZ_0_87F1FC4DFC6A4C679B82,DTU_DOOR_MATERIAL_DR-1,1.75,0.00,0.00,1.75,1.75,4.999,0.950,0.951,,,No,2E3EE2646E6F48BE8F2D,175.00,90.00,S
+,DE0BCB123278449E8E4C_GLZ_0_0D10AA6A408B4876BFE6,DTU_DOOR_MATERIAL_DR-2,4.06,0.00,0.00,4.06,4.06,4.999,0.950,0.951,,,No,DE0BCB123278449E8E4C,265.00,90.00,W
+,6D5A857488524A608869_GLZ_0_C59E3512059B4DFA8B23,DTU_DOOR_MATERIAL_DR-0,4.06,0.00,0.00,4.06,4.06,4.999,0.950,0.951,,,No,6D5A857488524A608869,175.00,90.00,S
+,F5A62A8D64224440A19F_GLZ_0_2971AF1C9A30493E8FE9,DTU_DOOR_MATERIAL_DR-3,3.00,0.00,0.00,3.00,3.00,4.999,0.950,0.951,,,No,F5A62A8D64224440A19F,85.00,90.00,E
+,F5A62A8D64224440A19F_GLZ_1_5A5FF55421E045648983,DTU_DOOR_MATERIAL_DR-4,3.00,0.00,0.00,3.00,3.00,4.999,0.950,0.951,,,No,F5A62A8D64224440A19F,85.00,90.00,E
+,AC40808EDC144B2AA87F_GLZ_0_CEF8CD173E9543F79B42,DTU_DOOR_MATERIAL_DR-2,4.06,0.00,0.00,4.06,4.06,4.999,0.950,0.951,,,No,AC40808EDC144B2AA87F,85.00,90.00,E
+,8DC3072A253F42DCB090_GLZ_0_0B23AB19C5804B90A388,DTU_WINDOW_MATERIAL_WN-29,10.13,0.00,0.00,10.13,10.13,5.689,0.850,0.951,,,No,8DC3072A253F42DCB090,175.00,90.00,S
+,8DC3072A253F42DCB090_GLZ_1_897A0206846D4980ACA5,DTU_WINDOW_MATERIAL_WN-30,10.13,0.00,0.00,10.13,10.13,5.689,0.850,0.951,,,No,8DC3072A253F42DCB090,175.00,90.00,S
+,350374417CBC49F4B820_GLZ_0_18C65E3F79FF447F8C67,DTU_WINDOW_MATERIAL_WN-31,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,350374417CBC49F4B820,265.00,90.00,W
+,350374417CBC49F4B820_GLZ_1_490B25E26C5B4E5ABE3F,DTU_WINDOW_MATERIAL_WN-32,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,350374417CBC49F4B820,265.00,90.00,W
+,350374417CBC49F4B820_GLZ_2_9154DBE19D6C4C468962,DTU_WINDOW_MATERIAL_WN-35,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,350374417CBC49F4B820,265.00,90.00,W
+,350374417CBC49F4B820_GLZ_3_2E0480DF90BE483BB8A0,DTU_WINDOW_MATERIAL_WN-36,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,350374417CBC49F4B820,265.00,90.00,W
+,350374417CBC49F4B820_GLZ_4_2114E115782749EB9B43,DTU_WINDOW_MATERIAL_WN-37,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,350374417CBC49F4B820,265.00,90.00,W
+,E45127E7BC7A4E54A851_GLZ_0_AA56A9BA2EFA4C0AA615,DTU_WINDOW_MATERIAL_WN-2,5.39,0.00,0.00,5.39,5.39,4.899,0.850,0.951,,,No,E45127E7BC7A4E54A851,85.00,90.00,E
+,E45127E7BC7A4E54A851_GLZ_1_71D34BB505BA4E7BA869,DTU_WINDOW_MATERIAL_WN-13,5.39,0.00,0.00,5.39,5.39,4.899,0.850,0.951,,,No,E45127E7BC7A4E54A851,85.00,90.00,E
+,E45127E7BC7A4E54A851_GLZ_2_29EBE44768AB4929904D,DTU_WINDOW_MATERIAL_WN-26,5.39,0.00,0.00,5.39,5.39,4.899,0.850,0.951,,,No,E45127E7BC7A4E54A851,85.00,90.00,E
+,E45127E7BC7A4E54A851_GLZ_3_A620B8B08DC14702BDDA,DTU_WINDOW_MATERIAL_WN-27,5.39,0.00,0.00,5.39,5.39,4.899,0.850,0.951,,,No,E45127E7BC7A4E54A851,85.00,90.00,E
+,E45127E7BC7A4E54A851_GLZ_4_B11B608CD1014FCABA73,DTU_WINDOW_MATERIAL_WN-28,5.39,0.00,0.00,5.39,5.39,4.899,0.850,0.951,,,No,E45127E7BC7A4E54A851,85.00,90.00,E
+,56E7877310DE4CFAAF58_GLZ_0_70759A733EFA420580ED,DTU_DOOR_MATERIAL_DR-5,4.06,0.00,0.00,4.06,4.06,4.999,0.950,0.951,,,No,56E7877310DE4CFAAF58,355.00,90.00,N
+,632F8990F03E4715B1CB_GLZ_0_5FA8866F5EB748B2B2BB,DTU_WINDOW_MATERIAL_WN-15,11.99,0.00,0.00,11.99,11.99,2.803,0.751,0.951,,,No,632F8990F03E4715B1CB,355.00,90.00,N
+,632F8990F03E4715B1CB_GLZ_1_58B3D1F1F0CA4F1F8555,DTU_WINDOW_MATERIAL_WN-16,11.99,0.00,0.00,11.99,11.99,2.803,0.751,0.951,,,No,632F8990F03E4715B1CB,355.00,90.00,N
+,E98B779774974E5FBE32_GLZ_0_1F7F2F8BB2A94E36B401,DTU_DOOR_MATERIAL_DR-3,3.00,0.00,0.00,3.00,3.00,4.999,0.950,0.951,,,No,E98B779774974E5FBE32,265.00,90.00,W
+,E98B779774974E5FBE32_GLZ_1_56C21F299DE04FADAAA2,DTU_DOOR_MATERIAL_DR-4,3.00,0.00,0.00,3.00,3.00,4.999,0.950,0.951,,,No,E98B779774974E5FBE32,265.00,90.00,W
+,D751A8497F044E7FB344_GLZ_0_2354DCCEE84141CC8588,DTU_WINDOW_MATERIAL_WN-14,9.97,0.00,0.00,9.97,9.97,2.803,0.751,0.951,,,No,D751A8497F044E7FB344,175.00,90.00,S
+,41FCD143713B4F3E9302_GLZ_0_B86F20CE071347B091AE,DTU_WINDOW_MATERIAL_WN-53,6.47,0.00,0.00,6.47,6.47,0.999,0.850,0.951,,,No,41FCD143713B4F3E9302,355.00,90.00,N
+,41FCD143713B4F3E9302_GLZ_1_8F0765B2AFBA4FEA974A,DTU_WINDOW_MATERIAL_WN-54,0.67,0.00,0.00,0.67,0.67,0.999,0.850,0.951,,,No,41FCD143713B4F3E9302,355.00,90.00,N
+,41FCD143713B4F3E9302_GLZ_2_19FF56DAC88B4F8D8298,DTU_WINDOW_MATERIAL_WN-55,5.26,0.00,0.00,5.26,5.26,0.999,0.850,0.951,,,No,41FCD143713B4F3E9302,355.00,90.00,N
+,41FCD143713B4F3E9302_GLZ_3_3B696E9575CB4A38BFB7,DTU_WINDOW_MATERIAL_WN-56,5.26,0.00,0.00,5.26,5.26,0.999,0.850,0.951,,,No,41FCD143713B4F3E9302,355.00,90.00,N
+,A1A928E4BB6C495F993E_GLZ_0_B71E5A5CDD40473F9FED,DTU_DOOR_MATERIAL_DR-5,4.06,0.00,0.00,4.06,4.06,4.999,0.950,0.951,,,No,A1A928E4BB6C495F993E,175.00,90.00,S
+,CA215ACA62A24FA8A107_GLZ_0_38F50A01CDCC411FA182,DTU_DOOR_MATERIAL_DR-6,3.00,0.00,0.00,3.00,3.00,4.999,0.950,0.951,,,No,CA215ACA62A24FA8A107,85.00,90.00,E
+,BB0144D80141484A9093_GLZ_0_89540E70687543B8BA78,DTU_DOOR_MATERIAL_DR-7,3.00,0.00,0.00,3.00,3.00,4.999,0.950,0.951,,,No,BB0144D80141484A9093,355.00,90.00,N
+,0345C2B5A83043678708_GLZ_0_E445234AB002477AB516,DTU_DOOR_MATERIAL_DR-9,3.00,0.00,0.00,3.00,3.00,4.999,0.950,0.951,,,No,0345C2B5A83043678708,85.00,90.00,E
+,0345C2B5A83043678708_GLZ_1_DB2B34194E8F421DA871,DTU_DOOR_MATERIAL_DR-10,3.00,0.00,0.00,3.00,3.00,4.999,0.950,0.951,,,No,0345C2B5A83043678708,85.00,90.00,E
+,482D3CFD63AF4894B27D_GLZ_0_DB7E6C49D37C41438854,DTU_WINDOW_MATERIAL_WN-18,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,482D3CFD63AF4894B27D,175.00,90.00,S
+,482D3CFD63AF4894B27D_GLZ_1_E64157A8A4A34A499FF5,DTU_WINDOW_MATERIAL_WN-40,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,482D3CFD63AF4894B27D,175.00,90.00,S
+,482D3CFD63AF4894B27D_GLZ_2_5DB68117ABC34EE6B49F,DTU_WINDOW_MATERIAL_WN-47,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,482D3CFD63AF4894B27D,175.00,90.00,S
+,482D3CFD63AF4894B27D_GLZ_3_24C1007A4DF44088B775,DTU_WINDOW_MATERIAL_WN-51,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,482D3CFD63AF4894B27D,175.00,90.00,S
+,482D3CFD63AF4894B27D_GLZ_4_425F6CFC29AA44919542,DTU_WINDOW_MATERIAL_WN-52,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,482D3CFD63AF4894B27D,175.00,90.00,S
+,04BCB60D23F747C2A1E3_GLZ_0_857B53A6C18B42A8B4AD,DTU_WINDOW_MATERIAL_WN-41,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,04BCB60D23F747C2A1E3,355.00,90.00,N
+,04BCB60D23F747C2A1E3_GLZ_1_035E71D0E45544F69C99,DTU_WINDOW_MATERIAL_WN-42,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,04BCB60D23F747C2A1E3,355.00,90.00,N
+,04BCB60D23F747C2A1E3_GLZ_2_0FD28876A27B4A7DB93F,DTU_WINDOW_MATERIAL_WN-43,2.70,0.00,0.00,2.70,2.70,2.803,0.751,0.951,,,No,04BCB60D23F747C2A1E3,355.00,90.00,N
+,04BCB60D23F747C2A1E3_GLZ_3_108EC090C9894E0197D7,DTU_WINDOW_MATERIAL_WN-44,2.70,0.00,0.00,2.70,2.70,2.803,0.751,0.951,,,No,04BCB60D23F747C2A1E3,355.00,90.00,N
+,04BCB60D23F747C2A1E3_GLZ_4_E73515C030F745D3AF0D,DTU_WINDOW_MATERIAL_WN-50,5.39,0.00,0.00,5.39,5.39,2.803,0.751,0.951,,,No,04BCB60D23F747C2A1E3,355.00,90.00,N
+,2EB5ABED9D3647ABAC5B_GLZ_0_A2ED6C660182408EA65A,DTU_WINDOW_MATERIAL_WN-45,10.13,0.00,0.00,10.13,10.13,5.689,0.850,0.951,,,No,2EB5ABED9D3647ABAC5B,85.00,90.00,E
+,2EB5ABED9D3647ABAC5B_GLZ_1_B7568F3EED9B4EF493EC,DTU_WINDOW_MATERIAL_WN-46,10.13,0.00,0.00,10.13,10.13,5.689,0.850,0.951,,,No,2EB5ABED9D3647ABAC5B,85.00,90.00,E
+,2BB8AA66B94A43F4AD5E_GLZ_0_7C8A75558E1A421EA116,DTU_DOOR_MATERIAL_DR-6,3.00,0.00,0.00,3.00,3.00,4.999,0.950,0.951,,,No,2BB8AA66B94A43F4AD5E,265.00,90.00,W
+,C9E20B129CE94C92BBF7_GLZ_0_A4E4C170068643038BFE,DTU_DOOR_MATERIAL_DR-8,1.75,0.00,0.00,1.75,1.75,4.999,0.950,0.951,,,No,C9E20B129CE94C92BBF7,85.00,90.00,E
+,DB02BCC751A34469AFCA_GLZ_0_58387148432E4FD88F4D,DTU_WINDOW_MATERIAL_WN-38,11.99,0.00,0.00,11.99,11.99,2.803,0.751,0.951,,,No,DB02BCC751A34469AFCA,355.00,90.00,N
+,DB02BCC751A34469AFCA_GLZ_1_1F7E4C4050A14A13BA07,DTU_WINDOW_MATERIAL_WN-39,11.99,0.00,0.00,11.99,11.99,2.803,0.751,0.951,,,No,DB02BCC751A34469AFCA,355.00,90.00,N
+,6AF7646EA8214021B459_GLZ_0_B68C4F882FC14BB7A214,DTU_DOOR_MATERIAL_DR-7,3.00,0.00,0.00,3.00,3.00,4.999,0.950,0.951,,,No,6AF7646EA8214021B459,175.00,90.00,S
+,51EA9B42BED44E97A47F_GLZ_0_BF0F47AECC3F4F1493A6,DTU_DOOR_MATERIAL_DR-9,3.00,0.00,0.00,3.00,3.00,4.999,0.950,0.951,,,No,51EA9B42BED44E97A47F,265.00,90.00,W
+,51EA9B42BED44E97A47F_GLZ_1_BA7ADD42C71C4DCEBC46,DTU_DOOR_MATERIAL_DR-10,3.00,0.00,0.00,3.00,3.00,4.999,0.950,0.951,,,No,51EA9B42BED44E97A47F,265.00,90.00,W
+,2556DD4AB3174345A6F2_GLZ_0_ADFAE253CC764A6ABB06,DTU_DOOR_MATERIAL_DR-8,1.75,0.00,0.00,1.75,1.75,4.999,0.950,0.951,,,No,2556DD4AB3174345A6F2,85.00,90.00,E
+,Total or Average,,,,,,428.56,3.774,0.814,0.951,,,,,,,
+,North Total or Average,,,,,,116.23,2.772,0.788,0.951,,,,,,,
+,Non-North Total or Average,,,,,,312.32,4.146,0.824,0.951,,,,,,,
+
+
+Interior Fenestration
+
+,,Construction,Area of One Opening [m2],Area of Openings [m2],Glass U-Factor [W/m2-K],Glass SHGC,Glass Visible Transmittance,Parent Surface
+,Total or Average,,,0.00,-,-,-,
+
+
+Exterior Door
+
+,,Construction,U-Factor with Film [W/m2-K],U-Factor no Film [W/m2-K],Gross Area [m2],Parent Surface
+,None,,,,,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Shading Summary
+FOR:,Entire Facility
+Sunlit Fraction
+
+,,March 21 9am,March 21 noon,March 21 3pm,June 21 9am,June 21 noon,June 21 3pm,December 21 9am,December 21 noon,December 21 3pm
+,None,,,,,,,,,
+
+
+Window Control
+
+,,Name,Type,Shaded Construction,Control,Glare Control
+,None,,,,,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Lighting Summary
+FOR:,Entire Facility
+Interior Lighting
+
+,,Zone,Lighting Power Density [W/m2],Zone Area [m2],Total Power [W],End Use Subcategory,Schedule Name,Scheduled Hours/Week [hr],Hours/Week > 1% [hr],Full Load Hours/Week [hr],Return Air Fraction,Conditioned (Y/N),Consumption [kWh]
+,ZN_OFFICES_A2OFFICELIGHTS,ZN_OFFICES_A2,10.0000,401.68,4016.80,General,SCHSCH-LIGHT_ON_ADMINISTRATIONOFFICEOCCUPANCY_EP,52.24,52.01,52.01,0.0000,Y,10893.57
+,ZN_CIRCULATION_AOFFICELIGHTS,ZN_CIRCULATION_A,7.4700,147.90,1104.81,General,SCHSCH-LIGHT_ON_8-20_EP,57.42,57.19,57.19,0.0000,N,3294.56
+,ZN_OFFICES_A1OFFICELIGHTS,ZN_OFFICES_A1,10.0000,445.50,4455.00,General,SCHSCH-LIGHT_ON_RESEARCHOFFICEOCCUPANCY_EP,52.24,52.01,52.01,0.0000,Y,12081.97
+,ZN_CLASSROOM_BOFFICELIGHTS,ZN_CLASSROOM_B,10.0000,108.12,1081.20,General,SCHSCH-LIGHT_ON_8-20_EP,57.42,57.19,57.19,0.0000,Y,3224.14
+,ZN_OFFICES_B1OFFICELIGHTS,ZN_OFFICES_B1,10.0000,445.50,4455.00,General,SCHSCH-LIGHT_ON_RESEARCHOFFICEOCCUPANCY_EP,52.24,52.01,52.01,0.0000,Y,12081.97
+,ZN_CIRCULATION_BOFFICELIGHTS,ZN_CIRCULATION_B,7.9600,186.06,1481.04,General,SCHSCH-LIGHT_ON_8-20_EP,57.42,57.19,57.19,0.0000,N,4416.46
+,ZN_CLASSROOM_AOFFICELIGHTS,ZN_CLASSROOM_A,10.0000,108.12,1081.20,General,SCHSCH-LIGHT_ON_8-20_EP,57.42,57.19,57.19,0.0000,Y,3224.14
+,ZN_OFFICE_B2OFFICELIGHTS,ZN_OFFICE_B2,10.0000,363.52,3635.20,General,SCHSCH-LIGHT_ON_RESEARCHOFFICEOCCUPANCY_EP,52.24,52.01,52.01,0.0000,Y,9858.67
+,Interior Lighting Total,,9.6584,2206.40,21310.25,,,,,,,,59075.47
+
+
+Daylighting
+
+,,Zone,Control Name,Daylighting Method,Control Type,Fraction Controlled,Lighting Installed in Zone [W],Lighting Controlled [W]
+,None,,,,,,,
+
+
+Exterior Lighting
+
+,,Total Watts,Astronomical Clock/Schedule,Schedule Name,Scheduled Hours/Week [hr],Hours/Week > 1% [hr],Full Load Hours/Week [hr],Consumption [kWh]
+,Exterior Lighting Total,0.00,,,,,,0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Equipment Summary
+FOR:,Entire Facility
+Central Plant
+
+,,Type,Nominal Capacity [W],Nominal Efficiency [W/W],IPLV in SI Units [W/W],IPLV in IP Units [Btu/W-h]
+,None,,,,,
+
+
+Cooling Coils
+
+,,Type,Design Coil Load [W],Nominal Total Capacity [W],Nominal Sensible Capacity [W],Nominal Latent Capacity [W],Nominal Sensible Heat Ratio,Nominal Efficiency [W/W],Nominal Coil UA Value [W/C],Nominal Coil Surface Area [m2]
+,None,,,,,,,,,
+
+
+DX Cooling Coils
+
+,,DX Cooling Coil Type,Standard Rated Net Cooling Capacity [W],Standard Rated Net COP [W/W],EER [Btu/W-h],SEER [Btu/W-h],IEER [Btu/W-h]
+,None,,,,,,
+
+
+DX Cooling Coil ASHRAE 127 Standard Ratings Report
+
+,,DX Cooling Coil Type,Rated Net Cooling Capacity Test A [W],Rated Electric Power Test A [W],Rated Net Cooling Capacity Test B [W],Rated Electric Power Test B [W],Rated Net Cooling Capacity Test C [W],Rated Electric Power Test C [W],Rated Net Cooling Capacity Test D [W],Rated Electric Power Test D [W]
+,None,,,,,,,,,
+
+
+DX Heating Coils
+
+,,DX Heating Coil Type,High Temperature Heating (net) Rating Capacity [W],Low Temperature Heating (net) Rating Capacity [W],HSPF [Btu/W-h],Region Number
+,None,,,,,
+
+
+Heating Coils
+
+,,Type,Design Coil Load [W],Nominal Total Capacity [W],Nominal Efficiency [W/W]
+,None,,,,
+
+
+Fans
+
+,,Type,Total Efficiency [W/W],Delta Pressure [pa],Max Air Flow Rate [m3/s],Rated Electric Power [W],Rated Power Per Max Air Flow Rate [W-s/m3],Motor Heat In Air Fraction,Fan Energy Index,End Use Subcategory,Design Day Name for Fan Sizing Peak,Date/Time for Fan Sizing Peak
+,None,,,,,,,,,,,
+
+
+Pumps
+
+,,Type,Control,Head [pa],Water Flow [m3/s],Electric Power [W],Power Per Water Flow Rate [W-s/m3],Motor Efficiency [W/W],End Use Subcategory
+,None,,,,,,,,
+
+
+Service Water Heating
+
+,,Type,Storage Volume [m3],Input [W],Thermal Efficiency [W/W],Recovery Efficiency [W/W],Energy Factor
+,None,,,,,,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,HVAC Sizing Summary
+FOR:,Entire Facility
+Zone Sensible Cooling
+
+,,Calculated Design Load [W],User Design Load [W],User Design Load per Area [W/m2],Calculated Design Air Flow [m3/s],User Design Air Flow [m3/s],Design Day Name,Date/Time Of Peak {TIMESTAMP},Thermostat Setpoint Temperature at Peak Load [C],Indoor Temperature at Peak Load [C],Indoor Humidity Ratio at Peak Load [kgWater/kgDryAir],Outdoor Temperature at Peak Load [C],Outdoor Humidity Ratio at Peak Load [kgWater/kgDryAir],Minimum Outdoor Air Flow Rate [m3/s],Heat Gain Rate from DOAS [W]
+,ZN_OFFICES_A1,16132.89,16132.89,36.21,1.016,1.016,BOLOGNA-BORGO PANIGALE ANN CLG .4% CONDNS DB=>MWB,7/21 17:00:00,26.00,25.99,0.01018,32.55,0.01338,0.702,0.00
+,ZN_OFFICES_A2,17779.18,17779.18,44.26,1.121,1.121,BOLOGNA-BORGO PANIGALE ANN CLG .4% CONDNS DB=>MWB,7/21 13:00:00,26.00,25.98,0.01096,33.55,0.01338,0.860,0.00
+,ZN_OFFICES_B1,29308.21,29308.21,65.79,1.846,1.846,BOLOGNA-BORGO PANIGALE ANN CLG .4% CONDNS DB=>MWB,7/21 11:00:00,26.00,25.99,0.00963,31.55,0.01338,0.649,0.00
+,ZN_CLASSROOM_A,0.00,0.00,0.00,0.000,1.080,BOLOGNA-BORGO PANIGALE ANN CLG .4% CONDNS DB=>MWB,,30.96,50.00,0.01338,34.10,0.01338,1.080,0.00
+,ZN_OFFICE_B2,24146.02,24146.02,66.42,1.521,1.521,BOLOGNA-BORGO PANIGALE ANN CLG .4% CONDNS DB=>MWB,7/21 11:00:00,26.00,25.99,0.00983,31.55,0.01338,0.557,0.00
+,ZN_CLASSROOM_B,0.00,0.00,0.00,0.000,0.953,BOLOGNA-BORGO PANIGALE ANN CLG .4% CONDNS DB=>MWB,,38.65,50.00,0.01338,34.10,0.01338,0.953,0.00
+The Design Load is the zone sensible load only. It does not include any system effects or ventilation loads.
+
+
+Zone Sensible Heating
+
+,,Calculated Design Load [W],User Design Load [W],User Design Load per Area [W/m2],Calculated Design Air Flow [m3/s],User Design Air Flow [m3/s],Design Day Name,Date/Time Of Peak {TIMESTAMP},Thermostat Setpoint Temperature at Peak Load [C],Indoor Temperature at Peak Load [C],Indoor Humidity Ratio at Peak Load [kgWater/kgDryAir],Outdoor Temperature at Peak Load [C],Outdoor Humidity Ratio at Peak Load [kgWater/kgDryAir],Minimum Outdoor Air Flow Rate [m3/s],Heat Gain Rate from DOAS [W]
+,ZN_OFFICES_A1,0.00,0.00,0.00,0.000,0.702,BOLOGNA-BORGO PANIGALE ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00800,-4.80,0.00253,0.702,0.00
+,ZN_OFFICES_A2,0.00,0.00,0.00,0.000,0.860,BOLOGNA-BORGO PANIGALE ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00800,-4.80,0.00253,0.860,0.00
+,ZN_OFFICES_B1,11749.27,11749.27,26.37,0.240,0.649,BOLOGNA-BORGO PANIGALE ANN HTG 99.6% CONDNS DB,1/21 06:00:00,0.00,-0.01,0.00371,-4.80,0.00253,0.649,0.00
+,ZN_CLASSROOM_A,0.00,0.00,0.00,0.000,1.080,BOLOGNA-BORGO PANIGALE ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00800,-4.80,0.00253,1.080,0.00
+,ZN_OFFICE_B2,9893.73,9893.73,27.22,0.203,0.557,BOLOGNA-BORGO PANIGALE ANN HTG 99.6% CONDNS DB,1/21 06:00:00,0.00,-0.01,0.00371,-4.80,0.00253,0.557,0.00
+,ZN_CLASSROOM_B,3798.37,3798.37,35.13,0.078,0.953,BOLOGNA-BORGO PANIGALE ANN HTG 99.6% CONDNS DB,1/21 22:00:00,0.00,-0.00,0.00369,-4.80,0.00253,0.953,0.00
+The Design Load is the zone sensible load only. It does not include any system effects or ventilation loads.
+
+
+System Design Air Flow Rates
+
+,,Calculated cooling [m3/s],User cooling [m3/s],Calculated heating [m3/s],User heating [m3/s],Adjusted cooling [m3/s],Adjusted heating [m3/s],Adjusted main [m3/s],Calculated Heating Air Flow Ratio [],User Heating Air Flow Ratio []
+,None,,,,,,,,,
+
+
+Plant Loop Coincident Design Fluid Flow Rate Adjustments
+
+,,Previous Design Volume Flow Rate [m3/s],Algorithm Volume Flow Rate [m3/s],Coincident Design Volume Flow Rate [m3/s],Coincident Size Adjusted,Peak Sizing Period Name,Peak Day into Period {TIMESTAMP}[day],Peak Hour Of Day {TIMESTAMP}[hr],Peak Step Start Minute {TIMESTAMP}[min]
+,None,,,,,,,,
+
+
+Coil Sizing Summary
+
+,,Coil Type,HVAC Type,HVAC Name,Coil Final Gross Total Capacity [W],Coil Final Gross Sensible Capacity [W],Coil Final Reference Air Volume Flow Rate [m3/s],Coil Final Reference Plant Fluid Volume Flow Rate [m3/s],Coil U-value Times Area Value [W/K],Design Day Name at Sensible Ideal Loads Peak,Date/Time at Sensible Ideal Loads Peak,Design Day Name at Air Flow Ideal Loads Peak,Date/Time at Air Flow Ideal Loads Peak,Coil Total Capacity at Ideal Loads Peak [W],Coil Sensible Capacity at Ideal Loads Peak [W],Coil Air Volume Flow Rate at Ideal Loads Peak [m3/s],Coil Entering Air Drybulb at Ideal Loads Peak [C],Coil Entering Air Wetbulb at Ideal Loads Peak [C],Coil Entering Air Humidity Ratio at Ideal Loads Peak [kgWater/kgDryAir],Coil Leaving Air Drybulb at Ideal Loads Peak [C],Coil Leaving Air Wetbulb at Ideal Loads Peak [C],Coil Leaving Air Humidity Ratio at Ideal Loads Peak [kgWater/kgDryAir],Outdoor Air Drybulb at Ideal Loads Peak [C],Outdoor Air Humidity Ratio at Ideal Loads Peak [kgWater/kgDryAir],Outdoor Air Wetbulb at Ideal Loads Peak [C],Outdoor Air Flow Percentage at Ideal Loads Peak [%],Zone Air Drybulb at Ideal Loads Peak [C],Zone Air Humidity Ratio at Ideal Loads Peak [kgWater/kgDryAir],Zone Air Relative Humidity at Ideal Loads Peak [%],Zone Sensible Heat Gain at Ideal Loads Peak [W],Zone Latent Heat Gain at Ideal Loads Peak [W],Coil Total Capacity at Rating Conditions [W],Coil Sensible Capacity at Rating Conditions [W]
+,None,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Coil Sizing Details
+FOR:,Entire Facility
+Coils
+
+,,Coil Type,Coil Location,HVAC Type,HVAC Name,Zone Name(s),System Sizing Method Concurrence,System Sizing Method Capacity,System Sizing Method Air Flow,Autosized Coil Capacity?,Autosized Coil Airflow?,Autosized Coil Water Flow?,OA Pretreated prior to coil inlet?,Coil Final Gross Total Capacity [W],Coil Final Gross Sensible Capacity [W],Coil Final Reference Air Volume Flow Rate [m3/s],Coil Final Reference Plant Fluid Volume Flow Rate [m3/s],Coil U-value Times Area Value [W/K],Terminal Unit Reheat Coil Multiplier,DX Coil Capacity Increase Ratio from Too Low Flow/Capacity Ratio,DX Coil Capacity Decrease Ratio from Too High Flow/Capacity Ratio,Moist Air Heat Capacity [J/kg-K],Dry Air Heat Capacity [J/kg-K],Standard Air Density Adjusted for Elevation [kg/m3],Supply Fan Name for Coil,Supply Fan Type for Coil,Supply Fan Maximum Air Volume Flow Rate [m3/s],Supply Fan Maximum Air Mass Flow Rate [kg/s],Plant Name for Coil,Plant Fluid Specific Heat Capacity [J/kg-K],Plant Fluid Density [kg/m3],Plant Maximum Fluid Mass Flow Rate [kg/s],Plant Design Fluid Return Temperature [C],Plant Design Fluid Supply Temperature [C],Plant Design Fluid Temperature Difference [deltaC],Plant Design Capacity [W],Coil Capacity Percentage of Plant Design Capacity [%],Coil Fluid Flow Rate Percentage of Plant Design Flow Rate [%],Design Day Name at Sensible Ideal Loads Peak,Date/Time at Sensible Ideal Loads Peak,Design Day Name at Total Ideal Loads Peak,Date/Time at Total Ideal Loads Peak,Design Day Name at Air Flow Ideal Loads Peak,Date/Time at Air Flow Ideal Loads Peak,Peak Load Type to Size On,Coil Total Capacity at Ideal Loads Peak [W],Coil Sensible Capacity at Ideal Loads Peak [W],Coil Off-Rating Capacity Modifier at Ideal Loads Peak [ ],Coil Air Mass Flow Rate at Ideal Loads Peak [kg/s],Coil Air Volume Flow Rate at Ideal Loads Peak [m3/s],Coil Entering Air Drybulb at Ideal Loads Peak [C],Coil Entering Air Wetbulb at Ideal Loads Peak [C],Coil Entering Air Humidity Ratio at Ideal Loads Peak [kgWater/kgDryAir],Coil Entering Air Enthalpy at Ideal Loads Peak [J/KG-K],Coil Leaving Air Drybulb at Ideal Loads Peak [C],Coil Leaving Air Wetbulb at Ideal Loads Peak [C],Coil Leaving Air Humidity Ratio at Ideal Loads Peak [kgWater/kgDryAir],Coil Leaving Air Enthalpy at Ideal Loads Peak [J/KG-K],Coil Plant Fluid Mass Flow Rate at Ideal Loads Peak [kg/s],Coil Entering Plant Fluid Temperature at Ideal Loads Peak [C],Coil Leaving Plant Fluid Temperature at Ideal Loads Peak [C],Coil Plant Fluid Temperature Difference at Ideal Loads Peak [deltaC],Supply Fan Air Heat Gain at Ideal Loads Peak [W],Coil and Fan Net Total Capacity at Ideal Loads Peak [W],Outdoor Air Drybulb at Ideal Loads Peak [C],Outdoor Air Humidity Ratio at Ideal Loads Peak [kgWater/kgDryAir],Outdoor Air Wetbulb at Ideal Loads Peak [C],Outdoor Air Volume Flow Rate at Ideal Loads Peak [m3/s],Outdoor Air Flow Percentage at Ideal Loads Peak [%],System Return Air Drybulb at Ideal Loads Peak [C],System Return Air Humidity Ratio at Ideal Loads Peak [kgWater/kgDryAir],Zone Air Drybulb at Ideal Loads Peak [C],Zone Air Humidity Ratio at Ideal Loads Peak [kgWater/kgDryAir],Zone Air Relative Humidity at Ideal Loads Peak [%],Zone Sensible Heat Gain at Ideal Loads Peak [W],Zone Latent Heat Gain at Ideal Loads Peak [W],Coil Total Capacity at Rating Conditions [W],Coil Sensible Capacity at Rating Conditions [W],Coil Air Mass Flow Rate at Rating Conditions [kg/s],Coil Entering Air Drybulb at Rating Conditions [C],Coil Entering Air Wetbulb at Rating Conditions [C],Coil Entering Air Humidity Ratio at Rating Conditions [kgWater/kgDryAir],Coil Entering Air Enthalpy at Rating Conditions [J/KG-K],Coil Leaving Air Drybulb at Rating Conditions [C],Coil Leaving Air Wetbulb at Rating Conditions [C],Coil Leaving Air Humidity Ratio at Rating Conditions [kgWater/kgDryAir],Coil Leaving Air Enthalpy at Rating Conditions [J/KG-K]
+,None,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,System Summary
+FOR:,Entire Facility
+Economizer
+
+,,High Limit Shutoff Control,Minimum Outdoor Air [m3/s],Maximum Outdoor Air [m3/s],Return Air Temp Limit,Return Air Enthalpy Limit,Outdoor Air Temperature Limit [C],Outdoor Air Enthalpy Limit [C]
+,None,,,,,,,
+
+
+Demand Controlled Ventilation using Controller:MechanicalVentilation
+
+,,Controller:MechanicalVentilation Name,Outdoor Air Per Person [m3/s-person],Outdoor Air Per Area [m3/s-m2],Outdoor Air Per Zone [m3/s],Outdoor Air ACH [ach],Outdoor Air Method,Outdoor Air Schedule Name,Air Distribution Effectiveness in Cooling Mode,Air Distribution Effectiveness in Heating Mode,Air Distribution Effectiveness Schedule Name
+,None,,,,,,,,,,
+
+
+Time Not Comfortable Based on Simple ASHRAE 55-2004
+
+,,Winter Clothes [hr],Summer Clothes [hr],Summer or Winter Clothes [hr]
+,ZN_OFFICES_A1,2231.00,2329.00,1883.50
+,ZN_OFFICES_A2,2189.00,2402.50,1918.00
+,ZN_OFFICES_B1,2342.50,2331.00,1995.50
+,ZN_CLASSROOM_A,614.50,769.00,587.50
+,ZN_OFFICE_B2,2343.00,2328.50,1997.00
+,ZN_CLASSROOM_B,525.50,600.00,493.00
+,ZN_CIRCULATION_A,3572.50,3768.00,3557.00
+,ZN_CIRCULATION_B,3620.00,3692.50,3534.00
+,Facility,3768.50,3794.00,3713.50
+Aggregated over the RunPeriods for Weather
+
+
+Time Setpoint Not Met
+
+,,During Heating [hr],During Cooling [hr],During Occupied Heating [hr],During Occupied Cooling [hr]
+,ZN_OFFICES_A1,0.00,0.00,0.00,0.00
+,ZN_OFFICES_A2,0.00,2.50,0.00,2.50
+,ZN_OFFICES_B1,0.00,0.50,0.00,0.50
+,ZN_CLASSROOM_A,0.00,0.00,0.00,0.00
+,ZN_OFFICE_B2,0.00,0.50,0.00,0.50
+,ZN_CLASSROOM_B,0.00,0.00,0.00,0.00
+,ZN_CIRCULATION_A,0.00,0.00,0.00,0.00
+,ZN_CIRCULATION_B,0.00,0.00,0.00,0.00
+,Facility,0.00,3.00,0.00,3.00
+Aggregated over the RunPeriods for Weather
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Outdoor Air Summary
+FOR:,Entire Facility
+Average Outdoor Air During Occupied Hours
+
+,,Average Number of Occupants,Nominal Number of Occupants,Zone Volume [m3],Mechanical Ventilation [ach],Infiltration [ach],AFN Infiltration [ach],Simple Ventilation [ach]
+,ZN_OFFICES_A1,58.57,100.24,2191.86,1.197,0.374,0.000,0.000
+,ZN_OFFICES_A2,92.19,122.91,1976.27,1.624,0.408,0.000,0.000
+,ZN_OFFICES_B1,54.15,92.66,2227.50,1.271,0.553,0.000,0.000
+,ZN_CLASSROOM_A,108.40,154.29,531.95,7.347,0.501,0.000,0.000
+,ZN_OFFICE_B2,46.52,79.61,3324.72,0.713,0.311,0.000,0.000
+,ZN_CLASSROOM_B,113.65,136.12,540.60,6.360,0.598,0.000,0.000
+Values shown for a single zone without multipliers
+
+
+Minimum Outdoor Air During Occupied Hours
+
+,,Average Number of Occupants,Nominal Number of Occupants,Zone Volume [m3],Mechanical Ventilation [ach],Infiltration [ach],AFN Infiltration [ach],Simple Ventilation [ach]
+,ZN_OFFICES_A1,58.57,100.24,2191.86,1.076,0.005,0.000,0.000
+,ZN_OFFICES_A2,92.19,122.91,1976.27,1.461,0.006,0.000,0.000
+,ZN_OFFICES_B1,54.15,92.66,2227.50,0.977,0.008,0.000,0.000
+,ZN_CLASSROOM_A,108.40,154.29,531.95,6.832,0.008,0.000,0.000
+,ZN_OFFICE_B2,46.52,79.61,3324.72,0.562,0.005,0.000,0.000
+,ZN_CLASSROOM_B,113.65,136.12,540.60,5.928,0.011,0.000,0.000
+Values shown for a single zone without multipliers
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Object Count Summary
+FOR:,Entire Facility
+Surfaces by Class
+
+,,Total,Outdoors
+,Wall,43,43
+,Floor,15,15
+,Roof,16,16
+,Internal Mass,0,0
+,Building Detached Shading,0,0
+,Fixed Detached Shading,0,0
+,Window,79,79
+,Door,0,0
+,Glass Door,0,0
+,Shading,0,0
+,Overhang,0,0
+,Fin,0,0
+,Tubular Daylighting Device Dome,0,0
+,Tubular Daylighting Device Diffuser,0,0
+
+
+HVAC
+
+,,Count
+,HVAC Air Loops,0
+,Conditioned Zones,6
+,Unconditioned Zones,2
+,Supply Plenums,0
+,Return Plenums,0
+
+
+Input Fields
+
+,,Count
+,IDF Objects,0
+,Defaulted Fields,0
+,Fields with Defaults,0
+,Autosized Fields,0
+,Autosizable Fields,0
+,Autocalculated Fields,0
+,Autocalculatable Fields,0
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Energy Meters
+FOR:,Entire Facility
+Annual and Peak Values - Electricity
+
+,,Electricity Annual Value [kWh],Electricity Minimum Value [W],Timestamp of Minimum {TIMESTAMP},Electricity Maximum Value [W],Timestamp of Maximum {TIMESTAMP}
+,Electricity:Facility,69730.49,0.00,01-JAN-00:30,27650.43,19-SEP-10:30
+,Electricity:Building,69730.49,0.00,01-JAN-00:30,27650.43,19-SEP-10:30
+,Electricity:Zone:ZN_OFFICES_A2,13975.36,0.00,01-JAN-00:30,5531.94,10-JAN-09:30
+,InteriorLights:Electricity,59075.47,0.00,01-JAN-00:30,21310.25,10-JAN-09:30
+,InteriorLights:Electricity:Zone:ZN_OFFICES_A2,10893.57,0.00,01-JAN-00:30,4016.80,10-JAN-08:30
+,General:InteriorLights:Electricity,59075.47,0.00,01-JAN-00:30,21310.25,10-JAN-09:30
+,Electricity:Zone:ZN_CIRCULATION_A,3294.56,0.00,01-JAN-00:30,1104.81,10-JAN-08:30
+,InteriorLights:Electricity:Zone:ZN_CIRCULATION_A,3294.56,0.00,01-JAN-00:30,1104.81,10-JAN-08:30
+,Electricity:Zone:ZN_OFFICES_A1,14632.21,0.00,01-JAN-00:30,6037.13,14-JUN-11:30
+,InteriorLights:Electricity:Zone:ZN_OFFICES_A1,12081.97,0.00,01-JAN-00:30,4455.00,10-JAN-09:30
+,Electricity:Zone:ZN_CLASSROOM_B,3282.27,0.00,01-JAN-00:30,1189.32,21-FEB-09:30
+,InteriorLights:Electricity:Zone:ZN_CLASSROOM_B,3224.14,0.00,01-JAN-00:30,1081.20,10-JAN-08:30
+,Electricity:Zone:ZN_OFFICES_B1,14900.05,0.00,01-JAN-00:30,6203.30,14-JUN-11:30
+,InteriorLights:Electricity:Zone:ZN_OFFICES_B1,12081.97,0.00,01-JAN-00:30,4455.00,10-JAN-09:30
+,Electricity:Zone:ZN_CIRCULATION_B,4416.46,0.00,01-JAN-00:30,1481.04,10-JAN-08:30
+,InteriorLights:Electricity:Zone:ZN_CIRCULATION_B,4416.46,0.00,01-JAN-00:30,1481.04,10-JAN-08:30
+,Electricity:Zone:ZN_CLASSROOM_A,3291.13,0.00,01-JAN-00:30,1189.32,21-FEB-09:30
+,InteriorLights:Electricity:Zone:ZN_CLASSROOM_A,3224.14,0.00,01-JAN-00:30,1081.20,10-JAN-08:30
+,Electricity:Zone:ZN_OFFICE_B2,11938.45,0.00,01-JAN-00:30,4925.47,14-JUN-11:30
+,InteriorLights:Electricity:Zone:ZN_OFFICE_B2,9858.67,0.00,01-JAN-00:30,3635.20,10-JAN-09:30
+,InteriorEquipment:Electricity,10655.02,0.00,01-JAN-00:30,6340.18,19-SEP-10:30
+,InteriorEquipment:Electricity:Zone:ZN_OFFICES_A2,3081.79,0.00,01-JAN-00:30,1515.14,10-JAN-09:30
+,ElectricEquipment:InteriorEquipment:Electricity,10655.02,0.00,01-JAN-00:30,6340.18,19-SEP-10:30
+,InteriorEquipment:Electricity:Zone:ZN_CIRCULATION_A,0.00,0.00,01-JAN-00:30,0.00,01-JAN-00:30
+,InteriorEquipment:Electricity:Zone:ZN_OFFICES_A1,2550.24,0.00,01-JAN-00:30,1582.13,14-JUN-11:30
+,InteriorEquipment:Electricity:Zone:ZN_CLASSROOM_B,58.13,0.00,01-JAN-00:30,108.12,21-FEB-09:30
+,InteriorEquipment:Electricity:Zone:ZN_OFFICES_B1,2818.08,0.00,01-JAN-00:30,1748.30,14-JUN-11:30
+,InteriorEquipment:Electricity:Zone:ZN_CIRCULATION_B,0.00,0.00,01-JAN-00:30,0.00,01-JAN-00:30
+,InteriorEquipment:Electricity:Zone:ZN_CLASSROOM_A,66.99,0.00,01-JAN-00:30,108.12,21-FEB-09:30
+,InteriorEquipment:Electricity:Zone:ZN_OFFICE_B2,2079.78,0.00,01-JAN-00:30,1290.27,14-JUN-11:30
+,ElectricityPurchased:Facility,69730.49,0.00,01-JAN-00:30,27650.43,19-SEP-10:30
+,ElectricityPurchased:Plant,69730.49,0.00,01-JAN-00:30,27650.43,19-SEP-10:30
+,Cogeneration:ElectricityPurchased,69730.49,0.00,01-JAN-00:30,27650.43,19-SEP-10:30
+,General:Cogeneration:ElectricityPurchased,69730.49,0.00,01-JAN-00:30,27650.43,19-SEP-10:30
+,ElectricitySurplusSold:Facility,0.00,0.00,01-JAN-00:30,0.00,01-JAN-00:30
+,ElectricitySurplusSold:Plant,0.00,0.00,01-JAN-00:30,0.00,01-JAN-00:30
+,Cogeneration:ElectricitySurplusSold,0.00,0.00,01-JAN-00:30,0.00,01-JAN-00:30
+,General:Cogeneration:ElectricitySurplusSold,0.00,0.00,01-JAN-00:30,0.00,01-JAN-00:30
+,ElectricityNet:Facility,69730.49,0.00,01-JAN-00:30,27650.43,19-SEP-10:30
+,ElectricityNet:Plant,69730.49,0.00,01-JAN-00:30,27650.43,19-SEP-10:30
+,Cogeneration:ElectricityNet,69730.49,0.00,01-JAN-00:30,27650.43,19-SEP-10:30
+,General:Cogeneration:ElectricityNet,69730.49,0.00,01-JAN-00:30,27650.43,19-SEP-10:30
+
+
+Annual and Peak Values - Gas
+
+,,Gas Annual Value [kWh],Gas Minimum Value [W],Timestamp of Minimum {TIMESTAMP},Gas Maximum Value [W],Timestamp of Maximum {TIMESTAMP}
+,None,,,,,
+
+
+Annual and Peak Values - Cooling
+
+,,Cooling Annual Value [kWh],Cooling Minimum Value [W],Timestamp of Minimum {TIMESTAMP},Cooling Maximum Value [W],Timestamp of Maximum {TIMESTAMP}
+,DistrictCooling:Facility,37800.31,0.00,01-JAN-00:30,170540.31,04-AUG-13:00
+,DistrictCooling:HVAC,37800.31,0.00,01-JAN-00:30,170540.31,04-AUG-13:00
+,Cooling:DistrictCooling,37800.31,0.00,01-JAN-00:30,170540.31,04-AUG-13:00
+,General:Cooling:DistrictCooling,37800.31,0.00,01-JAN-00:30,170540.31,04-AUG-13:00
+
+
+Annual and Peak Values - Water
+
+,,Annual Value [m3],Minimum Value [m3/s],Timestamp of Minimum {TIMESTAMP},Maximum Value [m3/s],Timestamp of Maximum {TIMESTAMP}
+,None,,,,,
+
+
+Annual and Peak Values - Other by Weight/Mass
+
+,,Annual Value [kg],Minimum Value [kg/s],Timestamp of Minimum {TIMESTAMP},Maximum Value [kg/s],Timestamp of Maximum {TIMESTAMP}
+,Carbon Equivalent:Facility,0.00,0.000,01-JAN-00:30,0.000,01-JAN-00:30
+,CarbonEquivalentEmissions:Carbon Equivalent,0.00,0.000,01-JAN-00:30,0.000,01-JAN-00:30
+
+
+Annual and Peak Values - Other Volumetric
+
+,,Annual Value [m3],Minimum Value [m3/s],Timestamp of Minimum {TIMESTAMP},Maximum Value [m3/s],Timestamp of Maximum {TIMESTAMP}
+,None,,,,,
+
+
+Annual and Peak Values - Other Liquid/Gas
+
+,,Annual Value [L],Minimum Value [L],Timestamp of Minimum {TIMESTAMP},Maximum Value [L],Timestamp of Maximum {TIMESTAMP}
+,None,,,,,
+
+
+Annual and Peak Values - Other
+
+,,Annual Value [kWh],Minimum Value [W],Timestamp of Minimum {TIMESTAMP},Maximum Value [W],Timestamp of Maximum {TIMESTAMP}
+,EnergyTransfer:Facility,157503.58,637.72,08-OCT-17:00,89585.45,05-AUG-13:00
+,EnergyTransfer:Building,157503.58,637.72,08-OCT-17:00,89585.45,05-AUG-13:00
+,EnergyTransfer:Zone:ZN_OFFICES_A1,32081.99,0.91,18-SEP-17:30,16231.85,05-AUG-16:30
+,Heating:EnergyTransfer,5660.96,0.00,01-JAN-00:30,30719.17,19-JAN-06:00
+,Heating:EnergyTransfer:Zone:ZN_OFFICES_A1,723.65,0.00,01-JAN-00:30,4229.34,31-JUL-15:00
+,General:Heating:EnergyTransfer,5660.96,0.00,01-JAN-00:30,30719.17,19-JAN-06:00
+,Cooling:EnergyTransfer,151842.62,0.00,07-JAN-12:30,88061.29,05-AUG-13:00
+,Cooling:EnergyTransfer:Zone:ZN_OFFICES_A1,31358.34,0.00,07-JAN-12:30,16231.85,05-AUG-16:30
+,General:Cooling:EnergyTransfer,151842.62,0.00,07-JAN-12:30,88061.29,05-AUG-13:00
+,EnergyTransfer:Zone:ZN_OFFICES_A2,38621.39,0.79,04-OCT-15:30,18441.30,05-AUG-13:00
+,Heating:EnergyTransfer:Zone:ZN_OFFICES_A2,712.77,0.00,01-JAN-00:30,4293.69,01-MAY-13:30
+,Cooling:EnergyTransfer:Zone:ZN_OFFICES_A2,37908.62,0.00,07-JAN-12:30,18441.30,05-AUG-13:00
+,EnergyTransfer:Zone:ZN_CIRCULATION_A,0.00,0.00,01-JAN-00:30,0.00,01-JAN-00:30
+,Heating:EnergyTransfer:Zone:ZN_CIRCULATION_A,0.00,0.00,01-JAN-00:30,0.00,01-JAN-00:30
+,Cooling:EnergyTransfer:Zone:ZN_CIRCULATION_A,0.00,0.00,01-JAN-00:30,0.00,01-JAN-00:30
+,EnergyTransfer:Zone:ZN_OFFICES_B1,29185.40,0.25,06-JAN-20:00,29464.03,05-AUG-13:00
+,Heating:EnergyTransfer:Zone:ZN_OFFICES_B1,1253.05,0.00,01-JAN-00:30,13774.63,19-JAN-06:00
+,Cooling:EnergyTransfer:Zone:ZN_OFFICES_B1,27932.35,0.00,01-JAN-11:30,29464.03,05-AUG-13:00
+,EnergyTransfer:Zone:ZN_CLASSROOM_A,18591.74,0.23,21-AUG-13:00,12233.92,01-MAR-13:30
+,Heating:EnergyTransfer:Zone:ZN_CLASSROOM_A,1082.20,0.00,01-JAN-00:30,3684.61,01-MAY-13:30
+,Cooling:EnergyTransfer:Zone:ZN_CLASSROOM_A,17509.54,0.00,04-JAN-13:00,12233.92,01-MAR-13:30
+,EnergyTransfer:Zone:ZN_CIRCULATION_B,0.00,0.00,01-JAN-00:30,0.00,01-JAN-00:30
+,Heating:EnergyTransfer:Zone:ZN_CIRCULATION_B,0.00,0.00,01-JAN-00:30,0.00,01-JAN-00:30
+,Cooling:EnergyTransfer:Zone:ZN_CIRCULATION_B,0.00,0.00,01-JAN-00:30,0.00,01-JAN-00:30
+,EnergyTransfer:Zone:ZN_OFFICE_B2,23937.51,0.50,24-JUL-18:00,24454.50,05-AUG-13:00
+,Heating:EnergyTransfer:Zone:ZN_OFFICE_B2,1073.45,0.00,01-JAN-00:30,11591.33,19-JAN-06:00
+,Cooling:EnergyTransfer:Zone:ZN_OFFICE_B2,22864.06,0.00,01-JAN-11:30,24454.50,05-AUG-13:00
+,EnergyTransfer:Zone:ZN_CLASSROOM_B,15085.56,0.11,05-FEB-03:00,10478.32,27-APR-12:00
+,Heating:EnergyTransfer:Zone:ZN_CLASSROOM_B,815.84,0.00,01-JAN-00:30,4797.31,19-JAN-06:00
+,Cooling:EnergyTransfer:Zone:ZN_CLASSROOM_B,14269.71,0.00,01-JAN-11:30,10478.32,27-APR-12:00
+,DistrictHeating:Facility,4179.66,0.00,01-JAN-00:30,81906.14,19-JAN-06:00
+,DistrictHeating:HVAC,4179.66,0.00,01-JAN-00:30,81906.14,19-JAN-06:00
+,Heating:DistrictHeating,4179.66,0.00,01-JAN-00:30,81906.14,19-JAN-06:00
+,General:Heating:DistrictHeating,4179.66,0.00,01-JAN-00:30,81906.14,19-JAN-06:00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Sensible Heat Gain Summary
+FOR:,Entire Facility
+Annual Building Sensible Heat Gain Components
+
+,,HVAC Zone Eq & Other Sensible Air Heating [kWh],HVAC Zone Eq & Other Sensible Air Cooling [kWh],HVAC Terminal Unit Sensible Air Heating [kWh],HVAC Terminal Unit Sensible Air Cooling [kWh],HVAC Input Heated Surface Heating [kWh],HVAC Input Cooled Surface Cooling [kWh],People Sensible Heat Addition [kWh],Lights Sensible Heat Addition [kWh],Equipment Sensible Heat Addition [kWh],Window Heat Addition [kWh],Interzone Air Transfer Heat Addition [kWh],Infiltration Heat Addition [kWh],Opaque Surface Conduction and Other Heat Addition [kWh],Equipment Sensible Heat Removal [kWh],Window Heat Removal [kWh],Interzone Air Transfer Heat Removal [kWh],Infiltration Heat Removal [kWh],Opaque Surface Conduction and Other Heat Removal [kWh]
+,ZN_OFFICES_A1,723.646,-31358.02,0.000,0.000,0.000,0.000,13832.152,12081.970,2550.236,25316.760,0.000,492.540,0.352,0.000,-5895.05,0.000,-12881.83,-4862.40
+,ZN_OFFICES_A2,712.764,-37908.49,0.000,0.000,0.000,0.000,21216.302,10893.570,3081.791,30210.256,0.000,447.895,9.187,0.000,-6490.97,0.000,-12470.46,-9692.66
+,ZN_OFFICES_B1,1253.039,-27931.96,0.000,0.000,0.000,0.000,12995.571,12081.970,2818.082,33367.341,0.000,814.113,1.359,0.000,-5878.96,0.000,-14896.63,-14622.57
+,ZN_CLASSROOM_A,1082.174,-17509.49,0.000,0.000,0.000,0.000,8279.189,3224.140,66.994,6187.227,0.000,55.354,2189.104,0.000,-1632.39,0.000,-1942.31,-0.05
+,ZN_OFFICE_B2,1073.444,-22863.71,0.000,0.000,0.000,0.000,11235.709,9858.670,2079.784,27099.004,0.000,689.086,1.155,0.000,-4900.99,0.000,-12417.70,-11853.30
+,ZN_CLASSROOM_B,815.841,-14269.68,0.000,0.000,0.000,0.000,6544.777,3224.140,58.133,10084.629,0.000,48.370,0.690,0.000,-1892.54,0.000,-2609.37,-2004.29
+,ZN_CIRCULATION_A,0.000,0.000,0.000,0.000,0.000,0.000,20018.983,3294.555,0.000,1664.951,0.000,136.294,0.544,0.000,-1819.31,0.000,-9724.61,-13570.86
+,ZN_CIRCULATION_B,0.000,0.000,0.000,0.000,0.000,0.000,23642.276,4416.458,0.000,14514.177,0.000,131.530,0.603,0.000,-3362.19,0.000,-16709.26,-22632.99
+,Total Facility,5660.909,-151841.35,0.000,0.000,0.000,0.000,117764.957,59075.473,10655.020,148444.344,0.000,2815.182,2202.994,0.000,-31872.41,0.000,-83652.16,-79239.13
+
+
+Peak Cooling Sensible Heat Gain Components
+
+,,Time of Peak {TIMESTAMP},HVAC Zone Eq & Other Sensible Air Heating [W],HVAC Zone Eq & Other Sensible Air Cooling [W],HVAC Terminal Unit Sensible Air Heating [W],HVAC Terminal Unit Sensible Air Cooling [W],HVAC Input Heated Surface Heating [W],HVAC Input Cooled Surface Cooling [W],People Sensible Heat Addition [W],Lights Sensible Heat Addition [W],Equipment Sensible Heat Addition [W],Window Heat Addition [W],Interzone Air Transfer Heat Addition [W],Infiltration Heat Addition [W],Opaque Surface Conduction and Other Heat Addition [W],Equipment Sensible Heat Removal [W],Window Heat Removal [W],Interzone Air Transfer Heat Removal [W],Infiltration Heat Removal [W],Opaque Surface Conduction and Other Heat Removal [W]
+,ZN_OFFICES_A1,05-AUG-16:30,0.00,-16235.30,0.00,0.00,0.00,0.00,4489.03,4455.00,1196.17,14488.23,0.00,4242.08,0.00,0.00,-0.00,0.00,0.00,-12635.21
+,ZN_OFFICES_A2,05-AUG-13:00,0.00,-18459.94,0.00,0.00,0.00,0.00,7145.47,4016.80,1515.14,19399.98,0.00,3940.06,0.00,0.00,-0.00,0.00,0.00,-17557.50
+,ZN_OFFICES_B1,04-AUG-08:05,0.00,-32267.65,0.00,0.00,0.00,0.00,1552.29,0.00,660.90,10722.62,0.00,0.00,19691.76,0.00,-0.00,0.00,-359.91,0.00
+,ZN_CLASSROOM_A,01-MAR-12:24,0.00,-12543.66,0.00,0.00,0.00,0.00,17156.44,1081.20,108.12,33.58,0.00,0.00,0.00,0.00,-0.00,0.00,-576.19,-5259.49
+,ZN_OFFICE_B2,04-AUG-08:05,0.00,-27108.70,0.00,0.00,0.00,0.00,1384.12,0.00,487.75,9382.21,0.00,0.00,16211.86,0.00,-0.00,0.00,-357.24,0.00
+,ZN_CLASSROOM_B,27-APR-12:30,0.00,-10515.97,0.00,0.00,0.00,0.00,14022.34,1081.20,108.12,140.50,0.00,0.00,0.00,0.00,-0.00,0.00,-737.55,-4098.64
+,ZN_CIRCULATION_A,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZN_CIRCULATION_B,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Total Facility,05-AUG-13:00,0.00,-86734.44,0.00,0.00,0.00,0.00,21580.46,21310.25,5008.61,80803.84,0.00,20023.15,0.00,0.00,0.00,0.00,-1809.83,-60182.04
+
+
+Peak Heating Sensible Heat Gain Components
+
+,,Time of Peak {TIMESTAMP},HVAC Zone Eq & Other Sensible Air Heating [W],HVAC Zone Eq & Other Sensible Air Cooling [W],HVAC Terminal Unit Sensible Air Heating [W],HVAC Terminal Unit Sensible Air Cooling [W],HVAC Input Heated Surface Heating [W],HVAC Input Cooled Surface Cooling [W],People Sensible Heat Addition [W],Lights Sensible Heat Addition [W],Equipment Sensible Heat Addition [W],Window Heat Addition [W],Interzone Air Transfer Heat Addition [W],Infiltration Heat Addition [W],Opaque Surface Conduction and Other Heat Addition [W],Equipment Sensible Heat Removal [W],Window Heat Removal [W],Interzone Air Transfer Heat Removal [W],Infiltration Heat Removal [W],Opaque Surface Conduction and Other Heat Removal [W]
+,ZN_OFFICES_A1,31-JUL-13:45,4237.24,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,14210.05,0.00,741.25,0.00,0.00,-0.00,0.00,0.00,-19188.55
+,ZN_OFFICES_A2,03-AUG-19:03,5127.90,0.00,0.00,0.00,0.00,0.00,0.00,4016.80,0.00,700.93,0.00,745.80,0.00,0.00,-0.00,0.00,0.00,-10591.43
+,ZN_OFFICES_B1,19-JAN-05:45,13775.12,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,964.37,0.00,-2517.55,0.00,-12221.93,0.00
+,ZN_CLASSROOM_A,01-MAY-12:40,3976.08,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,3570.28,0.00,165.24,0.00,0.00,-0.00,0.00,0.00,-7711.59
+,ZN_OFFICE_B2,19-JAN-05:45,11591.73,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,830.51,0.00,-2145.58,0.00,-10276.65,0.00
+,ZN_CLASSROOM_B,19-JAN-05:45,4797.45,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,22.91,0.00,-945.15,0.00,-3875.21,0.00
+,ZN_CIRCULATION_A,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZN_CIRCULATION_B,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Total Facility,19-JAN-05:45,17198.52,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,52634.78,0.00,-14235.42,0.00,-55597.87,0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Standard 62.1 Summary
+FOR:,Entire Facility
+System Ventilation Requirements for Cooling
+
+,,Sum of Zone Primary Air Flow - Vpz-sum [m3/s],System Population - Ps,Sum of Zone Population - Pz-sum,Occupant Diversity - D,Uncorrected Outdoor Air Intake Airflow - Vou [m3/s],System Primary Airflow - Vps [m3/s],Average Outdoor Air Fraction - Xs,System Ventilation Efficiency - Ev,Outdoor Air Intake Flow - Vot [m3/s],Percent Outdoor Air - %OA,Environment Name of Peak System Population - Ps,Date and Time of Last Peak System Population - Ps
+,None,,,,,,,,,,,,
+
+
+System Ventilation Requirements for Heating
+
+,,Sum of Zone Primary Air Flow - Vpz-sum [m3/s],System Population - Ps,Sum of Zone Population - Pz-sum,Occupant Diversity - D,Uncorrected Outdoor Air Intake Airflow - Vou [m3/s],System Primary Airflow - Vps [m3/s],Average Outdoor Air Fraction - Xs,System Ventilation Efficiency - Ev,Outdoor Air Intake Flow Vot [m3/s],Percent Outdoor Air - %OA,Environment Name of Peak System Population - Ps,Date and Time of Last Peak System Population - Ps
+,None,,,,,,,,,,,,
+
+
+Zone Ventilation Parameters
+
+,,AirLoop Name,People Outdoor Air Rate - Rp [m3/s-person],Zone Population - Pz,Area Outdoor Air Rate - Ra [m3/s-m2],Zone Floor Area - Az [m2],Breathing Zone Outdoor Airflow - Vbz [m3/s],Cooling Zone Air Distribution Effectiveness - Ez-clg,Cooling Zone Outdoor Airflow - Voz-clg [m3/s],Heating Zone Air Distribution Effectiveness - Ez-htg,Heating Zone Outdoor Airflow - Voz-htg [m3/s]
+,None,,,,,,,,,,
+
+
+System Ventilation Parameters
+
+,,People Outdoor Air Rate - Rp [m3/s-person],Sum of Zone Population - Pz-sum,Area Outdoor Air Rate - Ra [m3/s-m2],Sum of Zone Floor Area - Az-sum [m2],Breathing Zone Outdoor Airflow - Vbz [m3/s],Cooling Zone Outdoor Airflow - Voz-clg [m3/s],Heating Zone Outdoor Airflow - Voz-htg [m3/s]
+,None,,,,,,,
+
+
+Zone Ventilation Calculations for Cooling Design
+
+,,AirLoop Name,Box Type,Zone Primary Airflow - Vpz [m3/s],Zone Discharge Airflow - Vdz [m3/s],Minimum Zone Primary Airflow - Vpz-min [m3/s],Zone Outdoor Airflow Cooling - Voz-clg [m3/s],Primary Outdoor Air Fraction - Zpz,Primary Air Fraction - Ep,Secondary Recirculation Fraction- Er,Supply Air Fraction- Fa,Mixed Air Fraction - Fb,Outdoor Air Fraction - Fc,Zone Ventilation Efficiency - Evz
+,None,,,,,,,,,,,,,
+
+
+System Ventilation Calculations for Cooling Design
+
+,,Sum of Zone Primary Airflow - Vpz-sum [m3/s],System Primary Airflow - Vps [m3/s],Sum of Zone Discharge Airflow - Vdz-sum [m3/s],Sum of Min Zone Primary Airflow - Vpz-min [m3/s],Zone Outdoor Airflow Cooling - Voz-clg [m3/s],Zone Ventilation Efficiency - Evz-min
+,None,,,,,,
+
+
+Zone Ventilation Calculations for Heating Design
+
+,,AirLoop Name,Box Type,Zone Primary Airflow - Vpz [m3/s],Zone Discharge Airflow - Vdz [m3/s],Minimum Zone Primary Airflow - Vpz-min [m3/s],Zone Outdoor Airflow Heating - Voz-htg [m3/s],Primary Outdoor Air Fraction - Zpz,Primary Air Fraction - Ep,Secondary Recirculation Fraction- Er,Supply Air Fraction- Fa,Mixed Air Fraction - Fb,Outdoor Air Fraction - Fc,Zone Ventilation Efficiency - Evz
+,None,,,,,,,,,,,,,
+
+
+System Ventilation Calculations for Heating Design
+
+,,Sum of Zone Primary Airflow - Vpz-sum [m3/s],System Primary Airflow - Vps [m3/s],Sum of Zone Discharge Airflow - Vdz-sum [m3/s],Sum of Min Zone Primary Airflow - Vpz-min [m3/s],Zone Outdoor Airflow Heating - Voz-htg [m3/s],Zone Ventilation Efficiency - Evz-min
+,None,,,,,,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,LEED Summary
+FOR:,Entire Facility
+Sec1.1A-General Information
+
+,,Data
+,Cooling Degree Days,1977
+,Heating Degree Days,2394
+,HDD and CDD data source,Weather File Stat
+,Climate Zone,4A
+,Weather File,CUSTOMRUN ** Bologna-Borgo Panigale - ITA IGDG WMO#=161400
+,Total gross floor area [m2],2206.40
+,Principal Heating Source,District Heat
+
+
+EAp2-1. Space Usage Type
+
+,,Space Area [m2],Regularly Occupied Area [m2],Unconditioned Area [m2],Typical Hours/Week in Operation [hr/wk]
+,ZN_OFFICES_A1,445.50,445.50,0.00,52.01
+,ZN_OFFICES_A2,401.68,401.68,0.00,52.01
+,ZN_OFFICES_B1,445.50,445.50,0.00,52.01
+,ZN_CLASSROOM_A,108.12,108.12,0.00,15.48
+,ZN_OFFICE_B2,363.52,363.52,0.00,52.01
+,ZN_CLASSROOM_B,108.12,108.12,0.00,12.35
+,ZN_CIRCULATION_A,147.90,0.00,147.90,72.76
+,ZN_CIRCULATION_B,186.06,0.00,186.06,72.76
+,Totals,2206.40,1872.44,333.96,
+
+
+EAp2-2. Advisory Messages
+
+,,Data
+,Number of hours heating loads not met,0.00
+,Number of hours cooling loads not met,3.00
+,Number of hours not met,3.00
+
+
+EAp2-3. Energy Type Summary
+
+,,Utility Rate,Virtual Rate [$/unit energy],Units of Energy,Units of Demand
+,None,,,,
+
+
+EAp2-4/5. Performance Rating Method Compliance
+
+,,Electric Energy Use [kWh],Electric Demand [W],Natural Gas Energy Use [kWh],Natural Gas Demand [W],Additional Fuel Use [kWh],Additional Fuel Demand [W],District Cooling Use [kWh],District Cooling Demand [W],District Heating Use [kWh],District Heating Demand [W]
+,Heating -- General,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,4179.66,81906.14
+,Cooling -- General,0.00,0.00,0.00,0.00,0.00,0.00,37800.31,170540.31,0.00,0.00
+,Interior Lighting -- General,59075.47,21310.25,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Exterior Lighting -- Not Subdivided,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment -- ElectricEquipment,10655.02,6340.18,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Exterior Equipment -- Not Subdivided,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans -- Not Subdivided,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Pumps -- Not Subdivided,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection -- Not Subdivided,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Humidification -- Not Subdivided,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery -- Not Subdivided,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Water Systems -- Not Subdivided,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Refrigeration -- Not Subdivided,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Generators -- General,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+
+
+EAp2-6. Energy Use Summary
+
+,,Process Subtotal [kWh],Total Energy Use [kWh]
+,Electricity,10655.02,69730.49
+,Natural Gas,0.00,0.00
+,Additional,0.00,41979.97
+,Total,10655.02,111710.47
+
+
+EAp2-7. Energy Cost Summary
+
+,,Process Subtotal [$],Total Energy Cost [$]
+,Electricity,0.00,
+,Natural Gas,0.00,
+,Additional,0.00,
+,Total,0.00,
+Process energy cost based on ratio of process to total energy.
+
+
+L-1. Renewable Energy Source Summary
+
+,,Rated Capacity [kW],Annual Energy Generated [kWh]
+,Photovoltaic,0.00,0.00
+,Wind,0.00,0.00
+
+
+EAp2-17a. Energy Use Intensity - Electricity
+
+,,Electricty [kWh/m2]
+,Interior Lighting (All),26.77
+,Space Heating,0.00
+,Space Cooling,0.00
+,Fans (All),0.00
+,Service Water Heating,0.00
+,Receptacle Equipment,4.83
+,Miscellaneous (All),31.60
+,Subtotal,31.60
+
+
+EAp2-17b. Energy Use Intensity - Natural Gas
+
+,,Natural Gas [kWh/m2]
+,Space Heating,0.00
+,Service Water Heating,0.00
+,Miscellaneous (All),0.00
+,Subtotal,0.00
+
+
+EAp2-17c. Energy Use Intensity - Additional
+
+,,Additional [kWh/m2]
+,Subtotal,0.00
+,Miscellaneous,0.00
+
+
+EAp2-18. End Use Percentage
+
+,,Percent [%]
+,Interior Lighting (All),52.88
+,Space Heating,3.74
+,Space Cooling,33.84
+,Fans (All),0.00
+,Service Water Heating,0.00
+,Receptacle Equipment,9.54
+,Miscellaneous,0.00
+
+
+Schedules-Equivalent Full Load Hours (Schedule Type=Fraction)
+
+,,Equivalent Full Load Hours of Operation Per Year [hr],Hours > 1% [hr]
+,MEDIUM OFFICE INFIL QUARTER ON,5160.,8760.
+
+
+Schedules-SetPoints (Schedule Type=Temperature)
+
+,,First Object Used,Month Assumed,11am First Wednesday [C],Days with Same 11am Value,11pm First Wednesday [C],Days with Same 11pm Value
+,SCHSCH-HEAT_CENTRALISEDHEATING_EP,ZN_OFFICES_A2_HVAC DUAL SP CONTROL,January,0.00,365,0.00,365
+,SCHSCH-COOL_ADMINISTRATIONOFFICES_EP,ZN_OFFICES_A2_HVAC DUAL SP CONTROL,July,30.00,138,30.00,365
+,SCHSCH-COOL_RESEARCHOFFICES_EP,ZN_OFFICES_A1_HVAC DUAL SP CONTROL,July,30.00,138,30.00,365
+,SCHSCH_COOLING_OFF_EP,ZN_CLASSROOM_B_HVAC DUAL SP CONTROL,July,50.00,365,50.00,365
+
+

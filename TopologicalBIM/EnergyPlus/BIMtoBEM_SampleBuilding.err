@@ -1,0 +1,75 @@
+Program Version,EnergyPlus, Version 9.3.0-baff08990c, YMD=2023.09.24 10:38,
+   ** Warning ** Version: in IDF="=9.3.0" not the same as expected="9.3"
+   ** Warning ** Version: in IDF="=9.3.0" not the same as expected="9.3"
+   ** Warning ** Timestep: Requested number (2) is less than the suggested minimum of 4.
+   **   ~~~   ** Please see entry for Timestep in Input/Output Reference for discussion of considerations.
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** GetHTSurfaceData: Surfaces with interface to Ground found but no "Ground Temperatures" were input.
+   **   ~~~   ** Found first in surface=7FE440AE6DCC4C2391F5
+   **   ~~~   ** Defaults, constant throughout the year of (18.0) will be used.
+   ** Warning ** BuildingSurface:Detailed="7FE440AE6DCC4C2391F5", Sun Exposure="SUNEXPOSED".
+   **   ~~~   ** ..This surface is not exposed to External Environment.  Sun exposure has no effect.
+   ** Warning ** BuildingSurface:Detailed="024BC196B59F40FDA528", Sun Exposure="SUNEXPOSED".
+   **   ~~~   ** ..This surface is not exposed to External Environment.  Sun exposure has no effect.
+   ** Warning ** BuildingSurface:Detailed="F0130D68DC4F4427A0EF", Sun Exposure="SUNEXPOSED".
+   **   ~~~   ** ..This surface is not exposed to External Environment.  Sun exposure has no effect.
+   ** Warning ** BuildingSurface:Detailed="947D0530439D4F968774", Sun Exposure="SUNEXPOSED".
+   **   ~~~   ** ..This surface is not exposed to External Environment.  Sun exposure has no effect.
+   ** Warning ** BuildingSurface:Detailed="EE3884F395E54E4C9D85", Sun Exposure="SUNEXPOSED".
+   **   ~~~   ** ..This surface is not exposed to External Environment.  Sun exposure has no effect.
+   ** Warning ** BuildingSurface:Detailed="C9C5CDA1ADA54700B1FD", Sun Exposure="SUNEXPOSED".
+   **   ~~~   ** ..This surface is not exposed to External Environment.  Sun exposure has no effect.
+   ** Warning ** BuildingSurface:Detailed="D470328E56064D10BC13", Sun Exposure="SUNEXPOSED".
+   **   ~~~   ** ..This surface is not exposed to External Environment.  Sun exposure has no effect.
+   ** Warning ** BuildingSurface:Detailed="9EF9DE5BFEFE44F1B12B", Sun Exposure="SUNEXPOSED".
+   **   ~~~   ** ..This surface is not exposed to External Environment.  Sun exposure has no effect.
+   ** Warning ** Calculated design heating load for zone=ZN_OFFICES_A1 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=ZN_OFFICES_A2 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design cooling load for zone=ZN_CLASSROOM_A is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=ZN_CLASSROOM_A is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design cooling load for zone=ZN_CLASSROOM_B is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** ManageSizing: For a plant sizing run, there must be at least 1 Sizing:Plant object input. SimulationControl Plant Sizing option ignored.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ************* Simulation Error Summary *************
+   ** Warning ** The following Report Variables were requested but not generated -- check.rdd file
+   **   ~~~   ** Either the IDF did not contain these elements, the variable name is misspelled,
+   **   ~~~   ** or the requested variable is an advanced output which requires Output : Diagnostics, DisplayAdvancedReportVariables;
+   ************* Key=*, VarName=COOLING COIL ELECTRIC ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=CHILLER ELECTRIC ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=BOILER GAS ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=HEATING COIL TOTAL HEATING ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=HEATING COIL GAS ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=HEATING COIL ELECTRIC ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=HUMIDIFIER ELECTRIC ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=FAN ELECTRIC ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=COOLING TOWER FAN ELECTRIC ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=ZONE VENTILATION FAN ELECTRIC ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=EARTH TUBE FAN ELECTRIC ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=PUMP ELECTRIC ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=ZONE VRF AIR TERMINAL COOLING ELECTRIC ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=ZONE VRF AIR TERMINAL HEATING ELECTRIC ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=VRF HEAT PUMP COOLING ELECTRIC ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=VRF HEAT PUMP HEATING ELECTRIC ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=CHILLER HEATER SYSTEM COOLING ELECTRIC ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=CHILLER HEATER SYSTEM HEATING ELECTRIC ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=ZONE VENTILATION SENSIBLE HEAT LOSS ENERGY, Frequency=Hourly
+   ************* Key=*, VarName=ZONE VENTILATION SENSIBLE HEAT GAIN ENERGY, Frequency=Hourly
+   ************* There are 2 unused schedules in input.
+   ************* There are 366 unused week schedules in input.
+   ************* There are 368 unused day schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 15 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 19 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  6.94sec

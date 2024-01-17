@@ -1,0 +1,780 @@
+
+ Meters for 15,ZN_OFFICES_A2OFFICELIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZN_OFFICES_A2 [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZN_OFFICES_A2 [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 89,ZN_CIRCULATION_AOFFICELIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZN_CIRCULATION_A [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZN_CIRCULATION_A [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 115,ZN_OFFICES_A1OFFICELIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZN_OFFICES_A1 [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZN_OFFICES_A1 [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 141,ZN_CLASSROOM_BOFFICELIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZN_CLASSROOM_B [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZN_CLASSROOM_B [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 167,ZN_OFFICES_B1OFFICELIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZN_OFFICES_B1 [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZN_OFFICES_B1 [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 193,ZN_CIRCULATION_BOFFICELIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZN_CIRCULATION_B [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZN_CIRCULATION_B [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 219,ZN_CLASSROOM_AOFFICELIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZN_CLASSROOM_A [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZN_CLASSROOM_A [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 245,ZN_OFFICE_B2OFFICELIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZN_OFFICE_B2 [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ZN_OFFICE_B2 [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 271,ZN_OFFICES_A2ELECTRICEQUIPMENT:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZN_OFFICES_A2 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZN_OFFICES_A2 [J]
+  OnMeter=ElectricEquipment:InteriorEquipment:Electricity [J]
+
+ Meters for 309,ZN_CIRCULATION_AELECTRICEQUIPMENT:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZN_CIRCULATION_A [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZN_CIRCULATION_A [J]
+  OnMeter=ElectricEquipment:InteriorEquipment:Electricity [J]
+
+ Meters for 323,ZN_OFFICES_A1ELECTRICEQUIPMENT:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZN_OFFICES_A1 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZN_OFFICES_A1 [J]
+  OnMeter=ElectricEquipment:InteriorEquipment:Electricity [J]
+
+ Meters for 337,ZN_CLASSROOM_BELECTRICEQUIPMENT:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZN_CLASSROOM_B [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZN_CLASSROOM_B [J]
+  OnMeter=ElectricEquipment:InteriorEquipment:Electricity [J]
+
+ Meters for 351,ZN_OFFICES_B1ELECTRICEQUIPMENT:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZN_OFFICES_B1 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZN_OFFICES_B1 [J]
+  OnMeter=ElectricEquipment:InteriorEquipment:Electricity [J]
+
+ Meters for 365,ZN_CIRCULATION_BELECTRICEQUIPMENT:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZN_CIRCULATION_B [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZN_CIRCULATION_B [J]
+  OnMeter=ElectricEquipment:InteriorEquipment:Electricity [J]
+
+ Meters for 379,ZN_CLASSROOM_AELECTRICEQUIPMENT:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZN_CLASSROOM_A [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZN_CLASSROOM_A [J]
+  OnMeter=ElectricEquipment:InteriorEquipment:Electricity [J]
+
+ Meters for 393,ZN_OFFICE_B2ELECTRICEQUIPMENT:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ZN_OFFICE_B2 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ZN_OFFICE_B2 [J]
+  OnMeter=ElectricEquipment:InteriorEquipment:Electricity [J]
+
+ Meters for 431,ZN_OFFICES_A1:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZN_OFFICES_A1 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZN_OFFICES_A1 [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 504,ZN_OFFICES_A1:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZN_OFFICES_A1 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZN_OFFICES_A1 [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 541,ZN_OFFICES_A2:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZN_OFFICES_A2 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZN_OFFICES_A2 [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 566,ZN_OFFICES_A2:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZN_OFFICES_A2 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZN_OFFICES_A2 [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 579,ZN_CIRCULATION_A:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZN_CIRCULATION_A [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZN_CIRCULATION_A [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 604,ZN_CIRCULATION_A:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZN_CIRCULATION_A [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZN_CIRCULATION_A [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 617,ZN_OFFICES_B1:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZN_OFFICES_B1 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZN_OFFICES_B1 [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 642,ZN_OFFICES_B1:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZN_OFFICES_B1 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZN_OFFICES_B1 [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 655,ZN_CLASSROOM_A:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZN_CLASSROOM_A [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZN_CLASSROOM_A [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 680,ZN_CLASSROOM_A:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZN_CLASSROOM_A [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZN_CLASSROOM_A [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 693,ZN_CIRCULATION_B:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZN_CIRCULATION_B [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZN_CIRCULATION_B [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 718,ZN_CIRCULATION_B:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZN_CIRCULATION_B [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZN_CIRCULATION_B [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 731,ZN_OFFICE_B2:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZN_OFFICE_B2 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZN_OFFICE_B2 [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 756,ZN_OFFICE_B2:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZN_OFFICE_B2 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZN_OFFICE_B2 [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 769,ZN_CLASSROOM_B:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZN_CLASSROOM_B [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ZN_CLASSROOM_B [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 794,ZN_CLASSROOM_B:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ZN_CLASSROOM_B [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ZN_CLASSROOM_B [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 807,Whole Building:Facility Total Purchased Electric Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+  OnMeter=General:Cogeneration:ElectricityPurchased [J]
+
+ Meters for 856,Whole Building:Facility Total Surplus Electric Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+  OnMeter=General:Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 905,Whole Building:Facility Net Purchased Electric Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+  OnMeter=General:Cogeneration:ElectricityNet [J]
+
+ Meters for 970,ZN_OFFICES_A2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+  OnMeter=General:Heating:DistrictHeating [J]
+
+ Meters for 1019,ZN_OFFICES_A2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+  OnMeter=General:Cooling:DistrictCooling [J]
+
+ Meters for 1070,ZN_OFFICES_A1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+  OnMeter=General:Heating:DistrictHeating [J]
+
+ Meters for 1071,ZN_OFFICES_A1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+  OnMeter=General:Cooling:DistrictCooling [J]
+
+ Meters for 1074,ZN_CLASSROOM_B IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+  OnMeter=General:Heating:DistrictHeating [J]
+
+ Meters for 1075,ZN_CLASSROOM_B IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+  OnMeter=General:Cooling:DistrictCooling [J]
+
+ Meters for 1078,ZN_OFFICES_B1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+  OnMeter=General:Heating:DistrictHeating [J]
+
+ Meters for 1079,ZN_OFFICES_B1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+  OnMeter=General:Cooling:DistrictCooling [J]
+
+ Meters for 1082,ZN_CLASSROOM_A IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+  OnMeter=General:Heating:DistrictHeating [J]
+
+ Meters for 1083,ZN_CLASSROOM_A IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+  OnMeter=General:Cooling:DistrictCooling [J]
+
+ Meters for 1086,ZN_OFFICE_B2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+  OnMeter=General:Heating:DistrictHeating [J]
+
+ Meters for 1087,ZN_OFFICE_B2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+  OnMeter=General:Cooling:DistrictCooling [J]
+
+ Meters for 1162,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1187,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1188,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  ZN_OFFICES_A2OFFICELIGHTS:Lights Electric Energy
+  ZN_CIRCULATION_AOFFICELIGHTS:Lights Electric Energy
+  ZN_OFFICES_A1OFFICELIGHTS:Lights Electric Energy
+  ZN_CLASSROOM_BOFFICELIGHTS:Lights Electric Energy
+  ZN_OFFICES_B1OFFICELIGHTS:Lights Electric Energy
+  ZN_CIRCULATION_BOFFICELIGHTS:Lights Electric Energy
+  ZN_CLASSROOM_AOFFICELIGHTS:Lights Electric Energy
+  ZN_OFFICE_B2OFFICELIGHTS:Lights Electric Energy
+  ZN_OFFICES_A2ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_CIRCULATION_AELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_OFFICES_A1ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_CLASSROOM_BELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_OFFICES_B1ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_CIRCULATION_BELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_CLASSROOM_AELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_OFFICE_B2ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  ZN_OFFICES_A2OFFICELIGHTS:Lights Electric Energy
+  ZN_CIRCULATION_AOFFICELIGHTS:Lights Electric Energy
+  ZN_OFFICES_A1OFFICELIGHTS:Lights Electric Energy
+  ZN_CLASSROOM_BOFFICELIGHTS:Lights Electric Energy
+  ZN_OFFICES_B1OFFICELIGHTS:Lights Electric Energy
+  ZN_CIRCULATION_BOFFICELIGHTS:Lights Electric Energy
+  ZN_CLASSROOM_AOFFICELIGHTS:Lights Electric Energy
+  ZN_OFFICE_B2OFFICELIGHTS:Lights Electric Energy
+  ZN_OFFICES_A2ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_CIRCULATION_AELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_OFFICES_A1ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_CLASSROOM_BELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_OFFICES_B1ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_CIRCULATION_BELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_CLASSROOM_AELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_OFFICE_B2ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Zone:ZN_OFFICES_A2 [J], ResourceType=Electricity, Group=Zone, contents are:
+  ZN_OFFICES_A2OFFICELIGHTS:Lights Electric Energy
+  ZN_OFFICES_A2ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  ZN_OFFICES_A2OFFICELIGHTS:Lights Electric Energy
+  ZN_CIRCULATION_AOFFICELIGHTS:Lights Electric Energy
+  ZN_OFFICES_A1OFFICELIGHTS:Lights Electric Energy
+  ZN_CLASSROOM_BOFFICELIGHTS:Lights Electric Energy
+  ZN_OFFICES_B1OFFICELIGHTS:Lights Electric Energy
+  ZN_CIRCULATION_BOFFICELIGHTS:Lights Electric Energy
+  ZN_CLASSROOM_AOFFICELIGHTS:Lights Electric Energy
+  ZN_OFFICE_B2OFFICELIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZN_OFFICES_A2 [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ZN_OFFICES_A2OFFICELIGHTS:Lights Electric Energy
+
+ For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  ZN_OFFICES_A2OFFICELIGHTS:Lights Electric Energy
+  ZN_CIRCULATION_AOFFICELIGHTS:Lights Electric Energy
+  ZN_OFFICES_A1OFFICELIGHTS:Lights Electric Energy
+  ZN_CLASSROOM_BOFFICELIGHTS:Lights Electric Energy
+  ZN_OFFICES_B1OFFICELIGHTS:Lights Electric Energy
+  ZN_CIRCULATION_BOFFICELIGHTS:Lights Electric Energy
+  ZN_CLASSROOM_AOFFICELIGHTS:Lights Electric Energy
+  ZN_OFFICE_B2OFFICELIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ZN_CIRCULATION_A [J], ResourceType=Electricity, Group=Zone, contents are:
+  ZN_CIRCULATION_AOFFICELIGHTS:Lights Electric Energy
+  ZN_CIRCULATION_AELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZN_CIRCULATION_A [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ZN_CIRCULATION_AOFFICELIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ZN_OFFICES_A1 [J], ResourceType=Electricity, Group=Zone, contents are:
+  ZN_OFFICES_A1OFFICELIGHTS:Lights Electric Energy
+  ZN_OFFICES_A1ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZN_OFFICES_A1 [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ZN_OFFICES_A1OFFICELIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ZN_CLASSROOM_B [J], ResourceType=Electricity, Group=Zone, contents are:
+  ZN_CLASSROOM_BOFFICELIGHTS:Lights Electric Energy
+  ZN_CLASSROOM_BELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZN_CLASSROOM_B [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ZN_CLASSROOM_BOFFICELIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ZN_OFFICES_B1 [J], ResourceType=Electricity, Group=Zone, contents are:
+  ZN_OFFICES_B1OFFICELIGHTS:Lights Electric Energy
+  ZN_OFFICES_B1ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZN_OFFICES_B1 [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ZN_OFFICES_B1OFFICELIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ZN_CIRCULATION_B [J], ResourceType=Electricity, Group=Zone, contents are:
+  ZN_CIRCULATION_BOFFICELIGHTS:Lights Electric Energy
+  ZN_CIRCULATION_BELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZN_CIRCULATION_B [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ZN_CIRCULATION_BOFFICELIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ZN_CLASSROOM_A [J], ResourceType=Electricity, Group=Zone, contents are:
+  ZN_CLASSROOM_AOFFICELIGHTS:Lights Electric Energy
+  ZN_CLASSROOM_AELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZN_CLASSROOM_A [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ZN_CLASSROOM_AOFFICELIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ZN_OFFICE_B2 [J], ResourceType=Electricity, Group=Zone, contents are:
+  ZN_OFFICE_B2OFFICELIGHTS:Lights Electric Energy
+  ZN_OFFICE_B2ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ZN_OFFICE_B2 [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ZN_OFFICE_B2OFFICELIGHTS:Lights Electric Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  ZN_OFFICES_A2ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_CIRCULATION_AELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_OFFICES_A1ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_CLASSROOM_BELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_OFFICES_B1ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_CIRCULATION_BELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_CLASSROOM_AELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_OFFICE_B2ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZN_OFFICES_A2 [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ZN_OFFICES_A2ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=ElectricEquipment:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  ZN_OFFICES_A2ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_CIRCULATION_AELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_OFFICES_A1ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_CLASSROOM_BELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_OFFICES_B1ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_CIRCULATION_BELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_CLASSROOM_AELECTRICEQUIPMENT:Electric Equipment Electric Energy
+  ZN_OFFICE_B2ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZN_CIRCULATION_A [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ZN_CIRCULATION_AELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZN_OFFICES_A1 [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ZN_OFFICES_A1ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZN_CLASSROOM_B [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ZN_CLASSROOM_BELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZN_OFFICES_B1 [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ZN_OFFICES_B1ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZN_CIRCULATION_B [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ZN_CIRCULATION_BELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZN_CLASSROOM_A [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ZN_CLASSROOM_AELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ZN_OFFICE_B2 [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ZN_OFFICE_B2ELECTRICEQUIPMENT:Electric Equipment Electric Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  ZN_OFFICES_A1:Zone Air System Sensible Heating Energy
+  ZN_OFFICES_A1:Zone Air System Sensible Cooling Energy
+  ZN_OFFICES_A2:Zone Air System Sensible Heating Energy
+  ZN_OFFICES_A2:Zone Air System Sensible Cooling Energy
+  ZN_CIRCULATION_A:Zone Air System Sensible Heating Energy
+  ZN_CIRCULATION_A:Zone Air System Sensible Cooling Energy
+  ZN_OFFICES_B1:Zone Air System Sensible Heating Energy
+  ZN_OFFICES_B1:Zone Air System Sensible Cooling Energy
+  ZN_CLASSROOM_A:Zone Air System Sensible Heating Energy
+  ZN_CLASSROOM_A:Zone Air System Sensible Cooling Energy
+  ZN_CIRCULATION_B:Zone Air System Sensible Heating Energy
+  ZN_CIRCULATION_B:Zone Air System Sensible Cooling Energy
+  ZN_OFFICE_B2:Zone Air System Sensible Heating Energy
+  ZN_OFFICE_B2:Zone Air System Sensible Cooling Energy
+  ZN_CLASSROOM_B:Zone Air System Sensible Heating Energy
+  ZN_CLASSROOM_B:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  ZN_OFFICES_A1:Zone Air System Sensible Heating Energy
+  ZN_OFFICES_A1:Zone Air System Sensible Cooling Energy
+  ZN_OFFICES_A2:Zone Air System Sensible Heating Energy
+  ZN_OFFICES_A2:Zone Air System Sensible Cooling Energy
+  ZN_CIRCULATION_A:Zone Air System Sensible Heating Energy
+  ZN_CIRCULATION_A:Zone Air System Sensible Cooling Energy
+  ZN_OFFICES_B1:Zone Air System Sensible Heating Energy
+  ZN_OFFICES_B1:Zone Air System Sensible Cooling Energy
+  ZN_CLASSROOM_A:Zone Air System Sensible Heating Energy
+  ZN_CLASSROOM_A:Zone Air System Sensible Cooling Energy
+  ZN_CIRCULATION_B:Zone Air System Sensible Heating Energy
+  ZN_CIRCULATION_B:Zone Air System Sensible Cooling Energy
+  ZN_OFFICE_B2:Zone Air System Sensible Heating Energy
+  ZN_OFFICE_B2:Zone Air System Sensible Cooling Energy
+  ZN_CLASSROOM_B:Zone Air System Sensible Heating Energy
+  ZN_CLASSROOM_B:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZN_OFFICES_A1 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZN_OFFICES_A1:Zone Air System Sensible Heating Energy
+  ZN_OFFICES_A1:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  ZN_OFFICES_A1:Zone Air System Sensible Heating Energy
+  ZN_OFFICES_A2:Zone Air System Sensible Heating Energy
+  ZN_CIRCULATION_A:Zone Air System Sensible Heating Energy
+  ZN_OFFICES_B1:Zone Air System Sensible Heating Energy
+  ZN_CLASSROOM_A:Zone Air System Sensible Heating Energy
+  ZN_CIRCULATION_B:Zone Air System Sensible Heating Energy
+  ZN_OFFICE_B2:Zone Air System Sensible Heating Energy
+  ZN_CLASSROOM_B:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZN_OFFICES_A1 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZN_OFFICES_A1:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  ZN_OFFICES_A1:Zone Air System Sensible Heating Energy
+  ZN_OFFICES_A2:Zone Air System Sensible Heating Energy
+  ZN_CIRCULATION_A:Zone Air System Sensible Heating Energy
+  ZN_OFFICES_B1:Zone Air System Sensible Heating Energy
+  ZN_CLASSROOM_A:Zone Air System Sensible Heating Energy
+  ZN_CIRCULATION_B:Zone Air System Sensible Heating Energy
+  ZN_OFFICE_B2:Zone Air System Sensible Heating Energy
+  ZN_CLASSROOM_B:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  ZN_OFFICES_A1:Zone Air System Sensible Cooling Energy
+  ZN_OFFICES_A2:Zone Air System Sensible Cooling Energy
+  ZN_CIRCULATION_A:Zone Air System Sensible Cooling Energy
+  ZN_OFFICES_B1:Zone Air System Sensible Cooling Energy
+  ZN_CLASSROOM_A:Zone Air System Sensible Cooling Energy
+  ZN_CIRCULATION_B:Zone Air System Sensible Cooling Energy
+  ZN_OFFICE_B2:Zone Air System Sensible Cooling Energy
+  ZN_CLASSROOM_B:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZN_OFFICES_A1 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZN_OFFICES_A1:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  ZN_OFFICES_A1:Zone Air System Sensible Cooling Energy
+  ZN_OFFICES_A2:Zone Air System Sensible Cooling Energy
+  ZN_CIRCULATION_A:Zone Air System Sensible Cooling Energy
+  ZN_OFFICES_B1:Zone Air System Sensible Cooling Energy
+  ZN_CLASSROOM_A:Zone Air System Sensible Cooling Energy
+  ZN_CIRCULATION_B:Zone Air System Sensible Cooling Energy
+  ZN_OFFICE_B2:Zone Air System Sensible Cooling Energy
+  ZN_CLASSROOM_B:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZN_OFFICES_A2 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZN_OFFICES_A2:Zone Air System Sensible Heating Energy
+  ZN_OFFICES_A2:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZN_OFFICES_A2 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZN_OFFICES_A2:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZN_OFFICES_A2 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZN_OFFICES_A2:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZN_CIRCULATION_A [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZN_CIRCULATION_A:Zone Air System Sensible Heating Energy
+  ZN_CIRCULATION_A:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZN_CIRCULATION_A [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZN_CIRCULATION_A:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZN_CIRCULATION_A [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZN_CIRCULATION_A:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZN_OFFICES_B1 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZN_OFFICES_B1:Zone Air System Sensible Heating Energy
+  ZN_OFFICES_B1:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZN_OFFICES_B1 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZN_OFFICES_B1:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZN_OFFICES_B1 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZN_OFFICES_B1:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZN_CLASSROOM_A [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZN_CLASSROOM_A:Zone Air System Sensible Heating Energy
+  ZN_CLASSROOM_A:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZN_CLASSROOM_A [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZN_CLASSROOM_A:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZN_CLASSROOM_A [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZN_CLASSROOM_A:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZN_CIRCULATION_B [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZN_CIRCULATION_B:Zone Air System Sensible Heating Energy
+  ZN_CIRCULATION_B:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZN_CIRCULATION_B [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZN_CIRCULATION_B:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZN_CIRCULATION_B [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZN_CIRCULATION_B:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZN_OFFICE_B2 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZN_OFFICE_B2:Zone Air System Sensible Heating Energy
+  ZN_OFFICE_B2:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZN_OFFICE_B2 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZN_OFFICE_B2:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZN_OFFICE_B2 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZN_OFFICE_B2:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ZN_CLASSROOM_B [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ZN_CLASSROOM_B:Zone Air System Sensible Heating Energy
+  ZN_CLASSROOM_B:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ZN_CLASSROOM_B [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ZN_CLASSROOM_B:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ZN_CLASSROOM_B [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ZN_CLASSROOM_B:Zone Air System Sensible Cooling Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=General:Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=General:Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=General:Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=DistrictHeating:Facility [J], ResourceType=DistrictHeating, contents are:
+  ZN_OFFICES_A2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_OFFICES_A1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_CLASSROOM_B IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_OFFICES_B1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_CLASSROOM_A IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_OFFICE_B2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictHeating:HVAC [J], ResourceType=DistrictHeating, Group=HVAC, contents are:
+  ZN_OFFICES_A2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_OFFICES_A1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_CLASSROOM_B IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_OFFICES_B1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_CLASSROOM_A IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_OFFICE_B2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  ZN_OFFICES_A2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_OFFICES_A1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_CLASSROOM_B IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_OFFICES_B1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_CLASSROOM_A IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_OFFICE_B2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=General:Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  ZN_OFFICES_A2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_OFFICES_A1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_CLASSROOM_B IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_OFFICES_B1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_CLASSROOM_A IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  ZN_OFFICE_B2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictCooling:Facility [J], ResourceType=DistrictCooling, contents are:
+  ZN_OFFICES_A2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_OFFICES_A1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_CLASSROOM_B IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_OFFICES_B1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_CLASSROOM_A IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_OFFICE_B2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=DistrictCooling:HVAC [J], ResourceType=DistrictCooling, Group=HVAC, contents are:
+  ZN_OFFICES_A2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_OFFICES_A1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_CLASSROOM_B IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_OFFICES_B1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_CLASSROOM_A IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_OFFICE_B2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  ZN_OFFICES_A2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_OFFICES_A1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_CLASSROOM_B IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_OFFICES_B1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_CLASSROOM_A IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_OFFICE_B2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=General:Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  ZN_OFFICES_A2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_OFFICES_A1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_CLASSROOM_B IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_OFFICES_B1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_CLASSROOM_A IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZN_OFFICE_B2 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
