@@ -1,0 +1,257 @@
+[
+    {
+        "Class": "tpBL",
+        "UID": "buildingX1",
+        "rl_Relationships": {
+            "HasLocation_tpST": [
+                "siteX"
+            ]
+        }
+    },
+    {
+        "Class": "eqSY",
+        "UID": "HVACsystem1",
+        "rl_Relationships": {
+            "Feeds_tpBL": [
+                "buildingX1"
+            ]
+        }
+    },
+    {
+        "Class": "eqSS",
+        "UID": "heatingSubsystemA",
+        "rl_Relationships": {
+            "Feeds_tpZN": [
+                "heatingZoneA"
+            ],
+            "IsPartOf_eqSY": [
+                "HVACsystem1"
+            ]
+        }
+    },
+    {
+        "Class": "eqDV",
+        "UID": "boilerA",
+        "rl_Relationships": {
+            "IsPartOf_eqSS": [
+                "heatingSubsystemA"
+            ],
+            "HasLocation_tpSP": [
+                "space2"
+            ]
+        }
+    },
+    {
+        "Class": "eqDV",
+        "UID": "radiator1",
+        "rl_Relationships": {
+            "IsPartOf_eqSS": [
+                "heatingSubsystemA"
+            ],
+            "HasLocation_tpSP": [
+                "space1"
+            ],
+            "IsFedBy_eqDV": [
+                "boilerA"
+            ]
+        }
+    },
+    {
+        "Class": "eqDV",
+        "UID": "radiator2",
+        "rl_Relationships": {
+            "IsPartOf_eqSS": [
+                "heatingSubsystemA"
+            ],
+            "HasLocation_tpSP": [
+                "space3"
+            ],
+            "IsFedBy_eqDV": [
+                "boilerA"
+            ]
+        }
+    },
+    {
+        "Class": "eqDV",
+        "UID": "gasMeterA",
+        "rl_Relationships": {
+            "IsPartOf_eqSS": [
+                "heatingSubsystemA"
+            ],
+            "HasLocation_tpSP": [
+                "space2"
+            ],
+            "IsFedBy_eqDV": [
+                "boilerA"
+            ]
+        }
+    },
+    {
+        "Class": "ptBI",
+        "UID": "point01",
+        "ts_Timestamp": "202201",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "gasMeterA"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "NaturalGasCost_EUR",
+            "value": 108.64
+        }
+    },
+    {
+        "Class": "ptBI",
+        "UID": "point02",
+        "ts_Timestamp": "202202",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "gasMeterA"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "NaturalGasCost_EUR",
+            "value": 85.8
+        }
+    },
+    {
+        "Class": "ptBI",
+        "UID": "point03",
+        "ts_Timestamp": "202203",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "gasMeterA"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "NaturalGasCost_EUR",
+            "value": 80.31
+        }
+    },
+    {
+        "Class": "ptBI",
+        "UID": "point04",
+        "ts_Timestamp": "202204",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "gasMeterA"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "NaturalGasCost_EUR",
+            "value": 43.5
+        }
+    },
+    {
+        "Class": "ptBI",
+        "UID": "point05",
+        "ts_Timestamp": "202205",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "gasMeterA"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "NaturalGasCost_EUR",
+            "value": 28.9
+        }
+    },
+    {
+        "Class": "ptBI",
+        "UID": "point06",
+        "ts_Timestamp": "202206",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "gasMeterA"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "NaturalGasCost_EUR",
+            "value": 0
+        }
+    },
+    {
+        "Class": "ptBI",
+        "UID": "point07",
+        "ts_Timestamp": "202207",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "gasMeterA"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "NaturalGasCost_EUR",
+            "value": 0
+        }
+    },
+    {
+        "Class": "ptBI",
+        "UID": "point08",
+        "ts_Timestamp": "202208",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "gasMeterA"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "NaturalGasCost_EUR",
+            "value": 0
+        }
+    },
+    {
+        "Class": "ptBI",
+        "UID": "point09",
+        "ts_Timestamp": "202209",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "gasMeterA"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "NaturalGasCost_EUR",
+            "value": 1.0
+        }
+    },
+    {
+        "Class": "ptBI",
+        "UID": "point10",
+        "ts_Timestamp": "202210",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "gasMeterA"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "NaturalGasCost_EUR",
+            "value": 20.22
+        }
+    },
+    {
+        "Class": "ptBI",
+        "UID": "point11",
+        "ts_Timestamp": "202211",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "gasMeterA"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "NaturalGasCost_EUR",
+            "value": 44.2
+        }
+    },
+    {
+        "Class": "ptBI",
+        "UID": "point12",
+        "ts_Timestamp": "202212",
+        "rl_Relationships": {
+            "IsPointOf_eqDV": [
+                "gasMeterA"
+            ]
+        },
+        "vl_Value": {
+            "quantity": "NaturalGasCost_EUR",
+            "value": 96.41
+        }
+    }
+]
