@@ -1,0 +1,280 @@
+[
+    {
+        "Class": "tpSP",
+        "UID": "space1",
+        "rl_Relationships": {
+            "HasLocation_tpBS": [
+                "storeyX1A"
+            ],
+            "HasLocation_tpZN": [
+                "energyzoneA",
+                "firezoneA"
+            ],
+            "IsAdjacentTo_tpSP": [
+                "space3"
+            ],
+            "HasPassageTo_tpSP": [
+                "space2"
+            ]
+        }
+    },
+    {
+        "Class": "tpSP",
+        "UID": "space2",
+        "rl_Relationships": {
+            "HasLocation_tpBS": [
+                "storeyX1A"
+            ],
+            "HasLocation_tpZN": [
+                "energyzoneB",
+                "firezoneA"
+            ],
+            "HasPassageTo_tpSP": [
+                "space1"
+            ]
+        }
+    },
+    {
+        "Class": "tpSP",
+        "UID": "space3",
+        "rl_Relationships": {
+            "HasLocation_tpBS": [
+                "storeyX1A"
+            ],
+            "HasLocation_tpZN": [
+                "energyzoneA",
+                "firezoneB"
+            ],
+            "IsAdjacentTo_tpSP": [
+                "space1"
+            ]
+        }
+    },
+    {
+        "Class": "inFC",
+        "UID": "intWall0",
+        "rl_Relationships": {
+            "IsInterfaceOf_tpSP": [
+                "space1",
+                "space2"
+            ]
+        }
+    },
+    {
+        "Class": "inFC",
+        "UID": "intWall1",
+        "rl_Relationships": {
+            "IsInterfaceOf_tpSP": [
+                "space1",
+                "space3"
+            ]
+        }
+    },
+    {
+        "Class": "inFC",
+        "UID": "wall1",
+        "rl_Relationships": {
+            "IsInterfaceOf_tpSP": [
+                "space1"
+            ]
+        }
+    },
+    {
+        "Class": "inFC",
+        "UID": "wall2",
+        "rl_Relationships": {
+            "IsInterfaceOf_tpSP": [
+                "space1"
+            ]
+        }
+    },
+    {
+        "Class": "inFC",
+        "UID": "wall3",
+        "rl_Relationships": {
+            "IsInterfaceOf_tpSP": [
+                "space2"
+            ]
+        }
+    },
+    {
+        "Class": "inFC",
+        "UID": "wall4",
+        "rl_Relationships": {
+            "IsInterfaceOf_tpSP": [
+                "space2"
+            ]
+        }
+    },
+    {
+        "Class": "inFC",
+        "UID": "wall5",
+        "rl_Relationships": {
+            "IsInterfaceOf_tpSP": [
+                "space2"
+            ]
+        }
+    },
+    {
+        "Class": "inFC",
+        "UID": "wall6",
+        "rl_Relationships": {
+            "IsInterfaceOf_tpSP": [
+                "space3"
+            ]
+        }
+    },
+    {
+        "Class": "inFC",
+        "UID": "wall7",
+        "rl_Relationships": {
+            "IsInterfaceOf_tpSP": [
+                "space3"
+            ]
+        }
+    },
+    {
+        "Class": "inFC",
+        "UID": "wall8",
+        "rl_Relationships": {
+            "IsInterfaceOf_tpSP": [
+                "space3"
+            ]
+        }
+    },
+    {
+        "Class": "inFC",
+        "UID": "roof1",
+        "rl_Relationships": {
+            "IsInterfaceOf_tpSP": [
+                "space1"
+            ]
+        }
+    },
+    {
+        "Class": "inFC",
+        "UID": "roof2",
+        "rl_Relationships": {
+            "IsInterfaceOf_tpSP": [
+                "space2"
+            ]
+        }
+    },
+    {
+        "Class": "inFC",
+        "UID": "roof3",
+        "rl_Relationships": {
+            "IsInterfaceOf_tpSP": [
+                "space3"
+            ]
+        }
+    },
+    {
+        "Class": "inFC",
+        "UID": "slab1",
+        "rl_Relationships": {
+            "IsInterfaceOf_tpSP": [
+                "space1"
+            ]
+        }
+    },
+    {
+        "Class": "inFC",
+        "UID": "slab2",
+        "rl_Relationships": {
+            "IsInterfaceOf_tpSP": [
+                "space2"
+            ]
+        }
+    },
+    {
+        "Class": "inFC",
+        "UID": "slab3",
+        "rl_Relationships": {
+            "IsInterfaceOf_tpSP": [
+                "space3"
+            ]
+        }
+    },
+    {
+        "Class": "inAP",
+        "UID": "window1",
+        "rl_Relationships": {
+            "HasLocation_inFC": [
+                "wall1"
+            ]
+        }
+    },
+    {
+        "Class": "inAP",
+        "UID": "window2",
+        "rl_Relationships": {
+            "HasLocation_inFC": [
+                "wall2"
+            ]
+        }
+    },
+    {
+        "Class": "inAP",
+        "UID": "window3",
+        "rl_Relationships": {
+            "HasLocation_inFC": [
+                "wall3"
+            ]
+        }
+    },
+    {
+        "Class": "inAP",
+        "UID": "window4",
+        "rl_Relationships": {
+            "HasLocation_inFC": [
+                "wall4"
+            ]
+        }
+    },
+    {
+        "Class": "inAP",
+        "UID": "window5",
+        "rl_Relationships": {
+            "HasLocation_inFC": [
+                "wall5"
+            ]
+        }
+    },
+    {
+        "Class": "inAP",
+        "UID": "window6",
+        "rl_Relationships": {
+            "HasLocation_inFC": [
+                "wall6"
+            ]
+        }
+    },
+    {
+        "Class": "inAP",
+        "UID": "window7",
+        "rl_Relationships": {
+            "HasLocation_inFC": [
+                "wall7"
+            ]
+        }
+    },
+    {
+        "Class": "inAP",
+        "UID": "window8",
+        "rl_Relationships": {
+            "HasLocation_inFC": [
+                "wall8"
+            ]
+        }
+    },
+    {
+        "Class": "inAP",
+        "UID": "door0",
+        "rl_Relationships": {
+            "HasLocation_inFC": [
+                "intWall0"
+            ]
+        }
+    }
+]
