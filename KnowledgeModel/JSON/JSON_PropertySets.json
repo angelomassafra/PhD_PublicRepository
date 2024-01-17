@@ -1,0 +1,77 @@
+[
+    {
+        "Class": "tpBL",
+        "UID": "buildingX1",
+        "rl_Relationships": {
+            "HasLocation_tpST": [
+                "siteX"
+            ]
+        }
+    },
+    {
+        "UID": "BuildingCommon",
+        "Class": "psPS",
+        "rl_Relationships": {
+            "IsPropertySetOf_tpBL": [
+                "buildingX1"
+            ]
+        },
+        "ps_HasProperties": {
+            "pr_NumberOfStoreys": {
+                "value": 2,
+                "quantity": "Int"
+            },
+            "pr_YearOfConstruction": {
+                "value": "2008",
+                "quantity": "Year_Int"
+            },
+            "pr_YearOfLastRefurbishment": {
+                "value": "2023",
+                "quantity": "Year_Int"
+            },
+            "pr_IsLandmarked": {
+                "value": true,
+                "quantity": "Bool"
+            }
+        }
+    },
+    {
+        "UID": "Quantities",
+        "Class": "psPS",
+        "rl_Relationships": {
+            "IsPropertySetOf_tpBL": [
+                "buildingX1"
+            ]
+        },
+        "ps_HasProperties": {
+            "pr_Height": {
+                "value": 6.85,
+                "quantity": "Lenght_m"
+            },
+            "pr_EavesHeight": {
+                "value": 6.51,
+                "quantity": "Lenght_m"
+            },
+            "pr_FootprintArea": {
+                "value": 155.27,
+                "quantity": "Area_m2"
+            },
+            "pr_GrossFloorArea": {
+                "value": 300.55,
+                "quantity": "Area_m2"
+            },
+            "pr_NetFloorArea": {
+                "value": 265.85,
+                "quantity": "Area_m2"
+            },
+            "pr_GrossVolume": {
+                "value": 2058.76,
+                "quantity": "Volume_m3"
+            },
+            "pr_NetVolume": {
+                "value": 1595.11,
+                "quantity": "Volume_m3"
+            }
+        }
+    }
+]

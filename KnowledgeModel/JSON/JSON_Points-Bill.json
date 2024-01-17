@@ -87,7 +87,7 @@
         }
     },
     {
-        "Class": "ptBL",
+        "Class": "ptBI",
         "UID": "point01",
         "ts_Timestamp": "202201",
         "rl_Relationships": {
@@ -101,7 +101,7 @@
         }
     },
     {
-        "Class": "ptBL",
+        "Class": "ptBI",
         "UID": "point02",
         "ts_Timestamp": "202202",
         "rl_Relationships": {
@@ -115,7 +115,7 @@
         }
     },
     {
-        "Class": "ptBL",
+        "Class": "ptBI",
         "UID": "point03",
         "ts_Timestamp": "202203",
         "rl_Relationships": {
@@ -129,7 +129,7 @@
         }
     },
     {
-        "Class": "ptBL",
+        "Class": "ptBI",
         "UID": "point04",
         "ts_Timestamp": "202204",
         "rl_Relationships": {
@@ -143,7 +143,7 @@
         }
     },
     {
-        "Class": "ptBL",
+        "Class": "ptBI",
         "UID": "point05",
         "ts_Timestamp": "202205",
         "rl_Relationships": {
@@ -157,7 +157,7 @@
         }
     },
     {
-        "Class": "ptBL",
+        "Class": "ptBI",
         "UID": "point06",
         "ts_Timestamp": "202206",
         "rl_Relationships": {
@@ -171,7 +171,7 @@
         }
     },
     {
-        "Class": "ptBL",
+        "Class": "ptBI",
         "UID": "point07",
         "ts_Timestamp": "202207",
         "rl_Relationships": {
@@ -185,7 +185,7 @@
         }
     },
     {
-        "Class": "ptBL",
+        "Class": "ptBI",
         "UID": "point08",
         "ts_Timestamp": "202208",
         "rl_Relationships": {
@@ -199,7 +199,7 @@
         }
     },
     {
-        "Class": "ptBL",
+        "Class": "ptBI",
         "UID": "point09",
         "ts_Timestamp": "202209",
         "rl_Relationships": {
@@ -213,7 +213,7 @@
         }
     },
     {
-        "Class": "ptBL",
+        "Class": "ptBI",
         "UID": "point10",
         "ts_Timestamp": "202210",
         "rl_Relationships": {
@@ -227,7 +227,7 @@
         }
     },
     {
-        "Class": "ptBL",
+        "Class": "ptBI",
         "UID": "point11",
         "ts_Timestamp": "202211",
         "rl_Relationships": {
@@ -241,7 +241,7 @@
         }
     },
     {
-        "Class": "ptBL",
+        "Class": "ptBI",
         "UID": "point12",
         "ts_Timestamp": "202212",
         "rl_Relationships": {
